@@ -1,23 +1,22 @@
+import { BrowserRouter, Route, Routes } from "react-router";
 import "./App.css";
-import { Button } from "./components/ui/button";
+import Player from "./pages/player/Player";
+import QuestList from "./pages/questList/QuestList";
+import Quest from "./pages/quest/Quest";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
-    <div className="flex flex-col gap-5 h-auto">
-      <p className="text-3xl">Howdy, Partner! 🤠</p>
-      <p>
-        👇Check out this component library I'm using👇
-      </p>
-      <div>
-        <Button
-          onClick={() => {
-            window.open("https://ui.shadcn.com/", "_blank");
-          }}
-        >
-          Check It Out
-        </Button>
-      </div>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/player" element={<Player />} />
+      <Route path="/player/:username" element={<Player />} />
+      <Route path="/quests" element={<QuestList />} />
+      <Route path="/quests/:username" element={<QuestList />} />
+      <Route path="/quest/:quest" element={<Quest />} />
+    </Routes>
+  </BrowserRouter>
   );
 }
 
