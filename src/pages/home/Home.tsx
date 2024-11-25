@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-5 h-auto">
+    <div className="flex flex-col items-center gap-5 h-auto w-screen">
       <p className="text-3xl">Howdy, Partner! 🤠</p>
       <p>
         👇Check out this component library I'm using👇
