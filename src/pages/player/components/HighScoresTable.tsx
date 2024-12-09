@@ -12,11 +12,7 @@ import { ChevronDown, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HighScoresTable = () => {
-  const {
-    data: highScores,
-    isLoading: isHighScoresLoading,
-    error: highScoresError,
-  } = getHighScores();
+  const { data: highScores } = getHighScores();
 
   const [expandedRows, setExpandedRows] = useState<number[]>([]);
 
@@ -60,9 +56,9 @@ const HighScoresTable = () => {
                   </TableCell>
                 </TableRow>
                 {expandedRows.includes(index) ? (
-                    <TableRow>
-                      <div>This will eventually show {player.name}'s stats</div>
-                    </TableRow>
+                  <TableRow>
+                    <div>This will eventually show {player.name}'s stats</div>
+                  </TableRow>
                 ) : null}
               </>
             );
