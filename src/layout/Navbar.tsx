@@ -1,21 +1,11 @@
+import { ModeToggle } from "@/components/mode-toggle";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { SearchCheckIcon, SearchIcon } from "lucide-react";
+import { SearchIcon } from "lucide-react";
 import { useState } from "react";
 import { useNavigate } from "react-router";
 
-const TestButtons = {
-  Home: { text: "Home", link: "/" },
-  Player: { text: "Player", link: "/player" },
-  JJ_Player: { text: "JJ Player", link: "/player/thejoshj" },
-  Quests: { text: "Quests", link: "/quests" },
-  JJ_Quests: { text: "JJ Quest", link: "/quests/thejoshj" },
-  Quest: { text: "Quest", link: "/quest/haunted_mine" },
-  Not_Found: { text: "404", link: "404" },
-};
-
 const NavButtons = {
-  Home: { text: "Home", link: "/" },
   Player: { text: "Player", link: "/player" },
   Quests: { text: "Quests", link: "/quests" },
 };
@@ -25,10 +15,18 @@ const Navbar = () => {
   const [searchVal, setSearchVal] = useState("");
 
   return (
-    <>
+    <div>
       <div className="flex justify-between p-2 px-10">
         <div className="flex gap-2">
-          {Object.entries(TestButtons).map(([key, { text, link }]) => (
+          <Button
+            variant="ghost"
+            onClick={() => {
+              navigate("/");
+            }}
+          >
+            <img src="src\assets\logo500x.png" className="w-10 h-10" />
+          </Button>
+          {Object.entries(NavButtons).map(([key, { text, link }]) => (
             <Button
               variant="ghost"
               key={key}
@@ -43,27 +41,29 @@ const Navbar = () => {
         <div className="flex flex-row gap-2 items-center">
           <Input
             placeholder="Username"
-            className="text-black"
             value={searchVal}
             onChange={(e) => {
               setSearchVal(e.target.value);
             }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && searchVal) {
+                navigate(`/player/${searchVal}`);
+              }
+            }}
           />
           <Button
             size="icon"
+            variant="outline"
             onClick={() => {
-              navigate(`/player/${searchVal}`);
+              searchVal && navigate(`/player/${searchVal}`);
             }}
           >
             <SearchIcon />
           </Button>
+          <ModeToggle />
         </div>
       </div>
-      <p className="flex justify-start p-2 px-10">
-        This is just to help me navigate between pages and will be replaced down
-        the line
-      </p>
-    </>
+    </div>
   );
 };
 
