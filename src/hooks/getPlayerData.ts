@@ -34,7 +34,7 @@ export const getPlayerData = (username: string) => {
     queryKey: ['PlayerData', username],
     queryFn: async () => {
       const response = await fetch(
-        `https://apps.runescape.com/runemetrics/profile/profile?user=${username}&activities=0`
+        `https://api.rs3pd.com/api/v1/player-data?username=${username}`
       );
       if (!response.ok) {
         throw new Error("Failed to fetch player data");

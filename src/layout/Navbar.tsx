@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { SearchIcon } from "lucide-react";
 import { useState } from "react";
 import { useNavigate } from "react-router";
+import logo from "@/assets/logo500x.png";
 
 const NavButtons = {
   Player: { text: "Player", link: "/player" },
@@ -24,7 +25,7 @@ const Navbar = () => {
               navigate("/");
             }}
           >
-            <img src="src\assets\logo500x.png" className="w-10 h-10" />
+            <img src={logo} className="w-10 h-10" />
           </Button>
           {Object.entries(NavButtons).map(([key, { text, link }]) => (
             <Button

@@ -1,3 +1,4 @@
+import { getSkillName } from "@/utils/getSkillName";
 import { useQuery } from "@tanstack/react-query";
 
 export interface MonthData {
@@ -21,10 +22,10 @@ interface APIResponse {
 
 export const getExperienceHistory = (username: string, skillId: number) => {
     return useQuery<APIResponse, Error>({
-      queryKey: ["PlayerXpHistory", username],
+      queryKey: [`PlayerXpHistory`, username],
       queryFn: async () => {
         const response = await fetch(
-          `https://apps.runescape.com/runemetrics/xp-monthly?searchName=${username}&skillid=${skillId}`
+          `https://api.rs3pd.com/api/v1/experience-history?username=${username}&skillId=${skillId}`
         );
         if (!response.ok) {
           throw new Error("Failed to fetch player exp history");

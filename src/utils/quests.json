@@ -1,0 +1,4985 @@
+{
+  "Quests": {
+    "As a First Resort": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "firemaking",
+            "level": 51
+          },
+          {
+            "skill": "hunter",
+            "level": 48
+          },
+          {
+            "skill": "woodcutting",
+            "level": 58
+          }
+        ]
+      }
+    },
+    "Big Chompy Bird Hunting": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "cooking",
+            "level": 30
+          },
+          {
+            "skill": "fletching",
+            "level": 5
+          },
+          {
+            "skill": "ranged",
+            "level": 30
+          }
+        ]
+      }
+    },
+    "Cook's Assistant": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Death Plateau": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Diamond in the Rough": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Stolen Hearts"],
+        "skill": []
+      }
+    },
+    "Druidic Ritual": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 4,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Enter the Abyss (miniquest)": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "runecrafting",
+            "level": 5
+          }
+        ]
+      }
+    },
+    "Ernest the Chicken": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 4,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Family Crest": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 40
+          },
+          {
+            "skill": "mining",
+            "level": 40
+          },
+          {
+            "skill": "smithing",
+            "level": 40
+          }
+        ]
+      }
+    },
+    "Gertrude's Cat": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Ghosts Ahoy": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["The Restless Ghost"],
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 25
+          },
+          {
+            "skill": "cooking",
+            "level": 20
+          }
+        ],
+        "other": ["Ability to enter Morytania"]
+      }
+    },
+    "Goblin Diplomacy": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 5,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Gunnar's Ground": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 5,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 5
+          }
+        ]
+      }
+    },
+    "Haunted Mine": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Morytania"],
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 35
+          },
+          {
+            "skill": "agility",
+            "level": 15
+          }
+        ],
+        "other": ["Ability to enter Morytania"]
+      }
+    },
+    "Hazeel Cult": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Holy Grail": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Merlin's Crystal"],
+        "skill": [
+          {
+            "skill": "attack",
+            "level": 30
+          }
+        ]
+      }
+    },
+    "Housing of Parliament": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Necromancy!"],
+        "skill": [
+          {
+            "skill": "necromancy",
+            "level": 54
+          }
+        ]
+      }
+    },
+    "Icthlarin's Little Helper": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Gertrude's Cat", "Diamond in the Rough"],
+        "skill": []
+      }
+    },
+    "Jungle Potion": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "herblore",
+            "level": 3
+          }
+        ]
+      }
+    },
+    "Kili Row": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Necromancy!"],
+        "skill": [
+          {
+            "skill": "necromancy",
+            "level": 20
+          }
+        ],
+        "other": ["Collect a set of necromancer robes from Sostratus"]
+      }
+    },
+    "Lair of Tarn Razorlor (miniquest)": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Haunted Mine"],
+        "skill": [
+          {
+            "skill": "slayer",
+            "level": 40
+          }
+        ],
+        "other": ["Ability to enter Morytania"]
+      }
+    },
+    "Lost City": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 31
+          },
+          {
+            "skill": "woodcutting",
+            "level": 36
+          }
+        ]
+      }
+    },
+    "Lunar Diplomacy": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["The Fremennik Trials", "Lost City"],
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 61
+          },
+          {
+            "skill": "defence",
+            "level": 40
+          },
+          {
+            "skill": "firemaking",
+            "level": 49
+          },
+          {
+            "skill": "herblore",
+            "level": 5
+          },
+          {
+            "skill": "magic",
+            "level": 65
+          },
+          {
+            "skill": "mining",
+            "level": 60
+          },
+          {
+            "skill": "woodcutting",
+            "level": 55
+          }
+        ]
+      }
+    },
+    "Merlin's Crystal": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 6,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Missing, Presumed Death": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Monk's Friend": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Necromancy!": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "New Foundations": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Once Upon a Slime": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Priest in Peril": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Recruitment Drive": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "herblore",
+            "level": 3
+          }
+        ]
+      }
+    },
+    "Rune Mythos": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Necromancy!"],
+        "skill": [
+          {
+            "skill": "necromancy",
+            "level": 24
+          }
+        ]
+      }
+    },
+    "Sheep Herder": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 4,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Shilo Village": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Jungle Potion"],
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 32
+          },
+          {
+            "skill": "crafting",
+            "level": 20
+          }
+        ]
+      }
+    },
+    "Stolen Hearts": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Swept Away": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Blood Pact": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Dig Site": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 10
+          },
+          {
+            "skill": "herblore",
+            "level": 10
+          },
+          {
+            "skill": "thieving",
+            "level": 25
+          }
+        ]
+      }
+    },
+    "The Fremennik Trials": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 40
+          },
+          {
+            "skill": "fletching",
+            "level": 25
+          },
+          {
+            "skill": "woodcutting",
+            "level": 40
+          }
+        ]
+      }
+    },
+    "The Golem": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 20
+          },
+          {
+            "skill": "thieving",
+            "level": 25
+          }
+        ]
+      }
+    },
+    "The Jack of Spades": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Diamond in the Rough"],
+        "skill": []
+      }
+    },
+    "The Lost Tribe": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 13
+          },
+          {
+            "skill": "mining",
+            "level": 17
+          },
+          {
+            "skill": "thieving",
+            "level": 13
+          }
+        ]
+      }
+    },
+    "The Restless Ghost": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Spirit of War": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Vessel of the Harbinger"],
+        "skill": [
+          {
+            "skill": "necromancy",
+            "level": 65
+          }
+        ],
+        "other": ["3,000 City of Um vessel souls"]
+      }
+    },
+    "Tribal Totem": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "thieving",
+            "level": 21
+          }
+        ]
+      }
+    },
+    "Troll Stronghold": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Death Plateau"],
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 15
+          },
+          {
+            "skill": "thieving",
+            "level": 30
+          }
+        ]
+      }
+    },
+    "Unstable Foundations": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Vessel of the Harbinger": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Rune Mythos", "Ghosts Ahoy"],
+        "skill": [
+          {
+            "skill": "necromancy",
+            "level": 46
+          },
+          {
+            "skill": "prayer",
+            "level": 40
+          }
+        ]
+      }
+    },
+    "Violet is Blue": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Violet is Blue Too": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Violet is Blue"],
+        "skill": []
+      }
+    },
+    "Waterfall Quest": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "What's Mine is Yours": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": [
+          {
+            "skill": "smithing",
+            "level": 5
+          }
+        ]
+      }
+    },
+    "Witch's House": {
+      "difficulty": 1,
+      "members": false,
+      "questPoints": 4,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Wolf Whistle": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "'Phite Club": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Our Man in the North"],
+        "skill": [],
+        "other": ["Achieve rank 9 overall Menaphos reputation"]
+      }
+    },
+    "A Christmas Reunion": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "A Clockwork Syringe": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Rocking Out"],
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 62
+          },
+          {
+            "skill": "defence",
+            "level": 76
+          },
+          {
+            "skill": "dungeoneering",
+            "level": 50
+          },
+          {
+            "skill": "slayer",
+            "level": 61
+          },
+          {
+            "skill": "summoning",
+            "level": 65
+          },
+          {
+            "skill": "thieving",
+            "level": 74
+          }
+        ],
+        "other": ["Own a player-owned house"]
+      }
+    },
+    "A Fairy Tale I - Growing Pains": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Lost City",
+          "Nature Spirit"
+        ],
+        "skill": []
+      }
+    },
+    "A Fairy Tale II - Cure a Queen": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "A Fairy Tale I - Growing Pains"
+        ],
+        "skill": [
+          {
+            "skill": "farming",
+            "level": 49
+          },
+          {
+            "skill": "herblore",
+            "level": 57
+          },
+          {
+            "skill": "thieving",
+            "level": 40
+          }
+        ]
+      }
+    },
+    "A Fairy Tale III - Battle at Ork's Rift": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "A Fairy Tale II - Cure a Queen"
+        ],
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 36
+          },
+          {
+            "skill": "farming",
+            "level": 54
+          },
+          {
+            "skill": "thieving",
+            "level": 51
+          }
+        ]
+      }
+    },
+    "A Guild of Our Own (miniquest)": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Lost Her Marbles (miniquest)",
+          "The Feud"
+        ],
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 40
+          },
+          {
+            "skill": "herblore",
+            "level": 46
+          },
+          {
+            "skill": "thieving",
+            "level": 62
+          }
+        ]
+      }
+    },
+    "A Shadow over Ashdale": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "A Soul's Bane": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "A Tail of Two Cats": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Icthlarin's Little Helper"
+        ],
+        "skill": []
+      }
+    },
+    "A Void Dance": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Druidic Ritual",
+          "Quiet Before the Swarm"
+        ],
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 47
+          },
+          {
+            "skill": "herblore",
+            "level": 49
+          },
+          {
+            "skill": "hunter",
+            "level": 46
+          },
+          {
+            "skill": "mining",
+            "level": 47
+          },
+          {
+            "skill": "summoning",
+            "level": 48
+          },
+          {
+            "skill": "thieving",
+            "level": 54
+          },
+          {
+            "skill": "woodcutting",
+            "level": 52
+          }
+        ]
+      }
+    },
+    "Aftermath": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Twilight of the Gods"
+        ],
+        "skill": []
+      }
+    },
+    "All Fired Up": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Priest in Peril"],
+        "skill": [
+          {
+            "skill": "firemaking",
+            "level": 43
+          }
+        ]
+      }
+    },
+    "Alpha vs Omega": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Remains of the Necrolord"
+        ],
+        "skill": [
+          {
+            "skill": "necromancy",
+            "level": 95
+          }
+        ],
+        "other": ["30,000 City of Um vessel souls"]
+      }
+    },
+    "Ancient Awakening": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Dead and Buried"
+        ],
+        "skill": [
+          {
+            "skill": "necromancy",
+            "level": 50
+          }
+        ]
+      }
+    },
+    "Animal Magnetism": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["The Restless Ghost", "Ernest the Chicken"],
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 19
+          },
+          {
+            "skill": "ranged",
+            "level": 30
+          },
+          {
+            "skill": "slayer",
+            "level": 18
+          },
+          {
+            "skill": "thieving",
+            "level": 15
+          },
+          {
+            "skill": "woodcutting",
+            "level": 35
+          }
+        ],
+        "other": ["Ability to enter Morytania"]
+      }
+    },
+    "Another Slice of H.A.M.": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Death to the Dorgeshuun",
+          "Goblin Diplomacy",
+          "The Giant Dwarf"
+        ],
+        "skill": [
+          {
+            "skill": "attack",
+            "level": 15
+          },
+          {
+            "skill": "prayer",
+            "level": 25
+          }
+        ]
+      }
+    },
+    "Azzanadra's Quest": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [
+          "The Vault of Shadows",
+          "Raksha, the Shadow Colossus",
+          "Desperate Creatures"
+        ],
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 58
+          },
+          {
+            "skill": "archeology",
+            "level": 58
+          },
+          {
+            "skill": "divination",
+            "level": 70
+          }
+        ]
+      }
+    },
+    "Back to my Roots": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["The Hand in the Sand", "Tribal Totem"],
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 55
+          },
+          {
+            "skill": "farming",
+            "level": 53
+          },
+          {
+            "skill": "slayer",
+            "level": 59
+          },
+          {
+            "skill": "woodcutting",
+            "level": 72
+          }
+        ]
+      }
+    },
+    "Back to the Freezer": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Some Like It Cold",
+          "Ernest the Chicken"
+        ],
+        "skill": [
+          {
+            "skill": "divination",
+            "level": 50
+          },
+          {
+            "skill": "runecrafting",
+            "level": 45
+          },
+          {
+            "skill": "slayer",
+            "level": 37
+          }
+        ]
+      }
+    },
+    "Bar Crawl (miniquest) YOU STOPPED HERE": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Battle of Forinthry": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Ancient Awakening",
+          "Dead and Buried",
+          "Unwelcome Guests",
+          "Murder on the Border",
+          "New Foundations",
+          "Town Hall (Tier 1)",
+          "Command Centre (Tier 1)",
+          "Workshop (Tier 1)",
+          "Chapel (Tier 1)",
+          "eastern border wall",
+          "Grove cabin (Tier 1)",
+          "Botanist's Workbench (Tier 1)"
+        ],
+        "skill": []
+      }
+    },
+    "Battle of the Monolith": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Azzanadra's Quest",
+          "The Vault of Shadows",
+          "Shadow Realm",
+          "Kharid-et Dig Site",
+          "Raksha, the Shadow Colossus",
+          "Desperate Creatures",
+          "Desperate Measures",
+          "Desperate Times",
+          "The Needle Skips",
+          "You Are It",
+          "base camp",
+          "Anachronia"
+        ],
+        "skill": []
+      }
+    },
+    "Beneath Cursed Tides": {
+      "difficulty": 1,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Benedict's World Tour (miniquest)": {
+      "difficulty": 1,
+      "members": false,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Stolen Hearts"],
+        "skill": []
+      }
+    },
+    "Between a Rock...": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Dwarf Cannon", "Fishing Contest"],
+        "skill": []
+      }
+    },
+    "Biohazard": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": ["Plague City"],
+        "skill": []
+      }
+    },
+    "Birthright of the Dwarves": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "King of the Dwarves",
+          "Forgiveness of a Chaos Dwarf",
+          "Forgettable Tale of a Drunken Dwarf",
+          "The Giant Dwarf",
+          "Fishing Contest",
+          "Between a Rock...",
+          "Dwarf Cannon",
+          "Fishing Contest",
+          "My Arm's Big Adventure",
+          "Eadgar's Ruse",
+          "Druidic Ritual",
+          "Troll Stronghold",
+          "Death Plateau",
+          "Mad Eadgar",
+          "Troll Stronghold area",
+          "Jungle Potion"
+        ],
+        "skill": []
+      }
+    },
+    "Blood Runs Deep": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Horror from the Deep",
+          "Bar Crawl (miniquest)",
+          "Dream Mentor",
+          "Lunar Diplomacy",
+          "The Fremennik Trials",
+          "Lost City",
+          "Glorious Memories",
+          "Mountain Daughter",
+          "The Fremennik Isles",
+          "The Fremennik Trials",
+          "Royal Trouble",
+          "Throne of Miscellania",
+          "The Fremennik Trials"
+        ],
+        "skill": []
+      }
+    },
+    "Boric's Task I (miniquest)": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["What's Mine is Yours"],
+        "skill": []
+      }
+    },
+    "Boric's Task II (miniquest)": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Boric's Task I (miniquest)", "What's Mine is Yours"],
+        "skill": []
+      }
+    },
+    "Boric's Task III (miniquest)": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Boric's Task II (miniquest)",
+          "Boric's Task I (miniquest)",
+          "What's Mine is Yours"
+        ],
+        "skill": []
+      }
+    },
+    "Bringing Home the Bacon": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Broken Home": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Buyers and Cellars": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Cabin Fever": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Pirate's Treasure", "Rum Deal", "Morytania"],
+        "skill": []
+      }
+    },
+    "Call of the Ancestors": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Carnillean Rising": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["The Blood Pact", "Hazeel Cult", "quest points"],
+        "skill": []
+      }
+    },
+    "Catapult Construction": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Regicide", "Underground Pass", "Biohazard", "Plague City"],
+        "skill": []
+      }
+    },
+    "Chef's Assistant": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Cook's Assistant"],
+        "skill": []
+      }
+    },
+    "Children of Mah": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "The Light Within",
+          "Meeting History",
+          "The Temple at Senntisten",
+          "Plague's End",
+          "The World Wakes",
+          "Fate of the Gods",
+          "Dishonour among Thieves",
+          "Hazeel Cult",
+          "Missing, Presumed Death",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "City of Senntisten": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [
+          "Battle of the Monolith",
+          "Azzanadra's Quest",
+          "The Vault of Shadows",
+          "Shadow Realm",
+          "Kharid-et Dig Site",
+          "Raksha, the Shadow Colossus",
+          "Desperate Creatures",
+          "Desperate Measures",
+          "Desperate Times",
+          "base camp",
+          "Anachronia"
+        ],
+        "skill": []
+      }
+    },
+    "Civil War I (miniquest)": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Daughter of Chaos"],
+        "skill": []
+      }
+    },
+    "Civil War II (miniquest)": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Civil War I (miniquest)", "Daughter of Chaos"],
+        "skill": []
+      }
+    },
+    "Civil War III (miniquest)": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Civil War II (miniquest)",
+          "Civil War I (miniquest)",
+          "Daughter of Chaos"
+        ],
+        "skill": []
+      }
+    },
+    "Clock Tower": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Cold War": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Contact!": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Icthlarin's Little Helper",
+          "Gertrude's Cat",
+          "Diamond in the Rough",
+          "Stolen Hearts"
+        ],
+        "skill": []
+      }
+    },
+    "Creature of Fenkenstrain": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["The Restless Ghost", "Morytania"],
+        "skill": []
+      }
+    },
+    "Crocodile Tears": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "The Jack of Spades",
+          "Diamond in the Rough",
+          "Stolen Hearts",
+          "Spirits of the Elid",
+          "Missing My Mummy",
+          "Icthlarin's Little Helper",
+          "Gertrude's Cat",
+          "Diamond in the Rough",
+          "The Golem",
+          "Diamond in the Rough",
+          "Dealing with Scabaras",
+          "Contact!",
+          "Icthlarin's Little Helper",
+          "Leela",
+          "Senliten's tomb",
+          "Senliten",
+          "Missing My Mummy",
+          "Garden of Tranquillity",
+          "Creature of Fenkenstrain",
+          "The Restless Ghost",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "Curse of the Black Stone": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 4,
+      "requirements": {
+        "quest": ["Impressing the Locals"],
+        "skill": []
+      }
+    },
+    "Damage Control (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Impressing the Locals",
+          "Harbinger (miniquest)",
+          "Impressing the Locals",
+          "Eye for an Eye (miniquest)",
+          "Impressing the Locals",
+          "Jed Hunter (miniquest)",
+          "Impressing the Locals",
+          "Flag Fall (miniquest)",
+          "Impressing the Locals",
+          "Head of the Family (miniquest)",
+          "Impressing the Locals",
+          "Spiritual Enlightenment (miniquest)",
+          "Impressing the Locals",
+          "Meet the Assassin",
+          "player-owned port",
+          "Cyclosis",
+          "player-owned port"
+        ],
+        "skill": []
+      }
+    },
+    "Daughter of Chaos": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Dead and Buried": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Unwelcome Guests",
+          "Murder on the Border",
+          "New Foundations",
+          "Town Hall (Tier 1)",
+          "Command Centre (Tier 1)",
+          "Workshop (Tier 1)",
+          "Chapel (Tier 1)",
+          "eastern border wall"
+        ],
+        "skill": []
+      }
+    },
+    "Deadliest Catch": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Tower of Life"],
+        "skill": []
+      }
+    },
+    "Dealing with Scabaras": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Contact!",
+          "Icthlarin's Little Helper",
+          "Gertrude's Cat",
+          "Diamond in the Rough",
+          "Stolen Hearts"
+        ],
+        "skill": []
+      }
+    },
+    "Death to the Dorgeshuun": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["The Lost Tribe"],
+        "skill": []
+      }
+    },
+    "Defender of Varrock": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Shield of Arrav",
+          "The Knight's Sword",
+          "Family Crest",
+          "What Lies Below",
+          "Kudos",
+          "Historian Minas",
+          "Varrock Museum"
+        ],
+        "skill": []
+      }
+    },
+    "Demon Slayer": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Desert Slayer Dungeon (miniquest)": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Smoking Kills",
+          "The Restless Ghost",
+          "Icthlarin's Little Helper",
+          "Gertrude's Cat",
+          "Diamond in the Rough",
+          "Stolen Hearts"
+        ],
+        "skill": []
+      }
+    },
+    "Desert Treasure": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [
+          "The Dig Site",
+          "Troll Stronghold",
+          "Death Plateau",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "Desperate Creatures": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Desperate Measures",
+          "Desperate Times",
+          "The Needle Skips",
+          "You Are It",
+          "base camp",
+          "Anachronia"
+        ],
+        "skill": []
+      }
+    },
+    "Desperate Measures": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [
+          "Desperate Times",
+          "The Needle Skips",
+          "You Are It",
+          "base camp",
+          "Anachronia"
+        ],
+        "skill": []
+      }
+    },
+    "Desperate Times": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": ["The Needle Skips", "You Are It"],
+        "skill": []
+      }
+    },
+    "Devious Minds": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Recruitment Drive", "What's Mine is Yours", "Morytania"],
+        "skill": []
+      }
+    },
+    "Dimension of Disaster": {
+      "difficulty": 250,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Dimension of Disaster: Coin of the Realm": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Dimension of Disaster: Curse of Arrav": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Dimension of Disaster: Coin of the Realm",
+          "Dimension of Disaster: Shield of Arrav",
+          "Dimension of Disaster: Coin of the Realm",
+          "Shield of Arrav",
+          "Dimension of Disaster: Demon Slayer",
+          "Dimension of Disaster: Coin of the Realm",
+          "Demon Slayer",
+          "Shadow of the Storm",
+          "Dimension of Disaster: Defender of Varrock",
+          "Dimension of Disaster: Coin of the Realm",
+          "Defender of Varrock",
+          "The Curse of Arrav",
+          "The Tale of the Muspah",
+          "Missing My Mummy",
+          "Defender of Varrock",
+          "Temple of Ikov",
+          "Trollheim",
+          "Senliten",
+          "Missing My Mummy"
+        ],
+        "skill": []
+      }
+    },
+    "Dimension of Disaster: Defender of Varrock": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Dimension of Disaster: Coin of the Realm",
+          "Defender of Varrock",
+          "Shield of Arrav",
+          "The Knight's Sword",
+          "Family Crest",
+          "What Lies Below",
+          "Kudos",
+          "Historian Minas",
+          "Varrock Museum"
+        ],
+        "skill": []
+      }
+    },
+    "Dimension of Disaster: Demon Slayer": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [
+          "Dimension of Disaster: Coin of the Realm",
+          "Demon Slayer",
+          "Shadow of the Storm",
+          "Demon Slayer",
+          "The Golem"
+        ],
+        "skill": []
+      }
+    },
+    "Dimension of Disaster: Shield of Arrav": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Dimension of Disaster: Coin of the Realm",
+          "Shield of Arrav"
+        ],
+        "skill": []
+      }
+    },
+    "Dishonour among Thieves": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Hazeel Cult", "Missing, Presumed Death", "Morytania"],
+        "skill": []
+      }
+    },
+    "Do No Evil": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Animal Magnetism",
+          "The Restless Ghost",
+          "Ernest the Chicken",
+          "Morytania",
+          "Shadow of the Storm",
+          "Demon Slayer",
+          "The Golem",
+          "Desert Treasure",
+          "The Dig Site",
+          "Troll Stronghold",
+          "Death Plateau",
+          "Morytania",
+          "Smoking Kills",
+          "The Restless Ghost",
+          "Icthlarin's Little Helper",
+          "Gertrude's Cat",
+          "Diamond in the Rough",
+          "Stolen Hearts",
+          "Missing My Mummy",
+          "Icthlarin's Little Helper",
+          "The Golem",
+          "Diamond in the Rough",
+          "Dealing with Scabaras",
+          "Contact!",
+          "Icthlarin's Little Helper",
+          "Recipe for Disaster: Freeing King Awowogei",
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant",
+          "Monkey Madness",
+          "The Grand Tree",
+          "Tree Gnome Village",
+          "Senliten",
+          "Leela",
+          "Senliten's tomb",
+          "Missing My Mummy",
+          "Garden of Tranquillity",
+          "Creature of Fenkenstrain",
+          "The Restless Ghost",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "Doric's Task I (miniquest)": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["What's Mine is Yours"],
+        "skill": []
+      }
+    },
+    "Doric's Task II (miniquest)": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Doric's Task I (miniquest)",
+          "What's Mine is Yours",
+          "Death Plateau"
+        ],
+        "skill": []
+      }
+    },
+    "Doric's Task III (miniquest)": {
+      "difficulty": 1,
+      "members": false,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Doric's Task II (miniquest)",
+          "Doric's Task I (miniquest)",
+          "What's Mine is Yours",
+          "Death Plateau"
+        ],
+        "skill": []
+      }
+    },
+    "Doric's Task IV (miniquest)": {
+      "difficulty": 1,
+      "members": false,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Doric's Task III (miniquest)",
+          "Doric's Task II (miniquest)",
+          "Doric's Task I (miniquest)",
+          "What's Mine is Yours",
+          "Death Plateau"
+        ],
+        "skill": []
+      }
+    },
+    "Doric's Task V (miniquest)": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Doric's Task IV (miniquest)",
+          "Doric's Task III (miniquest)",
+          "Doric's Task II (miniquest)",
+          "Doric's Task I (miniquest)",
+          "What's Mine is Yours",
+          "Death Plateau"
+        ],
+        "skill": []
+      }
+    },
+    "Doric's Task VI (miniquest)": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Doric's Task V (miniquest)",
+          "Doric's Task IV (miniquest)",
+          "Doric's Task III (miniquest)",
+          "Doric's Task II (miniquest)",
+          "Doric's Task I (miniquest)",
+          "Death Plateau"
+        ],
+        "skill": []
+      }
+    },
+    "Doric's Task VII (miniquest)": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Doric's Task VI (miniquest)",
+          "Doric's Task V (miniquest)",
+          "Doric's Task IV (miniquest)",
+          "Doric's Task III (miniquest)",
+          "Doric's Task II (miniquest)"
+        ],
+        "skill": []
+      }
+    },
+    "Doric's Task VIII (miniquest)": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Doric's Task VII (miniquest)",
+          "Doric's Task VI (miniquest)",
+          "Doric's Task V (miniquest)",
+          "Doric's Task IV (miniquest)",
+          "Doric's Task III (miniquest)"
+        ],
+        "skill": []
+      }
+    },
+    "Dragon Slayer": {
+      "difficulty": 2,
+      "members": false,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["quest points"],
+        "skill": []
+      }
+    },
+    "Dream Mentor": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Lunar Diplomacy", "The Fremennik Trials", "Lost City"],
+        "skill": []
+      }
+    },
+    "Dwarf Cannon": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Eadgar's Ruse": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Druidic Ritual",
+          "Troll Stronghold",
+          "Death Plateau",
+          "Mad Eadgar",
+          "Troll Stronghold area"
+        ],
+        "skill": []
+      }
+    },
+    "Eagles' Peak": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Elemental Workshop I": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Elemental Workshop II": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Elemental Workshop I"],
+        "skill": []
+      }
+    },
+    "Elemental Workshop III": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Elemental Workshop II", "Elemental Workshop I"],
+        "skill": []
+      }
+    },
+    "Elemental Workshop IV": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Elemental Workshop III",
+          "Elemental Workshop II",
+          "Elemental Workshop I"
+        ],
+        "skill": []
+      }
+    },
+    "Enakhra's Lament": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Enlightened Journey": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["quest points"],
+        "skill": []
+      }
+    },
+    "Evil Dave's Big Day Out": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Recipe for Disaster: Freeing Evil Dave",
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant",
+          "Gertrude's Cat",
+          "Shadow of the Storm",
+          "Demon Slayer",
+          "The Golem"
+        ],
+        "skill": []
+      }
+    },
+    "Extinction": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 4,
+      "requirements": {
+        "quest": [
+          "Sins of the Father",
+          "Desperate Measures",
+          "Desperate Times",
+          "The Needle Skips",
+          "You Are It",
+          "base camp",
+          "Anachronia",
+          "Eye of Het II",
+          "Eye of Het I",
+          "City of Senntisten",
+          "Battle of the Monolith",
+          "Azzanadra's Quest"
+        ],
+        "skill": []
+      }
+    },
+    "Eye for an Eye (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Impressing the Locals",
+          "Jed Hunter (miniquest)",
+          "Impressing the Locals",
+          "Flag Fall (miniquest)",
+          "Impressing the Locals",
+          "Head of the Family (miniquest)",
+          "Impressing the Locals",
+          "Spiritual Enlightenment (miniquest)",
+          "Impressing the Locals",
+          "Meet the Assassin",
+          "player-owned port",
+          "Cyclosis",
+          "player-owned port"
+        ],
+        "skill": []
+      }
+    },
+    "Eye of Het I": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "City of Senntisten",
+          "Battle of the Monolith",
+          "Azzanadra's Quest",
+          "The Vault of Shadows",
+          "Shadow Realm",
+          "Kharid-et Dig Site",
+          "Raksha, the Shadow Colossus",
+          "Desperate Creatures",
+          "Desperate Measures"
+        ],
+        "skill": []
+      }
+    },
+    "Eye of Het II": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Eye of Het I",
+          "City of Senntisten",
+          "Battle of the Monolith",
+          "Azzanadra's Quest",
+          "The Vault of Shadows",
+          "Raksha, the Shadow Colossus",
+          "Desperate Creatures"
+        ],
+        "skill": []
+      }
+    },
+    "Fate of the Gods": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Missing, Presumed Death"],
+        "skill": []
+      }
+    },
+    "Father and Son": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Father and Son (miniquest)"],
+        "skill": []
+      }
+    },
+    "Field of Screams": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Fight Arena": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Final Destination (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Impressing the Locals",
+          "Tuai Leit's Own (miniquest)",
+          "Impressing the Locals",
+          "Harbinger (miniquest)",
+          "Ghosts from the Past (miniquest)",
+          "Impressing the Locals",
+          "Harbinger (miniquest)",
+          "Damage Control (miniquest)",
+          "Impressing the Locals",
+          "Harbinger (miniquest)"
+        ],
+        "skill": []
+      }
+    },
+    "Finale": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Once Upon a Time in Gielinor: Finale",
+          "Once Upon a Time in Gielinor: Fortunes",
+          "Once Upon a Time in Gielinor: Flashback",
+          "Once Upon a Time in Gielinor: Foreshadowing"
+        ],
+        "skill": []
+      }
+    },
+    "Fishing Contest": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Flag Fall (miniquest)": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Impressing the Locals"],
+        "skill": []
+      }
+    },
+    "Flashback": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Once Upon a Time in Gielinor: Flashback",
+          "Once Upon a Time in Gielinor: Foreshadowing"
+        ],
+        "skill": []
+      }
+    },
+    "Flesh and Bone": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "That Old Black Magic: Flesh and Bone",
+          "That Old Black Magic: My One and Only Lute",
+          "The Blood Pact"
+        ],
+        "skill": []
+      }
+    },
+    "Foreshadowing": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Once Upon a Time in Gielinor: Foreshadowing"],
+        "skill": []
+      }
+    },
+    "Forgettable Tale of a Drunken Dwarf": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["The Giant Dwarf", "Fishing Contest"],
+        "skill": []
+      }
+    },
+    "Forgiveness of a Chaos Dwarf": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Forgettable Tale of a Drunken Dwarf",
+          "The Giant Dwarf",
+          "Fishing Contest",
+          "Between a Rock...",
+          "Dwarf Cannon",
+          "Fishing Contest"
+        ],
+        "skill": []
+      }
+    },
+    "Fortunes": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Once Upon a Time in Gielinor: Fortunes",
+          "Once Upon a Time in Gielinor: Flashback",
+          "Once Upon a Time in Gielinor: Foreshadowing"
+        ],
+        "skill": []
+      }
+    },
+    "From Tiny Acorns (miniquest)": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Buyers and Cellars"],
+        "skill": []
+      }
+    },
+    "Fur 'n Seek": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Rag and Bone Man"],
+        "skill": []
+      }
+    },
+    "Garden of Tranquillity": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Creature of Fenkenstrain",
+          "The Restless Ghost",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "Ghosts from the Past (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Impressing the Locals",
+          "Harbinger (miniquest)",
+          "Impressing the Locals",
+          "Eye for an Eye (miniquest)",
+          "Impressing the Locals",
+          "Jed Hunter (miniquest)",
+          "Impressing the Locals",
+          "Flag Fall (miniquest)",
+          "Impressing the Locals",
+          "Head of the Family (miniquest)",
+          "Impressing the Locals",
+          "Spiritual Enlightenment (miniquest)",
+          "Impressing the Locals",
+          "Meet the Assassin",
+          "player-owned port",
+          "Cyclosis",
+          "player-owned port"
+        ],
+        "skill": []
+      }
+    },
+    "Glorious Memories": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Mountain Daughter",
+          "The Fremennik Isles",
+          "The Fremennik Trials",
+          "Royal Trouble",
+          "Throne of Miscellania",
+          "The Fremennik Trials"
+        ],
+        "skill": []
+      }
+    },
+    "Gower Quest": {
+      "difficulty": 2,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["quest points"],
+        "skill": []
+      }
+    },
+    "Great Egg-spectations": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Grim Tales": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Witch's House"],
+        "skill": []
+      }
+    },
+    "Harbinger (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Impressing the Locals",
+          "Eye for an Eye (miniquest)",
+          "Impressing the Locals",
+          "Jed Hunter (miniquest)",
+          "Impressing the Locals",
+          "Flag Fall (miniquest)",
+          "Impressing the Locals",
+          "Head of the Family (miniquest)",
+          "Impressing the Locals",
+          "Spiritual Enlightenment (miniquest)",
+          "Impressing the Locals",
+          "Meet the Assassin",
+          "player-owned port",
+          "Cyclosis",
+          "player-owned port"
+        ],
+        "skill": []
+      }
+    },
+    "Head of the Family (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Impressing the Locals"],
+        "skill": []
+      }
+    },
+    "Heart of Stone": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Carnillean Rising",
+          "The Blood Pact",
+          "Hazeel Cult",
+          "quest points",
+          "Rune Memories",
+          "Rune Mysteries"
+        ],
+        "skill": []
+      }
+    },
+    "Heartstealer": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Helping Laniakea": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Helping Laniakea (miniquest)"],
+        "skill": []
+      }
+    },
+    "Hermy and Bass": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "That Old Black Magic: Hermy and Bass",
+          "That Old Black Magic: My One and Only Lute",
+          "The Blood Pact",
+          "The Spirit of War",
+          "Vessel of the Harbinger",
+          "Rune Mythos",
+          "Necromancy!",
+          "Ghosts Ahoy",
+          "The Restless Ghost",
+          "Morytania",
+          "vessel souls"
+        ],
+        "skill": []
+      }
+    },
+    "Hero's Welcome": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Lunar Diplomacy",
+          "The Fremennik Trials",
+          "Lost City",
+          "Ancient Cavern",
+          "Barbarian Training"
+        ],
+        "skill": []
+      }
+    },
+    "Heroes' Quest": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Shield of Arrav",
+          "Dragon Slayer",
+          "quest points",
+          "quest points"
+        ],
+        "skill": []
+      }
+    },
+    "Hopespear's Will (miniquest)": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Land of the Goblins",
+          "Another Slice of H.A.M.",
+          "Death to the Dorgeshuun",
+          "The Lost Tribe",
+          "Goblin Diplomacy",
+          "The Giant Dwarf",
+          "Fishing Contest",
+          "A Fairy Tale I - Growing Pains",
+          "Lost City",
+          "Nature Spirit",
+          "Priest in Peril",
+          "The Restless Ghost",
+          "Morytania",
+          "fairy ring network",
+          "Desert Treasure"
+        ],
+        "skill": []
+      }
+    },
+    "Horror from the Deep": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Bar Crawl (miniquest)"],
+        "skill": []
+      }
+    },
+    "Hunt for Red Raktuber": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Cold War", "Sea Slug"],
+        "skill": []
+      }
+    },
+    "Imp Catcher": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Impressing the Locals": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "In Aid of the Myreque": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "In Search of the Myreque",
+          "Nature Spirit",
+          "Priest in Peril",
+          "The Restless Ghost",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "In Memory of the Myreque (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "The Lord of Vampyrium",
+          "The Branches of Darkmeyer",
+          "Legacy of Seergaze",
+          "The Darkness of Hallowvale",
+          "In Aid of the Myreque",
+          "Legends' Quest",
+          "Heroes' Quest",
+          "Shield of Arrav",
+          "Dragon Slayer",
+          "quest points",
+          "quest points",
+          "Jungle Potion",
+          "quest points"
+        ],
+        "skill": []
+      }
+    },
+    "In Pyre Need": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "In Search of the Myreque": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Nature Spirit",
+          "Priest in Peril",
+          "The Restless Ghost",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "It's Snow Bother": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Jed Hunter (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Impressing the Locals",
+          "Flag Fall (miniquest)",
+          "Impressing the Locals",
+          "Head of the Family (miniquest)",
+          "Impressing the Locals",
+          "Spiritual Enlightenment (miniquest)",
+          "Impressing the Locals",
+          "Meet the Assassin",
+          "player-owned port"
+        ],
+        "skill": []
+      }
+    },
+    "Kennith's Concerns": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "The Slug Menace",
+          "Sea Slug",
+          "Wanted!",
+          "Recruitment Drive",
+          "Enter the Abyss (miniquest)",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "Kindred Spirits": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Missing, Presumed Death"],
+        "skill": []
+      }
+    },
+    "King of the Dwarves": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Forgiveness of a Chaos Dwarf",
+          "Forgettable Tale of a Drunken Dwarf",
+          "The Giant Dwarf",
+          "Fishing Contest",
+          "Between a Rock...",
+          "Dwarf Cannon",
+          "Fishing Contest",
+          "My Arm's Big Adventure",
+          "Eadgar's Ruse",
+          "Druidic Ritual",
+          "Troll Stronghold",
+          "Death Plateau",
+          "Mad Eadgar",
+          "Troll Stronghold area",
+          "Jungle Potion"
+        ],
+        "skill": []
+      }
+    },
+    "King's Ransom": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Holy Grail",
+          "Merlin's Crystal",
+          "Murder Mystery",
+          "One Small Favour",
+          "Shilo Village",
+          "Jungle Potion"
+        ],
+        "skill": []
+      }
+    },
+    "Koschei's Troubles (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Blood Runs Deep",
+          "Horror from the Deep",
+          "Dream Mentor",
+          "Glorious Memories",
+          "Ritual of the Mahjarrat",
+          "The Temple at Senntisten",
+          "While Guthix Sleeps",
+          "Hazeel Cult",
+          "Enakhra's Lament",
+          "The Slug Menace",
+          "A Fairy Tale II - Cure a Queen",
+          "Cabin Fever",
+          "A Tail of Two Cats",
+          "Fight Arena"
+        ],
+        "skill": []
+      }
+    },
+    "Land of the Goblins": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Another Slice of H.A.M.",
+          "Death to the Dorgeshuun",
+          "The Lost Tribe",
+          "Goblin Diplomacy",
+          "The Giant Dwarf",
+          "Fishing Contest"
+        ],
+        "skill": []
+      }
+    },
+    "Legacy of Seergaze": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "The Darkness of Hallowvale",
+          "In Aid of the Myreque",
+          "In Search of the Myreque",
+          "Nature Spirit",
+          "Priest in Peril",
+          "The Restless Ghost",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "Legends' Quest": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 4,
+      "requirements": {
+        "quest": [
+          "Heroes' Quest",
+          "Shield of Arrav",
+          "Dragon Slayer",
+          "quest points",
+          "quest points",
+          "Jungle Potion",
+          "quest points"
+        ],
+        "skill": []
+      }
+    },
+    "Let Them Eat Pie": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Lost Her Marbles (miniquest)": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["From Tiny Acorns (miniquest)", "Buyers and Cellars"],
+        "skill": []
+      }
+    },
+    "Love Story": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Swan Song"],
+        "skill": []
+      }
+    },
+    "Mahjarrat Memories (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Koschei's Troubles (miniquest)",
+          "Blood Runs Deep",
+          "Horror from the Deep",
+          "Dream Mentor",
+          "Glorious Memories",
+          "Ritual of the Mahjarrat",
+          "The Temple at Senntisten",
+          "While Guthix Sleeps",
+          "Hazeel Cult",
+          "Enakhra's Lament",
+          "The Slug Menace",
+          "A Fairy Tale II - Cure a Queen",
+          "Cabin Fever",
+          "A Tail of Two Cats",
+          "Fight Arena",
+          "Missing, Presumed Death"
+        ],
+        "skill": []
+      }
+    },
+    "Making History": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": ["The Restless Ghost", "Morytania"],
+        "skill": []
+      }
+    },
+    "Meeting History": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Making History", "The Restless Ghost", "Morytania"],
+        "skill": []
+      }
+    },
+    "Missing My Mummy": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Icthlarin's Little Helper",
+          "Gertrude's Cat",
+          "Diamond in the Rough",
+          "Stolen Hearts",
+          "The Golem",
+          "Diamond in the Rough"
+        ],
+        "skill": []
+      }
+    },
+    "Monkey Madness": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": ["The Grand Tree", "Tree Gnome Village"],
+        "skill": []
+      }
+    },
+    "Mountain Daughter": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Mourning's End Part I": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Roving Elves",
+          "Regicide",
+          "Underground Pass",
+          "Biohazard",
+          "Plague City",
+          "Waterfall Quest",
+          "Sheep Herder",
+          "Big Chompy Bird Hunting"
+        ],
+        "skill": []
+      }
+    },
+    "Mourning's End Part II": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Mourning's End Part I",
+          "Roving Elves",
+          "Regicide",
+          "Underground Pass",
+          "Biohazard",
+          "Waterfall Quest",
+          "Sheep Herder",
+          "Big Chompy Bird Hunting"
+        ],
+        "skill": []
+      }
+    },
+    "Murder Mystery": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Murder on the Border": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "New Foundations",
+          "Town Hall (Tier 1)",
+          "Command Centre (Tier 1)",
+          "Workshop (Tier 1)",
+          "Chapel (Tier 1)"
+        ],
+        "skill": []
+      }
+    },
+    "My Arm's Big Adventure": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Eadgar's Ruse",
+          "Druidic Ritual",
+          "Troll Stronghold",
+          "Death Plateau",
+          "Mad Eadgar",
+          "Troll Stronghold area",
+          "Jungle Potion"
+        ],
+        "skill": []
+      }
+    },
+    "My One and Only Lute": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "That Old Black Magic: My One and Only Lute",
+          "The Blood Pact"
+        ],
+        "skill": []
+      }
+    },
+    "Myths of the White Lands": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Nadir (saga)": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Skaldrun", "frozen floors", "Daemonheim"],
+        "skill": []
+      }
+    },
+    "Nature Spirit": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Priest in Peril", "The Restless Ghost", "Morytania"],
+        "skill": []
+      }
+    },
+    "Nomad's Elegy": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Dishonour among Thieves",
+          "Hazeel Cult",
+          "Missing, Presumed Death",
+          "Morytania",
+          "Nomad's Requiem",
+          "King's Ransom",
+          "Holy Grail",
+          "Merlin's Crystal",
+          "Murder Mystery",
+          "One Small Favour",
+          "Shilo Village",
+          "Jungle Potion",
+          "Knight Waves",
+          "Camelot",
+          "Soul Wars",
+          "Heart of Stone",
+          "Carnillean Rising",
+          "The Blood Pact",
+          "Hazeel Cult",
+          "quest points",
+          "Rune Memories",
+          "Rune Mysteries",
+          "The Mighty Fall",
+          "The Chosen Commander",
+          "Land of the Goblins",
+          "Another Slice of H.A.M.",
+          "Death to the Dorgeshuun",
+          "Goblin Diplomacy",
+          "The Giant Dwarf",
+          "Fishing Contest",
+          "Missing, Presumed Death",
+          "Throne of Miscellania",
+          "The Fremennik Trials",
+          "The Void Stares Back",
+          "A Void Dance",
+          "Druidic Ritual",
+          "Quiet Before the Swarm",
+          "Imp Catcher",
+          "Wanted!",
+          "Recruitment Drive",
+          "Enter the Abyss (miniquest)",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "Nomad's Requiem": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [
+          "King's Ransom",
+          "Holy Grail",
+          "Merlin's Crystal",
+          "Murder Mystery",
+          "One Small Favour",
+          "Shilo Village",
+          "Jungle Potion",
+          "Knight Waves",
+          "Camelot",
+          "Soul Wars"
+        ],
+        "skill": []
+      }
+    },
+    "Observatory Quest": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Ode of the Devourer": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Requiem for a Dragon",
+          "Battle of Forinthry",
+          "Ancient Awakening",
+          "Dead and Buried",
+          "Unwelcome Guests",
+          "eastern border wall",
+          "Grove cabin (Tier 1)",
+          "Botanist's Workbench (Tier 1)",
+          "Tomes of the Warlock",
+          "The Spirit of War",
+          "Vessel of the Harbinger",
+          "Rune Mythos",
+          "Ghosts Ahoy",
+          "vessel souls",
+          "The Jack of Spades",
+          "Diamond in the Rough",
+          "Stolen Hearts",
+          "Kili Row",
+          "Necromancy!",
+          "necromancer robes",
+          "Sostratus",
+          "Soul Searching",
+          "Necromancy!"
+        ],
+        "skill": []
+      }
+    },
+    "Olaf's Quest": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["The Fremennik Trials"],
+        "skill": []
+      }
+    },
+    "Once Upon a Time in Gielinor": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 4,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "One Foot in the Grave (miniquest)": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "The Hand in the Sand",
+          "Back to my Roots",
+          "The Hand in the Sand",
+          "Tribal Totem"
+        ],
+        "skill": []
+      }
+    },
+    "One of a Kind": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "A Tail of Two Cats",
+          "Icthlarin's Little Helper",
+          "Gertrude's Cat",
+          "Diamond in the Rough",
+          "Holy Grail",
+          "Merlin's Crystal",
+          "The World Wakes",
+          "Missing, Presumed Death"
+        ],
+        "skill": []
+      }
+    },
+    "One Piercing Note": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "One Small Favour": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Shilo Village", "Jungle Potion"],
+        "skill": []
+      }
+    },
+    "Osseous Rex": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Our Man in the North": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "The Feud",
+          "Do No Evil",
+          "Animal Magnetism",
+          "Shadow of the Storm",
+          "Desert Treasure",
+          "Smoking Kills",
+          "Missing My Mummy",
+          "Dealing with Scabaras",
+          "Recipe for Disaster: Freeing King Awowogei",
+          "Senliten",
+          "Leela",
+          "Senliten's tomb",
+          "Missing My Mummy",
+          "Crocodile Tears",
+          "The Jack of Spades",
+          "Spirits of the Elid",
+          "Missing My Mummy",
+          "Dealing with Scabaras",
+          "Leela",
+          "Senliten's tomb",
+          "Senliten",
+          "Missing My Mummy",
+          "Menaphos reputation"
+        ],
+        "skill": []
+      }
+    },
+    "Perils of Ice Mountain": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Pieces of Hate": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "A Clockwork Syringe",
+          "Rocking Out",
+          "The Great Brain Robbery",
+          "Creature of Fenkenstrain",
+          "The Restless Ghost",
+          "Morytania",
+          "Cabin Fever",
+          "Pirate's Treasure",
+          "Rum Deal",
+          "Recipe for Disaster: Freeing Pirate Pete",
+          "Recipe for Disaster: Another Cook's Quest",
+          "player-owned house",
+          "Gertrude's Cat"
+        ],
+        "skill": []
+      }
+    },
+    "Pirate's Treasure": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Plague City": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Plague's End": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Within the Light",
+          "Mourning's End Part II",
+          "Mourning's End Part I",
+          "Roving Elves",
+          "Regicide",
+          "Waterfall Quest",
+          "Sheep Herder",
+          "Big Chompy Bird Hunting",
+          "Catapult Construction",
+          "Regicide",
+          "Underground Pass",
+          "Biohazard",
+          "Plague City",
+          "Making History",
+          "The Restless Ghost",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "Purple Cat (miniquest)": {
+      "difficulty": 1,
+      "members": false,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Swept Away", "Gertrude's Cat"],
+        "skill": []
+      }
+    },
+    "Quiet Before the Swarm": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Imp Catcher",
+          "Wanted!",
+          "Recruitment Drive",
+          "Enter the Abyss (miniquest)",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "Rag and Bone Man": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Raksha, the Shadow Colossus": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Rat Catchers": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Icthlarin's Little Helper",
+          "Gertrude's Cat",
+          "Diamond in the Rough",
+          "Stolen Hearts"
+        ],
+        "skill": []
+      }
+    },
+    "Rebuilding Edgeville (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Ritual of the Mahjarrat",
+          "The Temple at Senntisten",
+          "Devious Minds",
+          "Desert Treasure",
+          "The Curse of Arrav",
+          "Kudos",
+          "While Guthix Sleeps",
+          "Defender of Varrock",
+          "Dream Mentor",
+          "Shilo Village",
+          "Temple of Ikov",
+          "Legends' Quest",
+          "The Path of Glouphrie",
+          "Tears of Guthix",
+          "Wanted!",
+          "The Hunt for Surok (miniquest)",
+          "Warriors' Guild",
+          "Hazeel Cult",
+          "Enakhra's Lament",
+          "The Slug Menace",
+          "Sea Slug",
+          "Wanted!",
+          "A Fairy Tale II - Cure a Queen",
+          "A Fairy Tale I - Growing Pains",
+          "Cabin Fever",
+          "Pirate's Treasure",
+          "Rum Deal",
+          "A Tail of Two Cats",
+          "Icthlarin's Little Helper",
+          "Fight Arena",
+          "A Fairy Tale III - Battle at Ork's Rift",
+          "A Fairy Tale II - Cure a Queen"
+        ],
+        "skill": []
+      }
+    },
+    "Recipe for Disaster": {
+      "difficulty": 250,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant"
+        ],
+        "skill": []
+      }
+    },
+    "Recipe for Disaster: Another Cook's Quest": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Cook's Assistant"],
+        "skill": []
+      }
+    },
+    "Recipe for Disaster: Defeating the Culinaromancer": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant",
+          "Recipe for Disaster: Freeing the Mountain Dwarf",
+          "Recipe for Disaster: Another Cook's Quest",
+          "Fishing Contest",
+          "Recipe for Disaster: Freeing the Goblin Generals",
+          "Recipe for Disaster: Another Cook's Quest",
+          "Goblin Diplomacy",
+          "Recipe for Disaster: Freeing Pirate Pete",
+          "Recipe for Disaster: Another Cook's Quest",
+          "Recipe for Disaster: Freeing the Lumbridge Sage",
+          "Recipe for Disaster: Another Cook's Quest",
+          "Recipe for Disaster: Freeing Evil Dave",
+          "Recipe for Disaster: Another Cook's Quest",
+          "Gertrude's Cat",
+          "Shadow of the Storm",
+          "Demon Slayer",
+          "The Golem",
+          "Recipe for Disaster: Freeing Skrach Uglogwee",
+          "Recipe for Disaster: Another Cook's Quest",
+          "Big Chompy Bird Hunting",
+          "Recipe for Disaster: Freeing Sir Amik Varze",
+          "Recipe for Disaster: Another Cook's Quest",
+          "Lost City",
+          "Legends' Quest",
+          "Heroes' Quest",
+          "Shield of Arrav",
+          "Dragon Slayer",
+          "quest points",
+          "quest points",
+          "Jungle Potion",
+          "quest points",
+          "Recipe for Disaster: Freeing King Awowogei",
+          "Recipe for Disaster: Another Cook's Quest",
+          "Monkey Madness",
+          "The Grand Tree",
+          "Tree Gnome Village",
+          "Desert Treasure",
+          "The Dig Site",
+          "Troll Stronghold",
+          "Death Plateau",
+          "Morytania",
+          "Horror from the Deep",
+          "Bar Crawl (miniquest)",
+          "quest points"
+        ],
+        "skill": []
+      }
+    },
+    "Recipe for Disaster: Freeing Evil Dave": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant",
+          "Gertrude's Cat",
+          "Shadow of the Storm",
+          "Demon Slayer",
+          "The Golem"
+        ],
+        "skill": []
+      }
+    },
+    "Recipe for Disaster: Freeing King Awowogei": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant",
+          "Monkey Madness",
+          "The Grand Tree",
+          "Tree Gnome Village"
+        ],
+        "skill": []
+      }
+    },
+    "Recipe for Disaster: Freeing Pirate Pete": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant"
+        ],
+        "skill": []
+      }
+    },
+    "Recipe for Disaster: Freeing Sir Amik Varze": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant",
+          "Lost City",
+          "Legends' Quest",
+          "Heroes' Quest",
+          "Shield of Arrav",
+          "Dragon Slayer",
+          "quest points",
+          "quest points",
+          "Jungle Potion",
+          "quest points"
+        ],
+        "skill": []
+      }
+    },
+    "Recipe for Disaster: Freeing Skrach Uglogwee": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant",
+          "Big Chompy Bird Hunting"
+        ],
+        "skill": []
+      }
+    },
+    "Recipe for Disaster: Freeing the Goblin Generals": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant",
+          "Goblin Diplomacy"
+        ],
+        "skill": []
+      }
+    },
+    "Recipe for Disaster: Freeing the Lumbridge Sage": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant"
+        ],
+        "skill": []
+      }
+    },
+    "Recipe for Disaster: Freeing the Mountain Dwarf": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant",
+          "Fishing Contest"
+        ],
+        "skill": []
+      }
+    },
+    "Regicide": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": ["Underground Pass", "Biohazard", "Plague City"],
+        "skill": []
+      }
+    },
+    "Remains of the Necrolord": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Tomes of the Warlock",
+          "The Spirit of War",
+          "Vessel of the Harbinger",
+          "Rune Mythos",
+          "Necromancy!",
+          "Ghosts Ahoy",
+          "The Restless Ghost",
+          "Morytania",
+          "vessel souls",
+          "The Jack of Spades",
+          "Diamond in the Rough",
+          "Stolen Hearts",
+          "Vengeance (saga)",
+          "Nadir (saga)"
+        ],
+        "skill": []
+      }
+    },
+    "Requiem for a Dragon": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Battle of Forinthry",
+          "Ancient Awakening",
+          "Dead and Buried",
+          "Unwelcome Guests",
+          "Murder on the Border",
+          "eastern border wall",
+          "Grove cabin (Tier 1)",
+          "Botanist's Workbench (Tier 1)",
+          "Tomes of the Warlock",
+          "The Spirit of War",
+          "Vessel of the Harbinger",
+          "Rune Mythos",
+          "Necromancy!",
+          "Ghosts Ahoy",
+          "The Restless Ghost",
+          "Morytania",
+          "vessel souls",
+          "The Jack of Spades",
+          "Diamond in the Rough",
+          "Stolen Hearts",
+          "Kili Row",
+          "Necromancy!",
+          "necromancer robes",
+          "Sostratus"
+        ],
+        "skill": []
+      }
+    },
+    "Ritual of the Mahjarrat": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [
+          "The Temple at Senntisten",
+          "Devious Minds",
+          "Desert Treasure",
+          "The Curse of Arrav",
+          "Kudos",
+          "While Guthix Sleeps",
+          "Defender of Varrock",
+          "Dream Mentor",
+          "Shilo Village",
+          "Temple of Ikov",
+          "Legends' Quest",
+          "The Path of Glouphrie",
+          "Tears of Guthix",
+          "Wanted!",
+          "The Hunt for Surok (miniquest)",
+          "Warriors' Guild",
+          "Hazeel Cult",
+          "Enakhra's Lament",
+          "The Slug Menace",
+          "Sea Slug",
+          "Wanted!",
+          "A Fairy Tale II - Cure a Queen",
+          "A Fairy Tale I - Growing Pains",
+          "Cabin Fever",
+          "Pirate's Treasure",
+          "Rum Deal",
+          "A Tail of Two Cats",
+          "Icthlarin's Little Helper",
+          "Fight Arena"
+        ],
+        "skill": []
+      }
+    },
+    "River of Blood": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [
+          "The Lord of Vampyrium",
+          "The Branches of Darkmeyer",
+          "Legacy of Seergaze",
+          "The Darkness of Hallowvale",
+          "In Aid of the Myreque",
+          "Defender of Varrock",
+          "Shield of Arrav",
+          "The Knight's Sword",
+          "Family Crest",
+          "What Lies Below",
+          "Kudos",
+          "Historian Minas",
+          "Varrock Museum",
+          "All Fired Up",
+          "Priest in Peril"
+        ],
+        "skill": []
+      }
+    },
+    "Rocking Out": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "The Great Brain Robbery",
+          "Creature of Fenkenstrain",
+          "The Restless Ghost",
+          "Morytania",
+          "Cabin Fever",
+          "Pirate's Treasure",
+          "Rum Deal",
+          "Morytania",
+          "Recipe for Disaster: Freeing Pirate Pete",
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant"
+        ],
+        "skill": []
+      }
+    },
+    "Roving Elves": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Regicide",
+          "Underground Pass",
+          "Biohazard",
+          "Plague City",
+          "Waterfall Quest"
+        ],
+        "skill": []
+      }
+    },
+    "Royal Trouble": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Throne of Miscellania", "The Fremennik Trials"],
+        "skill": []
+      }
+    },
+    "Rum Deal": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Morytania"],
+        "skill": []
+      }
+    },
+    "Rune Mechanics": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Rune Memories": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Rune Mysteries"],
+        "skill": []
+      }
+    },
+    "Rune Mysteries": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Salt in the Wound": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Kennith's Concerns",
+          "The Slug Menace",
+          "Sea Slug",
+          "Wanted!",
+          "Recruitment Drive",
+          "Enter the Abyss (miniquest)",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "Scorpion Catcher": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Bar Crawl (miniquest)"],
+        "skill": []
+      }
+    },
+    "Sea Slug": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Shades of Mort'ton": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": ["Morytania"],
+        "skill": []
+      }
+    },
+    "Shadow of the Storm": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Demon Slayer", "The Golem"],
+        "skill": []
+      }
+    },
+    "Sheep Shearer (miniquest)": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Shield of Arrav": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Sins of the Father": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Desperate Measures",
+          "Desperate Times",
+          "The Needle Skips",
+          "You Are It",
+          "base camp",
+          "Anachronia"
+        ],
+        "skill": []
+      }
+    },
+    "Skelly By Everlight": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "That Old Black Magic: Skelly By Everlight",
+          "That Old Black Magic: My One and Only Lute",
+          "The Blood Pact"
+        ],
+        "skill": []
+      }
+    },
+    "Sliske's Endgame": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [
+          "The Death of Chivalry",
+          "One of a Kind",
+          "A Tail of Two Cats",
+          "Holy Grail",
+          "The World Wakes",
+          "Missing, Presumed Death",
+          "Nomad's Elegy",
+          "Dishonour among Thieves",
+          "Nomad's Requiem",
+          "Heart of Stone",
+          "The Mighty Fall",
+          "Throne of Miscellania",
+          "The Void Stares Back",
+          "Kindred Spirits",
+          "Missing, Presumed Death",
+          "Hero's Welcome",
+          "Lunar Diplomacy",
+          "Ancient Cavern",
+          "Barbarian Training",
+          "Children of Mah",
+          "The Light Within",
+          "Dishonour among Thieves"
+        ],
+        "skill": []
+      }
+    },
+    "Smoking Kills": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "The Restless Ghost",
+          "Icthlarin's Little Helper",
+          "Gertrude's Cat",
+          "Diamond in the Rough",
+          "Stolen Hearts"
+        ],
+        "skill": []
+      }
+    },
+    "Some Like It Cold": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Hunt for Red Raktuber", "Cold War", "Sea Slug"],
+        "skill": []
+      }
+    },
+    "Song from the Depths": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Soul Searching": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Necromancy!"],
+        "skill": []
+      }
+    },
+    "Spirit of Summer": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["The Restless Ghost"],
+        "skill": []
+      }
+    },
+    "Spirits of the Elid": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Spiritual Enlightenment (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Impressing the Locals",
+          "Meet the Assassin",
+          "player-owned port"
+        ],
+        "skill": []
+      }
+    },
+    "Succession": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Civil War III (miniquest)",
+          "Civil War II (miniquest)",
+          "Civil War I (miniquest)",
+          "Daughter of Chaos",
+          "Infernal Puzzle Box"
+        ],
+        "skill": []
+      }
+    },
+    "Summer's End": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Spirit of Summer", "The Restless Ghost"],
+        "skill": []
+      }
+    },
+    "Swan Song": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Tai Bwo Wannai Trio": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Jungle Potion"],
+        "skill": []
+      }
+    },
+    "Tales of Nomad (miniquest)": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Nomad's Elegy",
+          "Dishonour among Thieves",
+          "Nomad's Requiem",
+          "Heart of Stone",
+          "The Mighty Fall",
+          "Throne of Miscellania",
+          "The Void Stares Back"
+        ],
+        "skill": []
+      }
+    },
+    "Tales of the God Wars (miniquest)": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Morytania", "God Wars Dungeon"],
+        "skill": []
+      }
+    },
+    "Tears of Guthix": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Temple of Ikov": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "That Old Black Magic": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Necromancy!"],
+        "skill": []
+      }
+    },
+    "The Branches of Darkmeyer": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Legacy of Seergaze",
+          "The Darkness of Hallowvale",
+          "In Aid of the Myreque",
+          "In Search of the Myreque",
+          "Nature Spirit"
+        ],
+        "skill": []
+      }
+    },
+    "The Brink of Extinction": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": ["The Elder Kiln"],
+        "skill": []
+      }
+    },
+    "The Chosen Commander": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [
+          "Land of the Goblins",
+          "Another Slice of H.A.M.",
+          "Death to the Dorgeshuun",
+          "The Lost Tribe",
+          "Goblin Diplomacy",
+          "The Giant Dwarf",
+          "Fishing Contest"
+        ],
+        "skill": []
+      }
+    },
+    "The Curse of Arrav": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "The Tale of the Muspah",
+          "Missing My Mummy",
+          "Icthlarin's Little Helper",
+          "Gertrude's Cat",
+          "Diamond in the Rough",
+          "Stolen Hearts",
+          "The Golem",
+          "Diamond in the Rough",
+          "Defender of Varrock",
+          "Shield of Arrav",
+          "The Knight's Sword",
+          "Family Crest",
+          "What Lies Below",
+          "Kudos",
+          "Historian Minas",
+          "Varrock Museum",
+          "Temple of Ikov",
+          "Trollheim",
+          "Senliten",
+          "Missing My Mummy",
+          "Garden of Tranquillity",
+          "Creature of Fenkenstrain",
+          "The Restless Ghost",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "The Curse of Zaros (miniquest)": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Temple of Ikov",
+          "The Restless Ghost",
+          "Desert Treasure",
+          "The Dig Site",
+          "Troll Stronghold",
+          "Death Plateau",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "The Darkness of Hallowvale": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "In Aid of the Myreque",
+          "In Search of the Myreque",
+          "Nature Spirit",
+          "Priest in Peril",
+          "The Restless Ghost",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "The Death of Chivalry": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Elder Kiln": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Eyes of Glouphrie": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["The Grand Tree"],
+        "skill": []
+      }
+    },
+    "The Feud": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Firemaker's Curse": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Fremennik Isles": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["The Fremennik Trials"],
+        "skill": []
+      }
+    },
+    "The General's Shadow (miniquest)": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "The Curse of Zaros (miniquest)",
+          "Temple of Ikov",
+          "The Restless Ghost",
+          "Desert Treasure",
+          "The Dig Site",
+          "Troll Stronghold",
+          "Death Plateau",
+          "Morytania",
+          "Fight Arena"
+        ],
+        "skill": []
+      }
+    },
+    "The Giant Dwarf": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Grand Tree": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 5,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Great Brain Robbery": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Creature of Fenkenstrain",
+          "The Restless Ghost",
+          "Morytania",
+          "Cabin Fever",
+          "Pirate's Treasure",
+          "Rum Deal",
+          "Morytania",
+          "Recipe for Disaster: Freeing Pirate Pete",
+          "Recipe for Disaster: Another Cook's Quest",
+          "Cook's Assistant"
+        ],
+        "skill": []
+      }
+    },
+    "The Hand in the Sand": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Hunt for Surok (miniquest)": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["What Lies Below"],
+        "skill": []
+      }
+    },
+    "The Knight's Sword": {
+      "difficulty": 1,
+      "members": false,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Light Within": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Meeting History",
+          "Making History",
+          "The Temple at Senntisten",
+          "Devious Minds",
+          "Desert Treasure",
+          "The Curse of Arrav",
+          "Kudos",
+          "Plague's End",
+          "Within the Light",
+          "Catapult Construction",
+          "Making History",
+          "The World Wakes",
+          "Fate of the Gods",
+          "Missing, Presumed Death"
+        ],
+        "skill": []
+      }
+    },
+    "The Lord of Vampyrium": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "The Branches of Darkmeyer",
+          "Legacy of Seergaze",
+          "The Darkness of Hallowvale",
+          "In Aid of the Myreque",
+          "In Search of the Myreque"
+        ],
+        "skill": []
+      }
+    },
+    "The Lost Toys (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "The Branches of Darkmeyer",
+          "Legacy of Seergaze",
+          "The Darkness of Hallowvale",
+          "In Aid of the Myreque",
+          "In Search of the Myreque"
+        ],
+        "skill": []
+      }
+    },
+    "The Mighty Fall": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "The Chosen Commander",
+          "Land of the Goblins",
+          "Another Slice of H.A.M.",
+          "Death to the Dorgeshuun",
+          "The Lost Tribe",
+          "Goblin Diplomacy",
+          "The Giant Dwarf",
+          "Fishing Contest",
+          "Missing, Presumed Death"
+        ],
+        "skill": []
+      }
+    },
+    "The Needle Skips": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Path of Glouphrie": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "The Eyes of Glouphrie",
+          "The Grand Tree",
+          "Tree Gnome Village",
+          "Waterfall Quest"
+        ],
+        "skill": []
+      }
+    },
+    "The Prisoner of Glouphrie": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "The Path of Glouphrie",
+          "The Eyes of Glouphrie",
+          "The Grand Tree",
+          "Tree Gnome Village",
+          "Waterfall Quest",
+          "Roving Elves",
+          "Regicide",
+          "Underground Pass",
+          "Biohazard",
+          "Plague City",
+          "Waterfall Quest"
+        ],
+        "skill": []
+      }
+    },
+    "The Slug Menace": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Sea Slug",
+          "Wanted!",
+          "Recruitment Drive",
+          "Enter the Abyss (miniquest)",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "The Tale of the Muspah": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Temple at Senntisten": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Devious Minds",
+          "Recruitment Drive",
+          "What's Mine is Yours",
+          "Morytania",
+          "Desert Treasure",
+          "The Dig Site",
+          "Troll Stronghold",
+          "Death Plateau",
+          "Morytania",
+          "The Curse of Arrav",
+          "The Tale of the Muspah",
+          "Missing My Mummy",
+          "Icthlarin's Little Helper",
+          "Gertrude's Cat",
+          "Diamond in the Rough",
+          "Stolen Hearts",
+          "The Golem",
+          "Diamond in the Rough",
+          "Defender of Varrock",
+          "Shield of Arrav",
+          "The Knight's Sword",
+          "Family Crest",
+          "What Lies Below",
+          "Kudos",
+          "Historian Minas",
+          "Varrock Museum",
+          "Temple of Ikov",
+          "Trollheim",
+          "Senliten",
+          "Missing My Mummy",
+          "Garden of Tranquillity",
+          "Creature of Fenkenstrain",
+          "The Restless Ghost",
+          "Morytania",
+          "Kudos"
+        ],
+        "skill": []
+      }
+    },
+    "The Tourist Trap": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "The Vault of Shadows": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Shadow Realm", "Kharid-et Dig Site"],
+        "skill": []
+      }
+    },
+    "The Void Stares Back": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "A Void Dance",
+          "Druidic Ritual",
+          "Quiet Before the Swarm",
+          "Imp Catcher",
+          "Wanted!",
+          "Recruitment Drive",
+          "Enter the Abyss (miniquest)",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "The World Wakes": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Thok It To 'Em (saga)": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Skaldrun", "frozen floors", "Daemonheim"],
+        "skill": []
+      }
+    },
+    "Thok Your Block Off (saga)": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Skaldrun", "frozen floors", "Daemonheim"],
+        "skill": []
+      }
+    },
+    "Three's Company (saga)": {
+      "difficulty": 1,
+      "members": false,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Skaldrun", "frozen floors", "Daemonheim"],
+        "skill": []
+      }
+    },
+    "Throne of Miscellania": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["The Fremennik Trials"],
+        "skill": []
+      }
+    },
+    "TokTz-Ket-Dill": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Tomes of the Warlock": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "The Spirit of War",
+          "Vessel of the Harbinger",
+          "Rune Mythos",
+          "Necromancy!",
+          "Ghosts Ahoy",
+          "The Restless Ghost",
+          "Morytania",
+          "vessel souls",
+          "The Jack of Spades",
+          "Diamond in the Rough",
+          "Stolen Hearts"
+        ],
+        "skill": []
+      }
+    },
+    "Tortle Combat (miniquest)": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["player-owned farm tutorial"],
+        "skill": []
+      }
+    },
+    "Tower of Life": {
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Tree Gnome Village": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Troll Romance": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": ["Troll Stronghold", "Death Plateau"],
+        "skill": []
+      }
+    },
+    "Tuai Leit's Own (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "Impressing the Locals",
+          "Harbinger (miniquest)",
+          "Impressing the Locals",
+          "Eye for an Eye (miniquest)",
+          "Impressing the Locals",
+          "Jed Hunter (miniquest)",
+          "Impressing the Locals",
+          "Flag Fall (miniquest)",
+          "Impressing the Locals",
+          "Head of the Family (miniquest)",
+          "Impressing the Locals",
+          "Spiritual Enlightenment (miniquest)",
+          "Impressing the Locals",
+          "Meet the Assassin",
+          "player-owned port",
+          "Cyclosis",
+          "player-owned port"
+        ],
+        "skill": []
+      }
+    },
+    "Twilight of the Gods": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [
+          "Extinction",
+          "Sins of the Father",
+          "Desperate Measures",
+          "Desperate Times",
+          "The Needle Skips",
+          "You Are It",
+          "base camp",
+          "Anachronia",
+          "Eye of Het II",
+          "Eye of Het I",
+          "City of Senntisten",
+          "Battle of the Monolith",
+          "Broken Home",
+          "Eyes in Their Stars",
+          "Naressa",
+          "Senntisten"
+        ],
+        "skill": []
+      }
+    },
+    "Underground Pass": {
+      "difficulty": 2,
+      "members": true,
+      "questPoints": 5,
+      "requirements": {
+        "quest": ["Biohazard", "Plague City"],
+        "skill": []
+      }
+    },
+    "Unwelcome Guests": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Murder on the Border",
+          "New Foundations",
+          "Town Hall (Tier 1)",
+          "Command Centre (Tier 1)",
+          "Workshop (Tier 1)",
+          "Chapel (Tier 1)"
+        ],
+        "skill": []
+      }
+    },
+    "Vampyre Slayer": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 3,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Vengeance (saga)": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": ["Skaldrun", "frozen floors", "Daemonheim"],
+        "skill": []
+      }
+    },
+    "Wandering Ga'al (miniquest)": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "The Brink of Extinction",
+          "The Elder Kiln",
+          "Desert Treasure",
+          "The Dig Site",
+          "Troll Stronghold",
+          "Death Plateau",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "Wanted!": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [
+          "Recruitment Drive",
+          "Enter the Abyss (miniquest)",
+          "Morytania"
+        ],
+        "skill": []
+      }
+    },
+    "Watchtower": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 4,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "What Lies Below": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "While Guthix Sleeps": {
+      "difficulty": 4,
+      "members": true,
+      "questPoints": 5,
+      "requirements": {
+        "quest": [
+          "Defender of Varrock",
+          "Shield of Arrav",
+          "The Knight's Sword",
+          "Family Crest",
+          "What Lies Below",
+          "Kudos",
+          "Historian Minas",
+          "Varrock Museum",
+          "Dream Mentor",
+          "Lunar Diplomacy",
+          "The Fremennik Trials",
+          "Lost City",
+          "Shilo Village",
+          "Jungle Potion",
+          "Temple of Ikov",
+          "Legends' Quest",
+          "Heroes' Quest",
+          "Shield of Arrav",
+          "Dragon Slayer",
+          "quest points",
+          "quest points",
+          "Jungle Potion",
+          "quest points",
+          "The Path of Glouphrie",
+          "The Eyes of Glouphrie",
+          "The Grand Tree",
+          "Tree Gnome Village",
+          "Waterfall Quest",
+          "Tears of Guthix",
+          "quest points",
+          "Wanted!",
+          "Recruitment Drive",
+          "Enter the Abyss (miniquest)",
+          "Morytania",
+          "The Hunt for Surok (miniquest)",
+          "What Lies Below",
+          "Warriors' Guild"
+        ],
+        "skill": []
+      }
+    },
+    "Witch's Potion (miniquest)": {
+      "difficulty": 0,
+      "members": false,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Within the Light": {
+      "difficulty": 3,
+      "members": true,
+      "questPoints": 2,
+      "requirements": {
+        "quest": [
+          "Mourning's End Part II",
+          "Mourning's End Part I",
+          "Roving Elves",
+          "Regicide",
+          "Underground Pass",
+          "Waterfall Quest",
+          "Sheep Herder",
+          "Big Chompy Bird Hunting"
+        ],
+        "skill": []
+      }
+    },
+    "You Are It": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": [],
+        "skill": []
+      }
+    },
+    "Zogre Flesh Eaters": {
+      "difficulty": 1,
+      "members": true,
+      "questPoints": 1,
+      "requirements": {
+        "quest": ["Big Chompy Bird Hunting"],
+        "skill": []
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import { xpTable } from "@/assets/xpTable";
+import { xpTable } from "@/utils/xpTable";
 import {
   Tooltip,
   TooltipContent,

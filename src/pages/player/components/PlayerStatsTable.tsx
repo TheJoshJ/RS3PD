@@ -10,12 +10,12 @@ import { getPlayerData } from "@/hooks/getPlayerData";
 import { formatNumber } from "@/utils/formatNumber";
 import { getSkillName } from "@/utils/getSkillName";
 import { Skeleton } from "@/components/ui/skeleton";
-import { getSkillImage } from "@/utils/getSkillImage";
 import LevelBar from "./LevelBar";
 import { Button } from "@/components/ui/button";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { MonthlyExpChart } from "./MonthlyExpChart";
+import { getSkillImage } from "@/utils/getSkillImage";
 
 interface PlayerStatsTableProps {
   username: string | undefined;
@@ -26,7 +26,7 @@ const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
     data: playerData,
     isLoading: isPlayerDataLoading,
     error: playerDataError,
-  } = getPlayerData(username ?? "tall n manly");
+  } = getPlayerData(username || "");
 
   const [expandedRows, setExpandedRows] = useState<Record<number, boolean>>({});
 

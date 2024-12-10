@@ -5,5 +5,6 @@ export const getSkillImage = (skillId: number): string => {
   if (!skillName) {
     throw new Error(`Invalid skill ID: ${skillId}`);
   }
-  return `/src/assets/images/skills/${skillName.toLowerCase()}.png`;
+
+  return `/skills/${skillName.toLowerCase()}.png`;
 };
