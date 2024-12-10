@@ -1,3 +1,4 @@
+import { getSkillName } from "@/utils/getSkillName";
 import { useQuery } from "@tanstack/react-query";
 
 export interface MonthData {
