@@ -1,6 +1,7 @@
 import { useParams } from "react-router";
 import PlayerStatsTable from "./components/PlayerStatsTable";
 import QuestRecomendations from "./components/QuestRecomendations";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 const Player = () => {
   const { username } = useParams();
@@ -25,18 +26,23 @@ const Player = () => {
         <div className="col-start-1 col-end-3 row-start-2 row-end-3 border-secondary border rounded-md">
           This will be quick links I think?
         </div>
+
         <div className="col-start-3 col-end-7 row-start-2 row-end-3 border-secondary border rounded-md">
           {username && <PlayerStatsTable username={username} />}
           {!username && (
             <div>
-              <div>I haven't gotten this set up to display without any search params yet... rip.</div>
+              <div>
+                I haven't gotten this set up to display without any search
+                params yet... rip.
+              </div>
               <div>Try searching for a player! - GIMJoshJ will work!</div>
             </div>
           )}
         </div>
-        <div className="col-start-7 col-end-11 row-start-2 row-end-3 border-secondary border rounded-md">
+
+        <ScrollArea className="col-start-7 col-end-11 row-start-2 row-end-3 max-h-[2165px] border-secondary border rounded-md">
           <QuestRecomendations />
-        </div>
+        </ScrollArea>
       </div>
     </>
   );
