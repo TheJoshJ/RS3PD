@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { ChevronDown, ChevronRight } from "lucide-react";
+import { Ellipsis } from "lucide-react";
 
 interface QuestData {
   difficulty: number;
@@ -38,15 +38,13 @@ export const QuestCard = ({
     return priorities[randomIndex];
   };
 
-  console.log(questData);
-
   return (
     <Card className="w-full">
       <CardHeader>
         <div className="flex flex-row justify-between items-center">
           <CardTitle>{questName}</CardTitle>
-          <Button variant="outline" onClick={onToggle}>
-            {expanded ? <ChevronDown /> : <ChevronRight />}
+          <Button variant="ghost" onClick={onToggle}>
+            <Ellipsis />
           </Button>
         </div>
       </CardHeader>
@@ -69,7 +67,6 @@ export const QuestCard = ({
               )}
             </div>
 
-            {/* Quest Requirements */}
             <div className="flex flex-col w-[40%]">
               <p className="font-bold border-b">Quest Requirements</p>
               {questData.requirements.quest.length > 0 ? (

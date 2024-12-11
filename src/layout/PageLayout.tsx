@@ -1,18 +1,32 @@
-import { ReactNode } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import Navbar from "./Navbar";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 interface ParentDivProps {
   children: ReactNode;
 }
 
-const PageLayout: React.FC<ParentDivProps> = ({ children }, key) => {
+const PageLayout: React.FC<ParentDivProps> = ({ children }) => {
+  const [windowHeight, setWindowHeight] = useState(window.innerHeight);
+
+  useEffect(() => {
+    // Update the window height when the window resizes
+    const handleResize = () => {
+      setWindowHeight(window.innerHeight);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
-    <div className="min-h-screen">
+    <ScrollArea style={{ height: `${windowHeight}px` }}>
       <Navbar />
-      <div className="flex flex-col gap-5" key={"layout-" + key}>
-        {children}
-      </div>
-    </div>
+      {children}
+    </ScrollArea>
   );
 };
 
