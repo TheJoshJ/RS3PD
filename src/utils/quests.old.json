@@ -1,7 +1,6 @@
 {
-  "Quests": [
-    {
-      "name": "As a First Resort",
+  "Quests": {
+    "As a First Resort": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -23,8 +22,7 @@
         ]
       }
     },
-    {
-      "name": "Big Chompy Bird Hunting",
+    "Big Chompy Bird Hunting": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -46,8 +44,7 @@
         ]
       }
     },
-    {
-      "name": "Cook's Assistant",
+    "Cook's Assistant": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -56,8 +53,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Death Plateau",
+    "Death Plateau": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -66,20 +62,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Diamond in the Rough",
+    "Diamond in the Rough": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Stolen Hearts"
-        ],
+        "quest": ["Stolen Hearts"],
         "skill": []
       }
     },
-    {
-      "name": "Druidic Ritual",
+    "Druidic Ritual": {
       "difficulty": 0,
       "members": false,
       "questPoints": 4,
@@ -88,8 +80,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Enter the Abyss (miniquest)",
+    "Enter the Abyss (miniquest)": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
@@ -103,8 +94,7 @@
         ]
       }
     },
-    {
-      "name": "Ernest the Chicken",
+    "Ernest the Chicken": {
       "difficulty": 0,
       "members": false,
       "questPoints": 4,
@@ -113,8 +103,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Family Crest",
+    "Family Crest": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -136,8 +125,7 @@
         ]
       }
     },
-    {
-      "name": "Gertrude's Cat",
+    "Gertrude's Cat": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -146,15 +134,12 @@
         "skill": []
       }
     },
-    {
-      "name": "Ghosts Ahoy",
+    "Ghosts Ahoy": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "The Restless Ghost"
-        ],
+        "quest": ["The Restless Ghost"],
         "skill": [
           {
             "skill": "agility",
@@ -165,13 +150,10 @@
             "level": 20
           }
         ],
-        "other": [
-          "Ability to enter Morytania"
-        ]
+        "other": ["Ability to enter Morytania"]
       }
     },
-    {
-      "name": "Goblin Diplomacy",
+    "Goblin Diplomacy": {
       "difficulty": 0,
       "members": false,
       "questPoints": 5,
@@ -180,8 +162,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Gunnar's Ground",
+    "Gunnar's Ground": {
       "difficulty": 0,
       "members": false,
       "questPoints": 5,
@@ -195,15 +176,12 @@
         ]
       }
     },
-    {
-      "name": "Haunted Mine",
+    "Haunted Mine": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Morytania"
-        ],
+        "quest": ["Morytania"],
         "skill": [
           {
             "skill": "crafting",
@@ -214,13 +192,10 @@
             "level": 15
           }
         ],
-        "other": [
-          "Ability to enter Morytania"
-        ]
+        "other": ["Ability to enter Morytania"]
       }
     },
-    {
-      "name": "Hazeel Cult",
+    "Hazeel Cult": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -229,15 +204,12 @@
         "skill": []
       }
     },
-    {
-      "name": "Holy Grail",
+    "Holy Grail": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Merlin's Crystal"
-        ],
+        "quest": ["Merlin's Crystal"],
         "skill": [
           {
             "skill": "attack",
@@ -246,15 +218,12 @@
         ]
       }
     },
-    {
-      "name": "Housing of Parliament",
+    "Housing of Parliament": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Necromancy!"
-        ],
+        "quest": ["Necromancy!"],
         "skill": [
           {
             "skill": "necromancy",
@@ -263,21 +232,16 @@
         ]
       }
     },
-    {
-      "name": "Icthlarin's Little Helper",
+    "Icthlarin's Little Helper": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Gertrude's Cat",
-          "Diamond in the Rough"
-        ],
+        "quest": ["Gertrude's Cat", "Diamond in the Rough"],
         "skill": []
       }
     },
-    {
-      "name": "Jungle Potion",
+    "Jungle Potion": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -291,48 +255,37 @@
         ]
       }
     },
-    {
-      "name": "Kili Row",
+    "Kili Row": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Necromancy!"
-        ],
+        "quest": ["Necromancy!"],
         "skill": [
           {
             "skill": "necromancy",
             "level": 20
           }
         ],
-        "other": [
-          "Collect a set of necromancer robes from Sostratus"
-        ]
+        "other": ["Collect a set of necromancer robes from Sostratus"]
       }
     },
-    {
-      "name": "Lair of Tarn Razorlor (miniquest)",
+    "Lair of Tarn Razorlor (miniquest)": {
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Haunted Mine"
-        ],
+        "quest": ["Haunted Mine"],
         "skill": [
           {
             "skill": "slayer",
             "level": 40
           }
         ],
-        "other": [
-          "Ability to enter Morytania"
-        ]
+        "other": ["Ability to enter Morytania"]
       }
     },
-    {
-      "name": "Lost City",
+    "Lost City": {
       "difficulty": 2,
       "members": true,
       "questPoints": 3,
@@ -350,16 +303,12 @@
         ]
       }
     },
-    {
-      "name": "Lunar Diplomacy",
+    "Lunar Diplomacy": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "The Fremennik Trials",
-          "Lost City"
-        ],
+        "quest": ["The Fremennik Trials", "Lost City"],
         "skill": [
           {
             "skill": "crafting",
@@ -392,8 +341,7 @@
         ]
       }
     },
-    {
-      "name": "Merlin's Crystal",
+    "Merlin's Crystal": {
       "difficulty": 1,
       "members": true,
       "questPoints": 6,
@@ -402,8 +350,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Missing, Presumed Death",
+    "Missing, Presumed Death": {
       "difficulty": 0,
       "members": false,
       "questPoints": 2,
@@ -412,8 +359,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Monk's Friend",
+    "Monk's Friend": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -422,8 +368,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Necromancy!",
+    "Necromancy!": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -432,8 +377,7 @@
         "skill": []
       }
     },
-    {
-      "name": "New Foundations",
+    "New Foundations": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -442,8 +386,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Once Upon a Slime",
+    "Once Upon a Slime": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -452,8 +395,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Priest in Peril",
+    "Priest in Peril": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -462,8 +404,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Recruitment Drive",
+    "Recruitment Drive": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -477,15 +418,12 @@
         ]
       }
     },
-    {
-      "name": "Rune Mythos",
+    "Rune Mythos": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Necromancy!"
-        ],
+        "quest": ["Necromancy!"],
         "skill": [
           {
             "skill": "necromancy",
@@ -494,8 +432,7 @@
         ]
       }
     },
-    {
-      "name": "Sheep Herder",
+    "Sheep Herder": {
       "difficulty": 0,
       "members": true,
       "questPoints": 4,
@@ -504,15 +441,12 @@
         "skill": []
       }
     },
-    {
-      "name": "Shilo Village",
+    "Shilo Village": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Jungle Potion"
-        ],
+        "quest": ["Jungle Potion"],
         "skill": [
           {
             "skill": "agility",
@@ -525,8 +459,7 @@
         ]
       }
     },
-    {
-      "name": "Stolen Hearts",
+    "Stolen Hearts": {
       "difficulty": 0,
       "members": false,
       "questPoints": 3,
@@ -535,8 +468,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Swept Away",
+    "Swept Away": {
       "difficulty": 0,
       "members": false,
       "questPoints": 2,
@@ -545,8 +477,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Blood Pact",
+    "The Blood Pact": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -555,8 +486,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Dig Site",
+    "The Dig Site": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -578,8 +508,7 @@
         ]
       }
     },
-    {
-      "name": "The Fremennik Trials",
+    "The Fremennik Trials": {
       "difficulty": 1,
       "members": true,
       "questPoints": 3,
@@ -601,8 +530,7 @@
         ]
       }
     },
-    {
-      "name": "The Golem",
+    "The Golem": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -620,20 +548,16 @@
         ]
       }
     },
-    {
-      "name": "The Jack of Spades",
+    "The Jack of Spades": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Diamond in the Rough"
-        ],
+        "quest": ["Diamond in the Rough"],
         "skill": []
       }
     },
-    {
-      "name": "The Lost Tribe",
+    "The Lost Tribe": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -655,8 +579,7 @@
         ]
       }
     },
-    {
-      "name": "The Restless Ghost",
+    "The Restless Ghost": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -665,28 +588,22 @@
         "skill": []
       }
     },
-    {
-      "name": "The Spirit of War",
+    "The Spirit of War": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Vessel of the Harbinger"
-        ],
+        "quest": ["Vessel of the Harbinger"],
         "skill": [
           {
             "skill": "necromancy",
             "level": 65
           }
         ],
-        "other": [
-          "3,000 City of Um vessel souls"
-        ]
+        "other": ["3,000 City of Um vessel souls"]
       }
     },
-    {
-      "name": "Tribal Totem",
+    "Tribal Totem": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -700,15 +617,12 @@
         ]
       }
     },
-    {
-      "name": "Troll Stronghold",
+    "Troll Stronghold": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Death Plateau"
-        ],
+        "quest": ["Death Plateau"],
         "skill": [
           {
             "skill": "agility",
@@ -721,8 +635,7 @@
         ]
       }
     },
-    {
-      "name": "Unstable Foundations",
+    "Unstable Foundations": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -731,16 +644,12 @@
         "skill": []
       }
     },
-    {
-      "name": "Vessel of the Harbinger",
+    "Vessel of the Harbinger": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Rune Mythos",
-          "Ghosts Ahoy"
-        ],
+        "quest": ["Rune Mythos", "Ghosts Ahoy"],
         "skill": [
           {
             "skill": "necromancy",
@@ -753,8 +662,7 @@
         ]
       }
     },
-    {
-      "name": "Violet is Blue",
+    "Violet is Blue": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -763,20 +671,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Violet is Blue Too",
+    "Violet is Blue Too": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Violet is Blue"
-        ],
+        "quest": ["Violet is Blue"],
         "skill": []
       }
     },
-    {
-      "name": "Waterfall Quest",
+    "Waterfall Quest": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -785,8 +689,7 @@
         "skill": []
       }
     },
-    {
-      "name": "What's Mine is Yours",
+    "What's Mine is Yours": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -800,8 +703,7 @@
         ]
       }
     },
-    {
-      "name": "Witch's House",
+    "Witch's House": {
       "difficulty": 1,
       "members": false,
       "questPoints": 4,
@@ -810,8 +712,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Wolf Whistle",
+    "Wolf Whistle": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -820,23 +721,17 @@
         "skill": []
       }
     },
-    {
-      "name": "'Phite Club",
+    "'Phite Club": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Our Man in the North"
-        ],
+        "quest": ["Our Man in the North"],
         "skill": [],
-        "other": [
-          "Achieve rank 9 overall Menaphos reputation"
-        ]
+        "other": ["Achieve rank 9 overall Menaphos reputation"]
       }
     },
-    {
-      "name": "A Christmas Reunion",
+    "A Christmas Reunion": {
       "difficulty": 0,
       "members": false,
       "questPoints": 0,
@@ -845,15 +740,12 @@
         "skill": []
       }
     },
-    {
-      "name": "A Clockwork Syringe",
+    "A Clockwork Syringe": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Rocking Out"
-        ],
+        "quest": ["Rocking Out"],
         "skill": [
           {
             "skill": "construction",
@@ -880,13 +772,10 @@
             "level": 74
           }
         ],
-        "other": [
-          "Own a player-owned house"
-        ]
+        "other": ["Own a player-owned house"]
       }
     },
-    {
-      "name": "A Fairy Tale I - Growing Pains",
+    "A Fairy Tale I - Growing Pains": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
@@ -898,8 +787,7 @@
         "skill": []
       }
     },
-    {
-      "name": "A Fairy Tale II - Cure a Queen",
+    "A Fairy Tale II - Cure a Queen": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
@@ -923,8 +811,7 @@
         ]
       }
     },
-    {
-      "name": "A Fairy Tale III - Battle at Ork's Rift",
+    "A Fairy Tale III - Battle at Ork's Rift": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
@@ -948,8 +835,7 @@
         ]
       }
     },
-    {
-      "name": "A Guild of Our Own (miniquest)",
+    "A Guild of Our Own (miniquest)": {
       "difficulty": 3,
       "members": true,
       "questPoints": 0,
@@ -974,8 +860,7 @@
         ]
       }
     },
-    {
-      "name": "A Shadow over Ashdale",
+    "A Shadow over Ashdale": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -984,8 +869,7 @@
         "skill": []
       }
     },
-    {
-      "name": "A Soul's Bane",
+    "A Soul's Bane": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -994,8 +878,7 @@
         "skill": []
       }
     },
-    {
-      "name": "A Tail of Two Cats",
+    "A Tail of Two Cats": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -1006,8 +889,7 @@
         "skill": []
       }
     },
-    {
-      "name": "A Void Dance",
+    "A Void Dance": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -1048,8 +930,7 @@
         ]
       }
     },
-    {
-      "name": "Aftermath",
+    "Aftermath": {
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
@@ -1060,15 +941,12 @@
         "skill": []
       }
     },
-    {
-      "name": "All Fired Up",
+    "All Fired Up": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Priest in Peril"
-        ],
+        "quest": ["Priest in Peril"],
         "skill": [
           {
             "skill": "firemaking",
@@ -1077,8 +955,7 @@
         ]
       }
     },
-    {
-      "name": "Alpha vs Omega",
+    "Alpha vs Omega": {
       "difficulty": 4,
       "members": true,
       "questPoints": 1,
@@ -1092,13 +969,10 @@
             "level": 95
           }
         ],
-        "other": [
-          "30,000 City of Um vessel souls"
-        ]
+        "other": ["30,000 City of Um vessel souls"]
       }
     },
-    {
-      "name": "Ancient Awakening",
+    "Ancient Awakening": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -1114,16 +988,12 @@
         ]
       }
     },
-    {
-      "name": "Animal Magnetism",
+    "Animal Magnetism": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "The Restless Ghost",
-          "Ernest the Chicken"
-        ],
+        "quest": ["The Restless Ghost", "Ernest the Chicken"],
         "skill": [
           {
             "skill": "crafting",
@@ -1146,13 +1016,10 @@
             "level": 35
           }
         ],
-        "other": [
-          "Ability to enter Morytania"
-        ]
+        "other": ["Ability to enter Morytania"]
       }
     },
-    {
-      "name": "Another Slice of H.A.M.",
+    "Another Slice of H.A.M.": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -1174,8 +1041,7 @@
         ]
       }
     },
-    {
-      "name": "Azzanadra's Quest",
+    "Azzanadra's Quest": {
       "difficulty": 2,
       "members": true,
       "questPoints": 3,
@@ -1201,16 +1067,12 @@
         ]
       }
     },
-    {
-      "name": "Back to my Roots",
+    "Back to my Roots": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "The Hand in the Sand",
-          "Tribal Totem"
-        ],
+        "quest": ["The Hand in the Sand", "Tribal Totem"],
         "skill": [
           {
             "skill": "agility",
@@ -1231,8 +1093,7 @@
         ]
       }
     },
-    {
-      "name": "Back to the Freezer",
+    "Back to the Freezer": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -1257,8 +1118,7 @@
         ]
       }
     },
-    {
-      "name": "Bar Crawl (miniquest) YOU STOPPED HERE",
+    "Bar Crawl (miniquest) YOU STOPPED HERE": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
@@ -1267,8 +1127,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Battle of Forinthry",
+    "Battle of Forinthry": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -1290,8 +1149,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Battle of the Monolith",
+    "Battle of the Monolith": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
@@ -1313,8 +1171,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Beneath Cursed Tides",
+    "Beneath Cursed Tides": {
       "difficulty": 1,
       "members": false,
       "questPoints": 1,
@@ -1323,45 +1180,34 @@
         "skill": []
       }
     },
-    {
-      "name": "Benedict's World Tour (miniquest)",
+    "Benedict's World Tour (miniquest)": {
       "difficulty": 1,
       "members": false,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Stolen Hearts"
-        ],
+        "quest": ["Stolen Hearts"],
         "skill": []
       }
     },
-    {
-      "name": "Between a Rock...",
+    "Between a Rock...": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Dwarf Cannon",
-          "Fishing Contest"
-        ],
+        "quest": ["Dwarf Cannon", "Fishing Contest"],
         "skill": []
       }
     },
-    {
-      "name": "Biohazard",
+    "Biohazard": {
       "difficulty": 0,
       "members": true,
       "questPoints": 3,
       "requirements": {
-        "quest": [
-          "Plague City"
-        ],
+        "quest": ["Plague City"],
         "skill": []
       }
     },
-    {
-      "name": "Birthright of the Dwarves",
+    "Birthright of the Dwarves": {
       "difficulty": 4,
       "members": true,
       "questPoints": 2,
@@ -1387,8 +1233,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Blood Runs Deep",
+    "Blood Runs Deep": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -1411,33 +1256,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Boric's Task I (miniquest)",
+    "Boric's Task I (miniquest)": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "What's Mine is Yours"
-        ],
+        "quest": ["What's Mine is Yours"],
         "skill": []
       }
     },
-    {
-      "name": "Boric's Task II (miniquest)",
+    "Boric's Task II (miniquest)": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Boric's Task I (miniquest)",
-          "What's Mine is Yours"
-        ],
+        "quest": ["Boric's Task I (miniquest)", "What's Mine is Yours"],
         "skill": []
       }
     },
-    {
-      "name": "Boric's Task III (miniquest)",
+    "Boric's Task III (miniquest)": {
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
@@ -1450,8 +1287,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Bringing Home the Bacon",
+    "Bringing Home the Bacon": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -1460,8 +1296,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Broken Home",
+    "Broken Home": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -1470,8 +1305,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Buyers and Cellars",
+    "Buyers and Cellars": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -1480,22 +1314,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Cabin Fever",
+    "Cabin Fever": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Pirate's Treasure",
-          "Rum Deal",
-          "Morytania"
-        ],
+        "quest": ["Pirate's Treasure", "Rum Deal", "Morytania"],
         "skill": []
       }
     },
-    {
-      "name": "Call of the Ancestors",
+    "Call of the Ancestors": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -1504,49 +1332,34 @@
         "skill": []
       }
     },
-    {
-      "name": "Carnillean Rising",
+    "Carnillean Rising": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "The Blood Pact",
-          "Hazeel Cult",
-          "quest points"
-        ],
+        "quest": ["The Blood Pact", "Hazeel Cult", "quest points"],
         "skill": []
       }
     },
-    {
-      "name": "Catapult Construction",
+    "Catapult Construction": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Regicide",
-          "Underground Pass",
-          "Biohazard",
-          "Plague City"
-        ],
+        "quest": ["Regicide", "Underground Pass", "Biohazard", "Plague City"],
         "skill": []
       }
     },
-    {
-      "name": "Chef's Assistant",
+    "Chef's Assistant": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Cook's Assistant"
-        ],
+        "quest": ["Cook's Assistant"],
         "skill": []
       }
     },
-    {
-      "name": "Children of Mah",
+    "Children of Mah": {
       "difficulty": 4,
       "members": true,
       "questPoints": 2,
@@ -1566,8 +1379,7 @@
         "skill": []
       }
     },
-    {
-      "name": "City of Senntisten",
+    "City of Senntisten": {
       "difficulty": 3,
       "members": true,
       "questPoints": 3,
@@ -1588,33 +1400,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Civil War I (miniquest)",
+    "Civil War I (miniquest)": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Daughter of Chaos"
-        ],
+        "quest": ["Daughter of Chaos"],
         "skill": []
       }
     },
-    {
-      "name": "Civil War II (miniquest)",
+    "Civil War II (miniquest)": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Civil War I (miniquest)",
-          "Daughter of Chaos"
-        ],
+        "quest": ["Civil War I (miniquest)", "Daughter of Chaos"],
         "skill": []
       }
     },
-    {
-      "name": "Civil War III (miniquest)",
+    "Civil War III (miniquest)": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
@@ -1627,8 +1431,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Clock Tower",
+    "Clock Tower": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -1637,8 +1440,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Cold War",
+    "Cold War": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -1647,8 +1449,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Contact!",
+    "Contact!": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -1662,21 +1463,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Creature of Fenkenstrain",
+    "Creature of Fenkenstrain": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "The Restless Ghost",
-          "Morytania"
-        ],
+        "quest": ["The Restless Ghost", "Morytania"],
         "skill": []
       }
     },
-    {
-      "name": "Crocodile Tears",
+    "Crocodile Tears": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -1707,20 +1503,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Curse of the Black Stone",
+    "Curse of the Black Stone": {
       "difficulty": 3,
       "members": true,
       "questPoints": 4,
       "requirements": {
-        "quest": [
-          "Impressing the Locals"
-        ],
+        "quest": ["Impressing the Locals"],
         "skill": []
       }
     },
-    {
-      "name": "Damage Control (miniquest)",
+    "Damage Control (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -1747,8 +1539,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Daughter of Chaos",
+    "Daughter of Chaos": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -1757,8 +1548,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Dead and Buried",
+    "Dead and Buried": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -1776,20 +1566,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Deadliest Catch",
+    "Deadliest Catch": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Tower of Life"
-        ],
+        "quest": ["Tower of Life"],
         "skill": []
       }
     },
-    {
-      "name": "Dealing with Scabaras",
+    "Dealing with Scabaras": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -1804,20 +1590,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Death to the Dorgeshuun",
+    "Death to the Dorgeshuun": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "The Lost Tribe"
-        ],
+        "quest": ["The Lost Tribe"],
         "skill": []
       }
     },
-    {
-      "name": "Defender of Varrock",
+    "Defender of Varrock": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
@@ -1834,8 +1616,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Demon Slayer",
+    "Demon Slayer": {
       "difficulty": 0,
       "members": false,
       "questPoints": 3,
@@ -1844,8 +1625,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Desert Slayer Dungeon (miniquest)",
+    "Desert Slayer Dungeon (miniquest)": {
       "difficulty": 3,
       "members": true,
       "questPoints": 0,
@@ -1861,8 +1641,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Desert Treasure",
+    "Desert Treasure": {
       "difficulty": 3,
       "members": true,
       "questPoints": 3,
@@ -1876,8 +1655,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Desperate Creatures",
+    "Desperate Creatures": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
@@ -1893,8 +1671,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Desperate Measures",
+    "Desperate Measures": {
       "difficulty": 1,
       "members": true,
       "questPoints": 3,
@@ -1909,35 +1686,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Desperate Times",
+    "Desperate Times": {
       "difficulty": 1,
       "members": true,
       "questPoints": 3,
       "requirements": {
-        "quest": [
-          "The Needle Skips",
-          "You Are It"
-        ],
+        "quest": ["The Needle Skips", "You Are It"],
         "skill": []
       }
     },
-    {
-      "name": "Devious Minds",
+    "Devious Minds": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Recruitment Drive",
-          "What's Mine is Yours",
-          "Morytania"
-        ],
+        "quest": ["Recruitment Drive", "What's Mine is Yours", "Morytania"],
         "skill": []
       }
     },
-    {
-      "name": "Dimension of Disaster",
+    "Dimension of Disaster": {
       "difficulty": 250,
       "members": true,
       "questPoints": 2,
@@ -1946,8 +1713,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Dimension of Disaster: Coin of the Realm",
+    "Dimension of Disaster: Coin of the Realm": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -1956,8 +1722,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Dimension of Disaster: Curse of Arrav",
+    "Dimension of Disaster: Curse of Arrav": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -1986,8 +1751,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Dimension of Disaster: Defender of Varrock",
+    "Dimension of Disaster: Defender of Varrock": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
@@ -2006,8 +1770,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Dimension of Disaster: Demon Slayer",
+    "Dimension of Disaster: Demon Slayer": {
       "difficulty": 1,
       "members": true,
       "questPoints": 3,
@@ -2022,8 +1785,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Dimension of Disaster: Shield of Arrav",
+    "Dimension of Disaster: Shield of Arrav": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -2035,22 +1797,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Dishonour among Thieves",
+    "Dishonour among Thieves": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Hazeel Cult",
-          "Missing, Presumed Death",
-          "Morytania"
-        ],
+        "quest": ["Hazeel Cult", "Missing, Presumed Death", "Morytania"],
         "skill": []
       }
     },
-    {
-      "name": "Do No Evil",
+    "Do No Evil": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -2099,20 +1855,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Doric's Task I (miniquest)",
+    "Doric's Task I (miniquest)": {
       "difficulty": 0,
       "members": false,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "What's Mine is Yours"
-        ],
+        "quest": ["What's Mine is Yours"],
         "skill": []
       }
     },
-    {
-      "name": "Doric's Task II (miniquest)",
+    "Doric's Task II (miniquest)": {
       "difficulty": 0,
       "members": false,
       "questPoints": 0,
@@ -2125,8 +1877,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Doric's Task III (miniquest)",
+    "Doric's Task III (miniquest)": {
       "difficulty": 1,
       "members": false,
       "questPoints": 0,
@@ -2140,8 +1891,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Doric's Task IV (miniquest)",
+    "Doric's Task IV (miniquest)": {
       "difficulty": 1,
       "members": false,
       "questPoints": 0,
@@ -2156,8 +1906,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Doric's Task V (miniquest)",
+    "Doric's Task V (miniquest)": {
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
@@ -2173,8 +1922,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Doric's Task VI (miniquest)",
+    "Doric's Task VI (miniquest)": {
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
@@ -2190,8 +1938,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Doric's Task VII (miniquest)",
+    "Doric's Task VII (miniquest)": {
       "difficulty": 3,
       "members": true,
       "questPoints": 0,
@@ -2206,8 +1953,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Doric's Task VIII (miniquest)",
+    "Doric's Task VIII (miniquest)": {
       "difficulty": 3,
       "members": true,
       "questPoints": 0,
@@ -2222,34 +1968,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Dragon Slayer",
+    "Dragon Slayer": {
       "difficulty": 2,
       "members": false,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "quest points"
-        ],
+        "quest": ["quest points"],
         "skill": []
       }
     },
-    {
-      "name": "Dream Mentor",
+    "Dream Mentor": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Lunar Diplomacy",
-          "The Fremennik Trials",
-          "Lost City"
-        ],
+        "quest": ["Lunar Diplomacy", "The Fremennik Trials", "Lost City"],
         "skill": []
       }
     },
-    {
-      "name": "Dwarf Cannon",
+    "Dwarf Cannon": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -2258,8 +1995,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Eadgar's Ruse",
+    "Eadgar's Ruse": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -2274,8 +2010,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Eagles' Peak",
+    "Eagles' Peak": {
       "difficulty": 0,
       "members": true,
       "questPoints": 2,
@@ -2284,8 +2019,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Elemental Workshop I",
+    "Elemental Workshop I": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -2294,33 +2028,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Elemental Workshop II",
+    "Elemental Workshop II": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Elemental Workshop I"
-        ],
+        "quest": ["Elemental Workshop I"],
         "skill": []
       }
     },
-    {
-      "name": "Elemental Workshop III",
+    "Elemental Workshop III": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Elemental Workshop II",
-          "Elemental Workshop I"
-        ],
+        "quest": ["Elemental Workshop II", "Elemental Workshop I"],
         "skill": []
       }
     },
-    {
-      "name": "Elemental Workshop IV",
+    "Elemental Workshop IV": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -2333,8 +2059,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Enakhra's Lament",
+    "Enakhra's Lament": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
@@ -2343,20 +2068,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Enlightened Journey",
+    "Enlightened Journey": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "quest points"
-        ],
+        "quest": ["quest points"],
         "skill": []
       }
     },
-    {
-      "name": "Evil Dave's Big Day Out",
+    "Evil Dave's Big Day Out": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -2373,8 +2094,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Extinction",
+    "Extinction": {
       "difficulty": 4,
       "members": true,
       "questPoints": 4,
@@ -2396,8 +2116,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Eye for an Eye (miniquest)",
+    "Eye for an Eye (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -2420,8 +2139,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Eye of Het I",
+    "Eye of Het I": {
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
@@ -2440,8 +2158,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Eye of Het II",
+    "Eye of Het II": {
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
@@ -2458,32 +2175,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Fate of the Gods",
+    "Fate of the Gods": {
       "difficulty": 4,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Missing, Presumed Death"
-        ],
+        "quest": ["Missing, Presumed Death"],
         "skill": []
       }
     },
-    {
-      "name": "Father and Son",
+    "Father and Son": {
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Father and Son (miniquest)"
-        ],
+        "quest": ["Father and Son (miniquest)"],
         "skill": []
       }
     },
-    {
-      "name": "Field of Screams",
+    "Field of Screams": {
       "difficulty": 0,
       "members": false,
       "questPoints": 0,
@@ -2492,8 +2202,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Fight Arena",
+    "Fight Arena": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
@@ -2502,8 +2211,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Final Destination (miniquest)",
+    "Final Destination (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -2523,8 +2231,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Finale",
+    "Finale": {
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
@@ -2538,8 +2245,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Fishing Contest",
+    "Fishing Contest": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -2548,20 +2254,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Flag Fall (miniquest)",
+    "Flag Fall (miniquest)": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Impressing the Locals"
-        ],
+        "quest": ["Impressing the Locals"],
         "skill": []
       }
     },
-    {
-      "name": "Flashback",
+    "Flashback": {
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
@@ -2573,8 +2275,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Flesh and Bone",
+    "Flesh and Bone": {
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
@@ -2587,33 +2288,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Foreshadowing",
+    "Foreshadowing": {
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Once Upon a Time in Gielinor: Foreshadowing"
-        ],
+        "quest": ["Once Upon a Time in Gielinor: Foreshadowing"],
         "skill": []
       }
     },
-    {
-      "name": "Forgettable Tale of a Drunken Dwarf",
+    "Forgettable Tale of a Drunken Dwarf": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "The Giant Dwarf",
-          "Fishing Contest"
-        ],
+        "quest": ["The Giant Dwarf", "Fishing Contest"],
         "skill": []
       }
     },
-    {
-      "name": "Forgiveness of a Chaos Dwarf",
+    "Forgiveness of a Chaos Dwarf": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -2629,8 +2322,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Fortunes",
+    "Fortunes": {
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
@@ -2643,32 +2335,25 @@
         "skill": []
       }
     },
-    {
-      "name": "From Tiny Acorns (miniquest)",
+    "From Tiny Acorns (miniquest)": {
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Buyers and Cellars"
-        ],
+        "quest": ["Buyers and Cellars"],
         "skill": []
       }
     },
-    {
-      "name": "Fur 'n Seek",
+    "Fur 'n Seek": {
       "difficulty": 0,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Rag and Bone Man"
-        ],
+        "quest": ["Rag and Bone Man"],
         "skill": []
       }
     },
-    {
-      "name": "Garden of Tranquillity",
+    "Garden of Tranquillity": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -2681,8 +2366,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Ghosts from the Past (miniquest)",
+    "Ghosts from the Past (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -2709,8 +2393,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Glorious Memories",
+    "Glorious Memories": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -2726,20 +2409,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Gower Quest",
+    "Gower Quest": {
       "difficulty": 2,
       "members": false,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "quest points"
-        ],
+        "quest": ["quest points"],
         "skill": []
       }
     },
-    {
-      "name": "Great Egg-spectations",
+    "Great Egg-spectations": {
       "difficulty": 0,
       "members": false,
       "questPoints": 0,
@@ -2748,20 +2427,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Grim Tales",
+    "Grim Tales": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Witch's House"
-        ],
+        "quest": ["Witch's House"],
         "skill": []
       }
     },
-    {
-      "name": "Harbinger (miniquest)",
+    "Harbinger (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -2786,20 +2461,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Head of the Family (miniquest)",
+    "Head of the Family (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Impressing the Locals"
-        ],
+        "quest": ["Impressing the Locals"],
         "skill": []
       }
     },
-    {
-      "name": "Heart of Stone",
+    "Heart of Stone": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -2815,8 +2486,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Heartstealer",
+    "Heartstealer": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -2825,20 +2495,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Helping Laniakea",
+    "Helping Laniakea": {
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Helping Laniakea (miniquest)"
-        ],
+        "quest": ["Helping Laniakea (miniquest)"],
         "skill": []
       }
     },
-    {
-      "name": "Hermy and Bass",
+    "Hermy and Bass": {
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
@@ -2859,8 +2525,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Hero's Welcome",
+    "Hero's Welcome": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
@@ -2875,8 +2540,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Heroes' Quest",
+    "Heroes' Quest": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -2890,8 +2554,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Hopespear's Will (miniquest)",
+    "Hopespear's Will (miniquest)": {
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
@@ -2916,33 +2579,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Horror from the Deep",
+    "Horror from the Deep": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Bar Crawl (miniquest)"
-        ],
+        "quest": ["Bar Crawl (miniquest)"],
         "skill": []
       }
     },
-    {
-      "name": "Hunt for Red Raktuber",
+    "Hunt for Red Raktuber": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Cold War",
-          "Sea Slug"
-        ],
+        "quest": ["Cold War", "Sea Slug"],
         "skill": []
       }
     },
-    {
-      "name": "Imp Catcher",
+    "Imp Catcher": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -2951,8 +2606,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Impressing the Locals",
+    "Impressing the Locals": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -2961,8 +2615,7 @@
         "skill": []
       }
     },
-    {
-      "name": "In Aid of the Myreque",
+    "In Aid of the Myreque": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -2977,8 +2630,7 @@
         "skill": []
       }
     },
-    {
-      "name": "In Memory of the Myreque (miniquest)",
+    "In Memory of the Myreque (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -3001,8 +2653,7 @@
         "skill": []
       }
     },
-    {
-      "name": "In Pyre Need",
+    "In Pyre Need": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -3011,8 +2662,7 @@
         "skill": []
       }
     },
-    {
-      "name": "In Search of the Myreque",
+    "In Search of the Myreque": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -3026,8 +2676,7 @@
         "skill": []
       }
     },
-    {
-      "name": "It's Snow Bother",
+    "It's Snow Bother": {
       "difficulty": 0,
       "members": false,
       "questPoints": 0,
@@ -3036,8 +2685,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Jed Hunter (miniquest)",
+    "Jed Hunter (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -3056,8 +2704,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Kennith's Concerns",
+    "Kennith's Concerns": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -3073,20 +2720,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Kindred Spirits",
+    "Kindred Spirits": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Missing, Presumed Death"
-        ],
+        "quest": ["Missing, Presumed Death"],
         "skill": []
       }
     },
-    {
-      "name": "King of the Dwarves",
+    "King of the Dwarves": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -3111,8 +2754,7 @@
         "skill": []
       }
     },
-    {
-      "name": "King's Ransom",
+    "King's Ransom": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -3128,8 +2770,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Koschei's Troubles (miniquest)",
+    "Koschei's Troubles (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -3153,8 +2794,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Land of the Goblins",
+    "Land of the Goblins": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -3170,8 +2810,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Legacy of Seergaze",
+    "Legacy of Seergaze": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
@@ -3188,8 +2827,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Legends' Quest",
+    "Legends' Quest": {
       "difficulty": 3,
       "members": true,
       "questPoints": 4,
@@ -3206,8 +2844,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Let Them Eat Pie",
+    "Let Them Eat Pie": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -3216,33 +2853,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Lost Her Marbles (miniquest)",
+    "Lost Her Marbles (miniquest)": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "From Tiny Acorns (miniquest)",
-          "Buyers and Cellars"
-        ],
+        "quest": ["From Tiny Acorns (miniquest)", "Buyers and Cellars"],
         "skill": []
       }
     },
-    {
-      "name": "Love Story",
+    "Love Story": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Swan Song"
-        ],
+        "quest": ["Swan Song"],
         "skill": []
       }
     },
-    {
-      "name": "Mahjarrat Memories (miniquest)",
+    "Mahjarrat Memories (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -3268,35 +2897,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Making History",
+    "Making History": {
       "difficulty": 1,
       "members": true,
       "questPoints": 3,
       "requirements": {
-        "quest": [
-          "The Restless Ghost",
-          "Morytania"
-        ],
+        "quest": ["The Restless Ghost", "Morytania"],
         "skill": []
       }
     },
-    {
-      "name": "Meeting History",
+    "Meeting History": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Making History",
-          "The Restless Ghost",
-          "Morytania"
-        ],
+        "quest": ["Making History", "The Restless Ghost", "Morytania"],
         "skill": []
       }
     },
-    {
-      "name": "Missing My Mummy",
+    "Missing My Mummy": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -3312,21 +2931,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Monkey Madness",
+    "Monkey Madness": {
       "difficulty": 3,
       "members": true,
       "questPoints": 3,
       "requirements": {
-        "quest": [
-          "The Grand Tree",
-          "Tree Gnome Village"
-        ],
+        "quest": ["The Grand Tree", "Tree Gnome Village"],
         "skill": []
       }
     },
-    {
-      "name": "Mountain Daughter",
+    "Mountain Daughter": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -3335,8 +2949,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Mourning's End Part I",
+    "Mourning's End Part I": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -3354,8 +2967,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Mourning's End Part II",
+    "Mourning's End Part II": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -3373,8 +2985,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Murder Mystery",
+    "Murder Mystery": {
       "difficulty": 0,
       "members": true,
       "questPoints": 3,
@@ -3383,8 +2994,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Murder on the Border",
+    "Murder on the Border": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -3399,8 +3009,7 @@
         "skill": []
       }
     },
-    {
-      "name": "My Arm's Big Adventure",
+    "My Arm's Big Adventure": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -3417,8 +3026,7 @@
         "skill": []
       }
     },
-    {
-      "name": "My One and Only Lute",
+    "My One and Only Lute": {
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
@@ -3430,8 +3038,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Myths of the White Lands",
+    "Myths of the White Lands": {
       "difficulty": 0,
       "members": false,
       "questPoints": 2,
@@ -3440,36 +3047,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Nadir (saga)",
+    "Nadir (saga)": {
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Skaldrun",
-          "frozen floors",
-          "Daemonheim"
-        ],
+        "quest": ["Skaldrun", "frozen floors", "Daemonheim"],
         "skill": []
       }
     },
-    {
-      "name": "Nature Spirit",
+    "Nature Spirit": {
       "difficulty": 0,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Priest in Peril",
-          "The Restless Ghost",
-          "Morytania"
-        ],
+        "quest": ["Priest in Peril", "The Restless Ghost", "Morytania"],
         "skill": []
       }
     },
-    {
-      "name": "Nomad's Elegy",
+    "Nomad's Elegy": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -3521,8 +3117,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Nomad's Requiem",
+    "Nomad's Requiem": {
       "difficulty": 4,
       "members": true,
       "questPoints": 3,
@@ -3542,8 +3137,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Observatory Quest",
+    "Observatory Quest": {
       "difficulty": 0,
       "members": true,
       "questPoints": 2,
@@ -3552,8 +3146,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Ode of the Devourer",
+    "Ode of the Devourer": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -3586,20 +3179,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Olaf's Quest",
+    "Olaf's Quest": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "The Fremennik Trials"
-        ],
+        "quest": ["The Fremennik Trials"],
         "skill": []
       }
     },
-    {
-      "name": "Once Upon a Time in Gielinor",
+    "Once Upon a Time in Gielinor": {
       "difficulty": 0,
       "members": true,
       "questPoints": 4,
@@ -3608,8 +3197,7 @@
         "skill": []
       }
     },
-    {
-      "name": "One Foot in the Grave (miniquest)",
+    "One Foot in the Grave (miniquest)": {
       "difficulty": 3,
       "members": true,
       "questPoints": 0,
@@ -3623,8 +3211,7 @@
         "skill": []
       }
     },
-    {
-      "name": "One of a Kind",
+    "One of a Kind": {
       "difficulty": 4,
       "members": true,
       "questPoints": 1,
@@ -3642,8 +3229,7 @@
         "skill": []
       }
     },
-    {
-      "name": "One Piercing Note",
+    "One Piercing Note": {
       "difficulty": 0,
       "members": false,
       "questPoints": 2,
@@ -3652,21 +3238,16 @@
         "skill": []
       }
     },
-    {
-      "name": "One Small Favour",
+    "One Small Favour": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Shilo Village",
-          "Jungle Potion"
-        ],
+        "quest": ["Shilo Village", "Jungle Potion"],
         "skill": []
       }
     },
-    {
-      "name": "Osseous Rex",
+    "Osseous Rex": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -3675,8 +3256,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Our Man in the North",
+    "Our Man in the North": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -3709,8 +3289,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Perils of Ice Mountain",
+    "Perils of Ice Mountain": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -3719,8 +3298,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Pieces of Hate",
+    "Pieces of Hate": {
       "difficulty": 4,
       "members": true,
       "questPoints": 2,
@@ -3743,8 +3321,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Pirate's Treasure",
+    "Pirate's Treasure": {
       "difficulty": 0,
       "members": false,
       "questPoints": 2,
@@ -3753,8 +3330,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Plague City",
+    "Plague City": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -3763,8 +3339,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Plague's End",
+    "Plague's End": {
       "difficulty": 4,
       "members": true,
       "questPoints": 2,
@@ -3790,21 +3365,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Purple Cat (miniquest)",
+    "Purple Cat (miniquest)": {
       "difficulty": 1,
       "members": false,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Swept Away",
-          "Gertrude's Cat"
-        ],
+        "quest": ["Swept Away", "Gertrude's Cat"],
         "skill": []
       }
     },
-    {
-      "name": "Quiet Before the Swarm",
+    "Quiet Before the Swarm": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -3819,8 +3389,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Rag and Bone Man",
+    "Rag and Bone Man": {
       "difficulty": 0,
       "members": true,
       "questPoints": 2,
@@ -3829,8 +3398,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Raksha, the Shadow Colossus",
+    "Raksha, the Shadow Colossus": {
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
@@ -3839,8 +3407,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Rat Catchers",
+    "Rat Catchers": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -3854,8 +3421,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Rebuilding Edgeville (miniquest)",
+    "Rebuilding Edgeville (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -3897,8 +3463,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Recipe for Disaster",
+    "Recipe for Disaster": {
       "difficulty": 250,
       "members": true,
       "questPoints": 0,
@@ -3910,20 +3475,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Recipe for Disaster: Another Cook's Quest",
+    "Recipe for Disaster: Another Cook's Quest": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Cook's Assistant"
-        ],
+        "quest": ["Cook's Assistant"],
         "skill": []
       }
     },
-    {
-      "name": "Recipe for Disaster: Defeating the Culinaromancer",
+    "Recipe for Disaster: Defeating the Culinaromancer": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -3978,8 +3539,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Recipe for Disaster: Freeing Evil Dave",
+    "Recipe for Disaster: Freeing Evil Dave": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -3995,8 +3555,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Recipe for Disaster: Freeing King Awowogei",
+    "Recipe for Disaster: Freeing King Awowogei": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -4011,8 +3570,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Recipe for Disaster: Freeing Pirate Pete",
+    "Recipe for Disaster: Freeing Pirate Pete": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -4024,8 +3582,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Recipe for Disaster: Freeing Sir Amik Varze",
+    "Recipe for Disaster: Freeing Sir Amik Varze": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -4046,8 +3603,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Recipe for Disaster: Freeing Skrach Uglogwee",
+    "Recipe for Disaster: Freeing Skrach Uglogwee": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -4060,8 +3616,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Recipe for Disaster: Freeing the Goblin Generals",
+    "Recipe for Disaster: Freeing the Goblin Generals": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -4074,8 +3629,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Recipe for Disaster: Freeing the Lumbridge Sage",
+    "Recipe for Disaster: Freeing the Lumbridge Sage": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -4087,8 +3641,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Recipe for Disaster: Freeing the Mountain Dwarf",
+    "Recipe for Disaster: Freeing the Mountain Dwarf": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -4101,22 +3654,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Regicide",
+    "Regicide": {
       "difficulty": 3,
       "members": true,
       "questPoints": 3,
       "requirements": {
-        "quest": [
-          "Underground Pass",
-          "Biohazard",
-          "Plague City"
-        ],
+        "quest": ["Underground Pass", "Biohazard", "Plague City"],
         "skill": []
       }
     },
-    {
-      "name": "Remains of the Necrolord",
+    "Remains of the Necrolord": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -4140,8 +3687,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Requiem for a Dragon",
+    "Requiem for a Dragon": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -4175,8 +3721,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Ritual of the Mahjarrat",
+    "Ritual of the Mahjarrat": {
       "difficulty": 4,
       "members": true,
       "questPoints": 3,
@@ -4215,8 +3760,7 @@
         "skill": []
       }
     },
-    {
-      "name": "River of Blood",
+    "River of Blood": {
       "difficulty": 4,
       "members": true,
       "questPoints": 3,
@@ -4241,8 +3785,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Rocking Out",
+    "Rocking Out": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -4263,8 +3806,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Roving Elves",
+    "Roving Elves": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -4279,33 +3821,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Royal Trouble",
+    "Royal Trouble": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Throne of Miscellania",
-          "The Fremennik Trials"
-        ],
+        "quest": ["Throne of Miscellania", "The Fremennik Trials"],
         "skill": []
       }
     },
-    {
-      "name": "Rum Deal",
+    "Rum Deal": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Morytania"
-        ],
+        "quest": ["Morytania"],
         "skill": []
       }
     },
-    {
-      "name": "Rune Mechanics",
+    "Rune Mechanics": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -4314,20 +3848,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Rune Memories",
+    "Rune Memories": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Rune Mysteries"
-        ],
+        "quest": ["Rune Mysteries"],
         "skill": []
       }
     },
-    {
-      "name": "Rune Mysteries",
+    "Rune Mysteries": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -4336,8 +3866,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Salt in the Wound",
+    "Salt in the Wound": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -4354,20 +3883,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Scorpion Catcher",
+    "Scorpion Catcher": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Bar Crawl (miniquest)"
-        ],
+        "quest": ["Bar Crawl (miniquest)"],
         "skill": []
       }
     },
-    {
-      "name": "Sea Slug",
+    "Sea Slug": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -4376,33 +3901,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Shades of Mort'ton",
+    "Shades of Mort'ton": {
       "difficulty": 1,
       "members": true,
       "questPoints": 3,
       "requirements": {
-        "quest": [
-          "Morytania"
-        ],
+        "quest": ["Morytania"],
         "skill": []
       }
     },
-    {
-      "name": "Shadow of the Storm",
+    "Shadow of the Storm": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Demon Slayer",
-          "The Golem"
-        ],
+        "quest": ["Demon Slayer", "The Golem"],
         "skill": []
       }
     },
-    {
-      "name": "Sheep Shearer (miniquest)",
+    "Sheep Shearer (miniquest)": {
       "difficulty": 0,
       "members": false,
       "questPoints": 0,
@@ -4411,8 +3928,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Shield of Arrav",
+    "Shield of Arrav": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -4421,8 +3937,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Sins of the Father",
+    "Sins of the Father": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -4438,8 +3953,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Skelly By Everlight",
+    "Skelly By Everlight": {
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
@@ -4452,8 +3966,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Sliske's Endgame",
+    "Sliske's Endgame": {
       "difficulty": 4,
       "members": true,
       "questPoints": 3,
@@ -4485,8 +3998,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Smoking Kills",
+    "Smoking Kills": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -4501,22 +4013,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Some Like It Cold",
+    "Some Like It Cold": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Hunt for Red Raktuber",
-          "Cold War",
-          "Sea Slug"
-        ],
+        "quest": ["Hunt for Red Raktuber", "Cold War", "Sea Slug"],
         "skill": []
       }
     },
-    {
-      "name": "Song from the Depths",
+    "Song from the Depths": {
       "difficulty": 0,
       "members": false,
       "questPoints": 1,
@@ -4525,32 +4031,25 @@
         "skill": []
       }
     },
-    {
-      "name": "Soul Searching",
+    "Soul Searching": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Necromancy!"
-        ],
+        "quest": ["Necromancy!"],
         "skill": []
       }
     },
-    {
-      "name": "Spirit of Summer",
+    "Spirit of Summer": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "The Restless Ghost"
-        ],
+        "quest": ["The Restless Ghost"],
         "skill": []
       }
     },
-    {
-      "name": "Spirits of the Elid",
+    "Spirits of the Elid": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -4559,8 +4058,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Spiritual Enlightenment (miniquest)",
+    "Spiritual Enlightenment (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -4573,8 +4071,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Succession",
+    "Succession": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -4589,21 +4086,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Summer's End",
+    "Summer's End": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Spirit of Summer",
-          "The Restless Ghost"
-        ],
+        "quest": ["Spirit of Summer", "The Restless Ghost"],
         "skill": []
       }
     },
-    {
-      "name": "Swan Song",
+    "Swan Song": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -4612,20 +4104,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Tai Bwo Wannai Trio",
+    "Tai Bwo Wannai Trio": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Jungle Potion"
-        ],
+        "quest": ["Jungle Potion"],
         "skill": []
       }
     },
-    {
-      "name": "Tales of Nomad (miniquest)",
+    "Tales of Nomad (miniquest)": {
       "difficulty": 3,
       "members": true,
       "questPoints": 0,
@@ -4642,21 +4130,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Tales of the God Wars (miniquest)",
+    "Tales of the God Wars (miniquest)": {
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Morytania",
-          "God Wars Dungeon"
-        ],
+        "quest": ["Morytania", "God Wars Dungeon"],
         "skill": []
       }
     },
-    {
-      "name": "Tears of Guthix",
+    "Tears of Guthix": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -4665,8 +4148,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Temple of Ikov",
+    "Temple of Ikov": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -4675,20 +4157,16 @@
         "skill": []
       }
     },
-    {
-      "name": "That Old Black Magic",
+    "That Old Black Magic": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Necromancy!"
-        ],
+        "quest": ["Necromancy!"],
         "skill": []
       }
     },
-    {
-      "name": "The Branches of Darkmeyer",
+    "The Branches of Darkmeyer": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -4703,20 +4181,16 @@
         "skill": []
       }
     },
-    {
-      "name": "The Brink of Extinction",
+    "The Brink of Extinction": {
       "difficulty": 4,
       "members": true,
       "questPoints": 3,
       "requirements": {
-        "quest": [
-          "The Elder Kiln"
-        ],
+        "quest": ["The Elder Kiln"],
         "skill": []
       }
     },
-    {
-      "name": "The Chosen Commander",
+    "The Chosen Commander": {
       "difficulty": 2,
       "members": true,
       "questPoints": 3,
@@ -4733,8 +4207,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Curse of Arrav",
+    "The Curse of Arrav": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -4768,8 +4241,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Curse of Zaros (miniquest)",
+    "The Curse of Zaros (miniquest)": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
@@ -4786,8 +4258,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Darkness of Hallowvale",
+    "The Darkness of Hallowvale": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -4803,8 +4274,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Death of Chivalry",
+    "The Death of Chivalry": {
       "difficulty": 0,
       "members": false,
       "questPoints": 3,
@@ -4813,8 +4283,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Elder Kiln",
+    "The Elder Kiln": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -4823,20 +4292,16 @@
         "skill": []
       }
     },
-    {
-      "name": "The Eyes of Glouphrie",
+    "The Eyes of Glouphrie": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "The Grand Tree"
-        ],
+        "quest": ["The Grand Tree"],
         "skill": []
       }
     },
-    {
-      "name": "The Feud",
+    "The Feud": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -4845,8 +4310,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Firemaker's Curse",
+    "The Firemaker's Curse": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -4855,20 +4319,16 @@
         "skill": []
       }
     },
-    {
-      "name": "The Fremennik Isles",
+    "The Fremennik Isles": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "The Fremennik Trials"
-        ],
+        "quest": ["The Fremennik Trials"],
         "skill": []
       }
     },
-    {
-      "name": "The General's Shadow (miniquest)",
+    "The General's Shadow (miniquest)": {
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
@@ -4887,8 +4347,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Giant Dwarf",
+    "The Giant Dwarf": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -4897,8 +4356,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Grand Tree",
+    "The Grand Tree": {
       "difficulty": 2,
       "members": true,
       "questPoints": 5,
@@ -4907,8 +4365,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Great Brain Robbery",
+    "The Great Brain Robbery": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
@@ -4928,8 +4385,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Hand in the Sand",
+    "The Hand in the Sand": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -4938,20 +4394,16 @@
         "skill": []
       }
     },
-    {
-      "name": "The Hunt for Surok (miniquest)",
+    "The Hunt for Surok (miniquest)": {
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "What Lies Below"
-        ],
+        "quest": ["What Lies Below"],
         "skill": []
       }
     },
-    {
-      "name": "The Knight's Sword",
+    "The Knight's Sword": {
       "difficulty": 1,
       "members": false,
       "questPoints": 1,
@@ -4960,8 +4412,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Light Within",
+    "The Light Within": {
       "difficulty": 4,
       "members": true,
       "questPoints": 2,
@@ -4985,8 +4436,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Lord of Vampyrium",
+    "The Lord of Vampyrium": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -5001,8 +4451,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Lost Toys (miniquest)",
+    "The Lost Toys (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -5017,8 +4466,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Mighty Fall",
+    "The Mighty Fall": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -5037,8 +4485,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Needle Skips",
+    "The Needle Skips": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -5047,8 +4494,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Path of Glouphrie",
+    "The Path of Glouphrie": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -5062,8 +4508,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Prisoner of Glouphrie",
+    "The Prisoner of Glouphrie": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -5084,8 +4529,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Slug Menace",
+    "The Slug Menace": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -5100,8 +4544,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Tale of the Muspah",
+    "The Tale of the Muspah": {
       "difficulty": 0,
       "members": true,
       "questPoints": 1,
@@ -5110,8 +4553,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Temple at Senntisten",
+    "The Temple at Senntisten": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -5156,8 +4598,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The Tourist Trap",
+    "The Tourist Trap": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -5166,21 +4607,16 @@
         "skill": []
       }
     },
-    {
-      "name": "The Vault of Shadows",
+    "The Vault of Shadows": {
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Shadow Realm",
-          "Kharid-et Dig Site"
-        ],
+        "quest": ["Shadow Realm", "Kharid-et Dig Site"],
         "skill": []
       }
     },
-    {
-      "name": "The Void Stares Back",
+    "The Void Stares Back": {
       "difficulty": 4,
       "members": true,
       "questPoints": 1,
@@ -5198,8 +4634,7 @@
         "skill": []
       }
     },
-    {
-      "name": "The World Wakes",
+    "The World Wakes": {
       "difficulty": 4,
       "members": true,
       "questPoints": 3,
@@ -5208,62 +4643,43 @@
         "skill": []
       }
     },
-    {
-      "name": "Thok It To 'Em (saga)",
+    "Thok It To 'Em (saga)": {
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Skaldrun",
-          "frozen floors",
-          "Daemonheim"
-        ],
+        "quest": ["Skaldrun", "frozen floors", "Daemonheim"],
         "skill": []
       }
     },
-    {
-      "name": "Thok Your Block Off (saga)",
+    "Thok Your Block Off (saga)": {
       "difficulty": 3,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Skaldrun",
-          "frozen floors",
-          "Daemonheim"
-        ],
+        "quest": ["Skaldrun", "frozen floors", "Daemonheim"],
         "skill": []
       }
     },
-    {
-      "name": "Three's Company (saga)",
+    "Three's Company (saga)": {
       "difficulty": 1,
       "members": false,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Skaldrun",
-          "frozen floors",
-          "Daemonheim"
-        ],
+        "quest": ["Skaldrun", "frozen floors", "Daemonheim"],
         "skill": []
       }
     },
-    {
-      "name": "Throne of Miscellania",
+    "Throne of Miscellania": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "The Fremennik Trials"
-        ],
+        "quest": ["The Fremennik Trials"],
         "skill": []
       }
     },
-    {
-      "name": "TokTz-Ket-Dill",
+    "TokTz-Ket-Dill": {
       "difficulty": 2,
       "members": true,
       "questPoints": 1,
@@ -5272,8 +4688,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Tomes of the Warlock",
+    "Tomes of the Warlock": {
       "difficulty": 3,
       "members": true,
       "questPoints": 1,
@@ -5294,20 +4709,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Tortle Combat (miniquest)",
+    "Tortle Combat (miniquest)": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "player-owned farm tutorial"
-        ],
+        "quest": ["player-owned farm tutorial"],
         "skill": []
       }
     },
-    {
-      "name": "Tower of Life",
+    "Tower of Life": {
       "difficulty": 0,
       "members": true,
       "questPoints": 2,
@@ -5316,8 +4727,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Tree Gnome Village",
+    "Tree Gnome Village": {
       "difficulty": 1,
       "members": true,
       "questPoints": 2,
@@ -5326,21 +4736,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Troll Romance",
+    "Troll Romance": {
       "difficulty": 2,
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Troll Stronghold",
-          "Death Plateau"
-        ],
+        "quest": ["Troll Stronghold", "Death Plateau"],
         "skill": []
       }
     },
-    {
-      "name": "Tuai Leit's Own (miniquest)",
+    "Tuai Leit's Own (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -5367,8 +4772,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Twilight of the Gods",
+    "Twilight of the Gods": {
       "difficulty": 3,
       "members": true,
       "questPoints": 3,
@@ -5394,21 +4798,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Underground Pass",
+    "Underground Pass": {
       "difficulty": 2,
       "members": true,
       "questPoints": 5,
       "requirements": {
-        "quest": [
-          "Biohazard",
-          "Plague City"
-        ],
+        "quest": ["Biohazard", "Plague City"],
         "skill": []
       }
     },
-    {
-      "name": "Unwelcome Guests",
+    "Unwelcome Guests": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -5424,8 +4823,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Vampyre Slayer",
+    "Vampyre Slayer": {
       "difficulty": 0,
       "members": false,
       "questPoints": 3,
@@ -5434,22 +4832,16 @@
         "skill": []
       }
     },
-    {
-      "name": "Vengeance (saga)",
+    "Vengeance (saga)": {
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Skaldrun",
-          "frozen floors",
-          "Daemonheim"
-        ],
+        "quest": ["Skaldrun", "frozen floors", "Daemonheim"],
         "skill": []
       }
     },
-    {
-      "name": "Wandering Ga'al (miniquest)",
+    "Wandering Ga'al (miniquest)": {
       "difficulty": 4,
       "members": true,
       "questPoints": 0,
@@ -5466,8 +4858,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Wanted!",
+    "Wanted!": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -5480,8 +4871,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Watchtower",
+    "Watchtower": {
       "difficulty": 1,
       "members": true,
       "questPoints": 4,
@@ -5490,8 +4880,7 @@
         "skill": []
       }
     },
-    {
-      "name": "What Lies Below",
+    "What Lies Below": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -5500,8 +4889,7 @@
         "skill": []
       }
     },
-    {
-      "name": "While Guthix Sleeps",
+    "While Guthix Sleeps": {
       "difficulty": 4,
       "members": true,
       "questPoints": 5,
@@ -5548,8 +4936,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Witch's Potion (miniquest)",
+    "Witch's Potion (miniquest)": {
       "difficulty": 0,
       "members": false,
       "questPoints": 0,
@@ -5558,8 +4945,7 @@
         "skill": []
       }
     },
-    {
-      "name": "Within the Light",
+    "Within the Light": {
       "difficulty": 3,
       "members": true,
       "questPoints": 2,
@@ -5577,8 +4963,7 @@
         "skill": []
       }
     },
-    {
-      "name": "You Are It",
+    "You Are It": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
@@ -5587,17 +4972,14 @@
         "skill": []
       }
     },
-    {
-      "name": "Zogre Flesh Eaters",
+    "Zogre Flesh Eaters": {
       "difficulty": 1,
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "Big Chompy Bird Hunting"
-        ],
+        "quest": ["Big Chompy Bird Hunting"],
         "skill": []
       }
     }
-  ]
+  }
 }
