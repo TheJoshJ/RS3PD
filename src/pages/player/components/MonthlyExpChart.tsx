@@ -27,7 +27,6 @@ export const MonthlyExpChart = ({
   const { data: expHistoryData } = getExperienceHistory(username, skillId);
 
   // Extract data for the chart
-  console.log(expHistoryData);
   const chartData = React.useMemo(() => {
     const monthlyXpGain = expHistoryData?.monthlyXpGain.find(
       (skill) => skill.skillId === skillId

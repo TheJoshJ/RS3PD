@@ -1,6 +1,7 @@
 import { ReactNode, useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Toaster } from "@/components/ui/toaster";
 
 interface ParentDivProps {
   children: ReactNode;
@@ -26,6 +27,7 @@ const PageLayout: React.FC<ParentDivProps> = ({ children }) => {
     <ScrollArea style={{ height: `${windowHeight}px` }}>
       <Navbar />
       {children}
+      <Toaster />
     </ScrollArea>
   );
 };
