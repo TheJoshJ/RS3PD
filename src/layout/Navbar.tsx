@@ -1,10 +1,8 @@
 import { ModeToggle } from "@/components/mode-toggle";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { SearchIcon } from "lucide-react";
-import { useState } from "react";
 import { useNavigate } from "react-router";
 import logo from "@/assets/logo500x.png";
+import { Autocomplete } from "./components/Autocomplete";
 
 const NavButtons = {
   Player: { text: "Player", link: "/player" },
@@ -13,7 +11,6 @@ const NavButtons = {
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const [searchVal, setSearchVal] = useState("");
 
   return (
     <div>
@@ -40,27 +37,7 @@ const Navbar = () => {
           ))}
         </div>
         <div className="flex flex-row gap-2 items-center">
-          <Input
-            placeholder="Username"
-            value={searchVal}
-            onChange={(e) => {
-              setSearchVal(e.target.value);
-            }}
-            onKeyDown={(e) => {
-              if (e.key === "Enter" && searchVal) {
-                navigate(`/player/${searchVal}`);
-              }
-            }}
-          />
-          <Button
-            size="icon"
-            variant="outline"
-            onClick={() => {
-              searchVal && navigate(`/player/${searchVal}`);
-            }}
-          >
-            <SearchIcon />
-          </Button>
+          <Autocomplete />
           <ModeToggle />
         </div>
       </div>
