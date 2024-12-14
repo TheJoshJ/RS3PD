@@ -34,7 +34,6 @@ const Player = () => {
   const { toast } = useToast();
 
   const showToast = (message: string) => {
-    console.log("Displaying toast:", message);
     toast({
       title: "Updated Favorites",
       description: message,
