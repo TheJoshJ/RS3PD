@@ -1,8 +1,5 @@
 import { ModeToggle } from "@/components/mode-toggle";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { SearchIcon } from "lucide-react";
-import { useState } from "react";
 import { useNavigate } from "react-router";
 import logo from "@/assets/logo500x.png";
 import { Autocomplete } from "./components/Autocomplete";
@@ -14,7 +11,6 @@ const NavButtons = {
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const [searchVal, setSearchVal] = useState("");
 
   return (
     <div>
