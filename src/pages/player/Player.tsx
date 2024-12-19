@@ -1,10 +1,12 @@
 import { useParams } from "react-router";
 import PlayerStatsTable from "./components/PlayerStatsTable";
-import QuestRecomendations from "./components/QuestRecomendations";
+import QuestTable from "./components/QuestTable";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { StarIcon } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import ProfileWidget from "./components/ProfileWidget";
+import { getPlayerData } from "@/hooks/getPlayerData";
 
 const Player = () => {
   const { username } = useParams();
@@ -13,10 +15,15 @@ const Player = () => {
   const [favorites, setFavorites] = useState<string[]>([]);
   const [foregroundColor, setForegroundColor] = useState("0, 0%, 100%");
 
+  const { data: playerData, isLoading: isPlayerDataLoading } = getPlayerData(
+    username || "",
+    true
+  );
+
   useEffect(() => {
-    const data = localStorage.getItem(LOCAL_STORAGE_KEY);
-    if (data) {
-      setFavorites(JSON.parse(data));
+    const favoritesData = localStorage.getItem(LOCAL_STORAGE_KEY);
+    if (favoritesData) {
+      setFavorites(JSON.parse(favoritesData));
     }
   }, []);
 
@@ -27,10 +34,6 @@ const Player = () => {
     setForegroundColor(color);
   }, []);
 
-  const isFavorited = useMemo(() => {
-    return username && favorites.includes(username);
-  }, [username, favorites]);
-
   const { toast } = useToast();
 
   const showToast = (message: string) => {
@@ -38,9 +41,13 @@ const Player = () => {
       title: "Updated Favorites",
       description: message,
       duration: 3000,
-      variant: "default"
+      variant: "default",
     });
   };
+
+  const isFavorited = useMemo(() => {
+    return username && favorites.includes(username);
+  }, [username, favorites]);
 
   const handleFavoriteToggle = () => {
     if (!username) return;
@@ -72,7 +79,7 @@ const Player = () => {
                 }
               >
                 <h2 className="scroll-m-20  p-2 text-3xl font-semibold tracking-tight first:mt-0">
-                  {username}
+                  {playerData?.name || username}
                 </h2>
                 {isFavorited ? (
                   <StarIcon
@@ -83,12 +90,20 @@ const Player = () => {
                   <StarIcon onClick={handleFavoriteToggle} />
                 )}
               </div>
+              <ProfileWidget>Widget 1</ProfileWidget>
+              <ProfileWidget>Widget 2</ProfileWidget>
+              <ProfileWidget>Widget 3</ProfileWidget>
             </div>
           )}
         </div>
 
-        <div className="col-start-3 col-end-7 row-start-1 row-end-2 border-secondary border rounded-md">
-          {username && <PlayerStatsTable username={username} />}
+        <div className="col-start-3 col-end-8 row-start-1 row-end-2 border-secondary border rounded-md">
+          {username && (
+            <PlayerStatsTable
+              playerData={playerData}
+              loading={isPlayerDataLoading}
+            />
+          )}
           {!username && (
             <div>
               <div>
@@ -100,8 +115,8 @@ const Player = () => {
           )}
         </div>
 
-        <ScrollArea className="col-start-7 col-end-11 row-start-1 row-end-2 max-h-[2165px] border-secondary border rounded-md">
-          <QuestRecomendations />
+        <ScrollArea className="col-start-8 col-end-11 row-start-1 row-end-2 max-h-[2165px] border-secondary border rounded-md">
+          <QuestTable playerData={playerData} loading={false} />
         </ScrollArea>
       </div>
     </>
