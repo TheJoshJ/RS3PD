@@ -6,7 +6,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { getPlayerData } from "@/hooks/getPlayerData";
+import { PlayerData } from "@/hooks/getPlayerData";
 import { formatNumber } from "@/utils/formatNumber";
 import { getSkillName } from "@/utils/getSkillName";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -18,15 +18,11 @@ import { MonthlyExpChart } from "./MonthlyExpChart";
 import { getSkillImage } from "@/utils/getSkillImage";
 
 interface PlayerStatsTableProps {
-  username: string | undefined;
+  playerData: PlayerData | undefined;
+  loading: boolean;
 }
 
-const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
-  const {
-    data: playerData,
-    isLoading: isPlayerDataLoading,
-    error: playerDataError,
-  } = getPlayerData(username || "");
+const QuestTable = ({ playerData, loading }: PlayerStatsTableProps) => {
 
   const [expandedRows, setExpandedRows] = useState<Record<number, boolean>>({});
 
@@ -38,7 +34,7 @@ const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
     });
   };
 
-  if (isPlayerDataLoading) {
+  if (loading) {
     return (
       <Table>
         <TableHeader>
@@ -71,10 +67,6 @@ const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
         </TableBody>
       </Table>
     );
-  }
-
-  if (playerDataError) {
-    return <div>Error: {playerDataError.message}</div>;
   }
 
   if (!playerData || !playerData.skillvalues) {
@@ -138,7 +130,7 @@ const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
                   <TableCell colSpan={4}>
                     <MonthlyExpChart
                       key={skill.id}
-                      username={username || "tall n manly"}
+                      username={playerData.name || ""}
                       skillId={skill.id}
                     />
                   </TableCell>
@@ -152,4 +144,4 @@ const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
   );
 };
 
-export default PlayerStatsTable;
+export default QuestTable;
