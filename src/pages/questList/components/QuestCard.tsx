@@ -121,7 +121,6 @@ export const QuestCard = ({
 
   // Build the tree structure starting with the top-level quest
   const treeData = formatQuestTree(questData);
-  console.log(treeData);
   const skillRequirements = collectSkillRequirements(questData);
 
   return (

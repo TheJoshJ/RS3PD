@@ -1,15 +1,23 @@
 import { ReactNode } from "react";
 
-
-
-interface ParentDivProps {
-  children: ReactNode;
+interface ProfileWidgetProps {
+  children?: ReactNode;
+  title?: string;
 }
 
-const ProfileWidget: React.FC<ParentDivProps> = ({ children }) => {
+const ProfileWidget = ({ children, title }: ProfileWidgetProps) => {
   return (
     <div className="h-[250px] p-3 m-3 border-secondary border rounded-md">
-      {children}
+      {title && (
+        <div
+          className={
+            "flex items-center w-full border-b border-muted-foreground"
+          }
+        >
+          <p className={"w-full text-center"}>{title}</p>
+        </div>
+      )}
+      <div className="p-2">{children && children}</div>
     </div>
   );
 };

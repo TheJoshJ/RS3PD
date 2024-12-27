@@ -28,7 +28,7 @@ export interface PlayerData {
   totalskill: number;
   questscomplete: number;
   questsstarted: number;
-  totalXp: number;
+  totalxp: number;
   ranged: number;
   activities: activities[];
   skillvalues: skillValues[];

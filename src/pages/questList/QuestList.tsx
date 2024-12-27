@@ -7,7 +7,7 @@ function QuestList() {
   const { username } = useParams();
   const [playerName, setPlayerName] = useState<string | undefined>("");
 
-  const { data: playerData, isLoading: isPlayerDataLoading } = getPlayerData(
+  const { data: playerData } = getPlayerData(
     username || "",
     true
   );
