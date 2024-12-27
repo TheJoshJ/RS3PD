@@ -108,7 +108,7 @@ const Player = () => {
             <br />
             <p>
               Looks like you haven't specified a player name you want to see
-              data for!
+              data for.
             </p>
           </div>
           <div>
