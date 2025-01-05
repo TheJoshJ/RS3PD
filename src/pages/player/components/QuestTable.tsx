@@ -31,9 +31,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
-import {
-  useSearchParams,
-} from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 interface QuestSkillReq {
   skill: string;
   level: number;
@@ -81,11 +79,11 @@ const buildQuestTree = (
   };
 };
 
-interface PlayerStatsTableProps {
+interface QuestTableProps {
   playerData: PlayerData | undefined;
 }
 
-const PlayerStatsTable = ({ playerData }: PlayerStatsTableProps) => {
+const QuestTable = ({ playerData }: QuestTableProps) => {
   const [searchVal, setSearchVal] = useState<string>("");
   const [filterVal, setFilterVal] = useState<string>("all");
   const [searchParams, setSearchParams] = useSearchParams();
@@ -218,13 +216,18 @@ const PlayerStatsTable = ({ playerData }: PlayerStatsTableProps) => {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {filteredQuests.map((quest) => {
+          {resolvedQuests.map((quest) => {
             const questStatus = playerData?.quests?.find(
               (q) => q.title.toLowerCase() === quest.name.toLowerCase()
             )?.status;
 
+            const isVisible = filteredQuests.some(
+              (filteredQuest) =>
+                filteredQuest.name.toLowerCase() === quest.name.toLowerCase()
+            );
+
             return (
-              <TableRow key={quest.name}>
+              <TableRow hidden={!isVisible} key={quest.name}>
                 <TableCell>
                   <div className="flex flex-row ">
                     {questStatus === "COMPLETED" ? (
@@ -268,4 +271,4 @@ const PlayerStatsTable = ({ playerData }: PlayerStatsTableProps) => {
   );
 };
 
-export default PlayerStatsTable;
+export default QuestTable;
