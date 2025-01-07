@@ -50,14 +50,12 @@ interface QuestData {
   requirements: QuestRequirements;
 }
 
-//Too lazy to figure out the typing here - been at this for too long and it's not breaking anything (yet)
 const buildQuestTree = (
   questName: string,
   questMap: Record<string, QuestData>
 ): any => {
   const quest = questMap[questName];
 
-  // Handle edge case: missing quest name (needed once the API is added in)
   if (!quest) {
     return {
       name: questName,
@@ -110,7 +108,7 @@ const QuestTable = ({ playerData }: QuestTableProps) => {
   }, [questMap]);
 
   const fuse = useMemo(() => {
-    return new Fuse(resolvedQuests, {
+    return new Fuse(questData.Quests, {
       keys: ["name"],
       threshold: 0.3,
       minMatchCharLength: 2,
@@ -139,6 +137,11 @@ const QuestTable = ({ playerData }: QuestTableProps) => {
   const handleSheetClose = () => {
     setSearchParams({});
   };
+
+  const selectdQuestData = resolvedQuests.find(
+    (resolvedQuest) =>
+      resolvedQuest.name.toLowerCase() === questName?.toLowerCase()
+  );
 
   if (!playerData || resolvedQuests.length === 0) {
     return (
@@ -175,6 +178,29 @@ const QuestTable = ({ playerData }: QuestTableProps) => {
 
   return (
     <>
+      <Sheet
+        open={!!selectdQuestData}
+        onOpenChange={(isOpen) => {
+          if (!isOpen) handleSheetClose();
+        }}
+      >
+        <SheetContent
+          className={"text-foreground"}
+          style={{ maxWidth: "50vw" }}
+        >
+          {selectdQuestData ? (
+            <QuestDetailsSlide
+              playerData={playerData}
+              questData={selectdQuestData}
+            />
+          ) : (
+            <div className="text-center">
+              <p>No quest selected</p>
+            </div>
+          )}
+        </SheetContent>
+      </Sheet>
+
       <div className="flex flex-row justify-between items-center px-4 py-2 border-b">
         <div className="h-[80%} ">
           <Input
@@ -216,7 +242,7 @@ const QuestTable = ({ playerData }: QuestTableProps) => {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {resolvedQuests.map((quest) => {
+          {questData.Quests.map((quest) => {
             const questStatus = playerData?.quests?.find(
               (q) => q.title.toLowerCase() === quest.name.toLowerCase()
             )?.status;
@@ -245,22 +271,6 @@ const QuestTable = ({ playerData }: QuestTableProps) => {
                 <TableCell>{quest.questPoints}</TableCell>
                 <TableCell>
                   <EllipsisIcon onClick={() => handleSheetOpen(quest.name)} />
-                  <Sheet
-                    open={quest.name.toLowerCase() === questName?.toLowerCase()}
-                    onOpenChange={(isOpen) => {
-                      if (!isOpen) handleSheetClose();
-                    }}
-                  >
-                    <SheetContent
-                      className={"text-foreground"}
-                      style={{ maxWidth: "50vw" }}
-                    >
-                      <QuestDetailsSlide
-                        playerData={playerData}
-                        questData={quest}
-                      />
-                    </SheetContent>
-                  </Sheet>
                 </TableCell>
               </TableRow>
             );
