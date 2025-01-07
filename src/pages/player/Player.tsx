@@ -105,7 +105,7 @@ const Player = () => {
         <div className={"flex flex-col items-center text-center"}>
           <div>
             <p className="text-3xl">🤠</p>
-            <p>Woah, Partner! Hold your horses!</p>
+            <p>Woah, partner - hold your horses!</p>
             <br />
             <p>
               Looks like you haven't specified a player name you want to see

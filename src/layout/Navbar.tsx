@@ -6,7 +6,7 @@ import { Autocomplete } from "./components/Autocomplete";
 
 const NavButtons = {
   Player: { text: "Player", link: "/player" },
-  Quests: { text: "Quests", link: "/quests" },
+  // Quests: { text: "Quests", link: "/quests" },
 };
 
 const Navbar = () => {

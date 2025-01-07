@@ -121,7 +121,7 @@ export const Autocomplete = ({ type: searchType }: AutocompleteProps) => {
         {selected && (
           <div className="absolute left-0 top-full mt-1 z-50 w-full h-auto rounded-lg border bg-background">
             <CommandList>
-              <CommandEmpty>No results found.</CommandEmpty>
+              <CommandEmpty>No favorites found.</CommandEmpty>
               {search && (
                 <CommandGroup className="border-b">
                   <CommandItem onSelect={() => handlePlayerSearch(search)}>

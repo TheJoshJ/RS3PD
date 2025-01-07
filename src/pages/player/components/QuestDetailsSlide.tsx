@@ -156,7 +156,7 @@ export const QuestDetailsSlide = ({
           </div>
         </SheetTitle>
       </SheetHeader>
-      <ScrollArea className={"h-[100vh] pb-12"}>
+      <ScrollArea className={"h-[100vh] pb-20"}>
         <div
           className={
             "flex flex-row items-center justify-between pl-4 pt-6 pb-6 border-b border-muted-foreground"
