@@ -9,6 +9,7 @@ import { useToast } from "@/hooks/use-toast";
 import { getPlayerData } from "@/hooks/getPlayerData";
 import { getSkillImage } from "@/utils/getSkillImage";
 import { getSkillName } from "@/utils/getSkillName";
+import { Skeleton } from "@/components/ui/skeleton";
 
 const Player = () => {
   const { username } = useParams();
@@ -21,6 +22,7 @@ const Player = () => {
     username || "",
     true
   );
+  const hasProfile = !playerData?.error || playerData.error !== "NO_PROFILE";
 
   useEffect(() => {
     const favoritesData = localStorage.getItem(LOCAL_STORAGE_KEY);
@@ -94,7 +96,6 @@ const Player = () => {
 
       setFavorites(updatedFavorites);
       localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(updatedFavorites));
-      console.log(`Updated casing for ${existingFavorite} to ${apiUsername}`);
     }
   }, [playerData?.name, favorites]);
 
@@ -117,7 +118,21 @@ const Player = () => {
           </div>
         </div>
       )}
-      {username && (
+      {!hasProfile && (
+        <div className={"flex flex-col items-center text-center"}>
+          <div>
+            <p className="text-3xl">😔</p>
+            <p>Oh, no!</p>
+            <br />
+            <p>Looks like that player doesn't seem to exist!</p>
+          </div>
+          <div>
+            Try searching for a different player,{" "}
+            <a href="GIMJoshJ">GIMJoshJ</a> will work!
+          </div>
+        </div>
+      )}
+      {username && hasProfile && (
         <div className="grid grid-cols-10 grid-rows-[auto] px-8 gap-4">
           <div className="col-start-1 col-end-3 row-start-1 row-end-2 border-secondary border rounded-md">
             {username && (
@@ -141,6 +156,13 @@ const Player = () => {
                 </div>
                 <ProfileWidget title={"Skills left to 99"}>
                   <div className="grid grid-cols-6 gap-4">
+                    {!playerData &&
+                      Array.from({ length: 5 }).map((_, index) => (
+                        <Skeleton
+                          key={index}
+                          className="h-5 w-[100%] col-span-6"
+                        />
+                      ))}
                     {playerData?.skillvalues.map((skill) => {
                       if (skill.level < 99) {
                         return (
@@ -157,6 +179,13 @@ const Player = () => {
                 </ProfileWidget>
                 <ProfileWidget title={"Skills left to 120"}>
                   <div className="grid grid-cols-6 gap-4">
+                    {!playerData &&
+                      Array.from({ length: 5 }).map((_, index) => (
+                        <Skeleton
+                          key={index}
+                          className="h-5 w-[100%] col-span-6"
+                        />
+                      ))}
                     {playerData?.skillvalues.map((skill) => {
                       if (skill.level >= 99 && skill.level < 120) {
                         return (

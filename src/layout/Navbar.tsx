@@ -37,7 +37,7 @@ const Navbar = () => {
           ))}
         </div>
         <div className="flex flex-row gap-2 items-center">
-          <Autocomplete />
+          <Autocomplete type="user" />
           <ModeToggle />
         </div>
       </div>

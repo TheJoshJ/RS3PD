@@ -14,7 +14,11 @@ import Quests from "@/utils/quests.json";
 import Fuse from "fuse.js";
 import { useNavigate } from "react-router";
 
-export function Autocomplete() {
+interface AutocompleteProps {
+  type?: "quest" | "user";
+}
+
+export const Autocomplete = ({ type: searchType }: AutocompleteProps) => {
   const [selected, setSelected] = useState<boolean>(false);
   const [favorites, setFavorites] = useState<string[]>([]);
   const [search, setSearch] = useState("");
@@ -104,7 +108,15 @@ export function Autocomplete() {
           ref={inputRef}
           value={search}
           onValueChange={setSearch}
-          placeholder="Search a user or quest..."
+          placeholder={
+            !searchType
+              ? "Search for a user or quest..."
+              : searchType === "user"
+              ? "Search for a user..."
+              : searchType === "quest"
+              ? "Search for a quest..."
+              : "Search for a user or quest..."
+          }
         />
         {selected && (
           <div className="absolute left-0 top-full mt-1 z-50 w-full h-auto rounded-lg border bg-background">
@@ -118,45 +130,49 @@ export function Autocomplete() {
                   </CommandItem>
                 </CommandGroup>
               )}
-              <CommandGroup
-                heading={(favorites.length > 0 && "Favorite Users") || ""}
-              >
-                {favorites.length > 0
-                  ? favorites.map((user: string) => (
+              {(!searchType || searchType == "user") && (
+                <CommandGroup
+                  heading={(favorites.length > 0 && "Favorite Users") || ""}
+                >
+                  {favorites.length > 0
+                    ? favorites.map((user: string) => (
+                        <CommandItem
+                          onSelect={() => handlePlayerSearch(user)}
+                          key={user}
+                        >
+                          <UserIcon />
+                          <span>{user}</span>
+                        </CommandItem>
+                      ))
+                    : null}
+                </CommandGroup>
+              )}
+              {!searchType && <CommandSeparator />}
+              {(!searchType || searchType === "quest") && (
+                <CommandGroup heading="Quests">
+                  {filteredResults.length > 0 ? (
+                    filteredResults.map((quest) => (
                       <CommandItem
-                        onSelect={() => handlePlayerSearch(user)}
-                        key={user}
+                        onSelect={() => handleQuestSelect(quest.name)}
+                        key={quest.name}
                       >
-                        <UserIcon />
-                        <span>{user}</span>
+                        <MapIcon />
+                        <span>{quest.name}</span>
                       </CommandItem>
                     ))
-                  : null}
-              </CommandGroup>
-              <CommandSeparator />
-              <CommandGroup heading="Quests">
-                {filteredResults.length > 0 ? (
-                  filteredResults.map((quest) => (
-                    <CommandItem
-                      onSelect={() => handleQuestSelect(quest.name)}
-                      key={quest.name}
-                    >
-                      <MapIcon />
-                      <span>{quest.name}</span>
+                  ) : (
+                    <CommandItem>
+                      <span className="w-[100%] text-center text-sm text-foreground">
+                        No matching quests found.
+                      </span>
                     </CommandItem>
-                  ))
-                ) : (
-                  <CommandItem>
-                    <span className="w-[100%] text-center text-sm text-foreground">
-                      No matching quests found.
-                    </span>
-                  </CommandItem>
-                )}
-              </CommandGroup>
+                  )}
+                </CommandGroup>
+              )}
             </CommandList>
           </div>
         )}
       </Command>
     </div>
   );
-}
+};

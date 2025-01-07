@@ -4,7 +4,10 @@ function Home() {
   return (
     <div className="grid grid-rows-3 h-[calc(100vh-70px)]">
       <div className="flex items-end justify-center pb-4">
-        <h1 className="text-4xl font-bold">RS3 Player Dashboard</h1>
+        <div className="flex flex-col items-center gap-5">
+          <h1 className="text-5xl font-bold">RS3 Player Dashboard</h1>
+          <p>Yes, we made another one.</p>
+        </div>
       </div>
       <div className="flex items-center justify-center">
         <div
@@ -13,7 +16,7 @@ function Home() {
             boxShadow: "0 0 20px rgba(255, 255, 255, 0.4)",
           }}
         >
-          <Autocomplete />
+          <Autocomplete type="user" />
         </div>
       </div>
       <div className="flex items-end justify-center pb-4">
