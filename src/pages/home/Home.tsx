@@ -30,6 +30,7 @@ function Home() {
             component library
           </a>
         </p>
+        <p>This is a new test.</p>
       </div>
     </div>
   );
