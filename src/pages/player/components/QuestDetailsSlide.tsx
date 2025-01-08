@@ -158,7 +158,11 @@ export const QuestDetailsSlide = ({
       <SheetHeader>
         <SheetTitle>
           <div className="flex flex-row items-center gap-2 border-b border-y-muted-foreground pb-2">
-            <Button variant={"ghost"} onClick={handleBack}>
+            <Button
+              style={{ border: "none", outline: "none" }}
+              variant={"ghost"}
+              onClick={handleBack}
+            >
               <ChevronLeft />
             </Button>
             {questData.name}
