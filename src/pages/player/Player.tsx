@@ -187,7 +187,8 @@ const Player = () => {
                         />
                       ))}
                     {playerData?.skillvalues.map((skill) => {
-                      if (skill.level >= 99 && skill.level < 120) {
+                      console.log(getSkillName(skill.id), skill.xp)
+                      if (skill.xp >= 13034431 && skill.xp/10 < 104273167) {
                         return (
                           <img
                             key={skill.id}
