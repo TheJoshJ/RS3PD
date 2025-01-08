@@ -22,7 +22,9 @@ const Player = () => {
     username || "",
     true
   );
-  const hasProfile = !playerData?.error || playerData.error !== "NO_PROFILE";
+  const noProfile = playerData?.error === "NO_PROFILE";
+  const isPrivate = playerData?.error === "PROFILE_PRIVATE";
+  const canDisplay = !noProfile && !isPrivate && !playerData?.error;
 
   useEffect(() => {
     const favoritesData = localStorage.getItem(LOCAL_STORAGE_KEY);
@@ -101,6 +103,7 @@ const Player = () => {
 
   return (
     <>
+      {/* Missing username in url */}
       {!username && (
         <div className={"flex flex-col items-center text-center"}>
           <div>
@@ -118,7 +121,8 @@ const Player = () => {
           </div>
         </div>
       )}
-      {!hasProfile && (
+      {/* Profile doesn't exist */}
+      {noProfile && (
         <div className={"flex flex-col items-center text-center"}>
           <div>
             <p className="text-3xl">😔</p>
@@ -132,7 +136,22 @@ const Player = () => {
           </div>
         </div>
       )}
-      {username && hasProfile && (
+      {/* Player is private */}
+      {isPrivate && (
+        <div className={"flex flex-col items-center text-center"}>
+          <div>
+            <p className="text-3xl">😔</p>
+            <p>Oh, no!</p>
+            <br />
+            <p>Looks like that player doesn't have their stats public!</p>
+          </div>
+          <div>
+            If this is your account, you can enable them <a href="GIMJoshJ">here.</a>
+          </div>
+        </div>
+      )}
+      {/* Username is present and can display */}
+      {username && canDisplay && (
         <div className="grid grid-cols-10 grid-rows-[auto] px-8 gap-4">
           <div className="col-start-1 col-end-3 row-start-1 row-end-2 border-secondary border rounded-md">
             {username && (
@@ -187,8 +206,7 @@ const Player = () => {
                         />
                       ))}
                     {playerData?.skillvalues.map((skill) => {
-                      console.log(getSkillName(skill.id), skill.xp)
-                      if (skill.xp >= 13034431 && skill.xp/10 < 104273167) {
+                      if (skill.xp >= 13034431 && skill.xp / 10 < 104273167) {
                         return (
                           <img
                             key={skill.id}
