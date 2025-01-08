@@ -146,7 +146,8 @@ const Player = () => {
             <p>Looks like that player doesn't have their stats public!</p>
           </div>
           <div>
-            If this is your account, you can enable them <a href="GIMJoshJ">here.</a>
+            If this is your account, you can enable them on{" "}
+            <a href="https://account.runescape.com" target="_blank" rel="noopener noreferrer">Runescape Account</a> page.
           </div>
         </div>
       )}

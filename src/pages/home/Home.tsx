@@ -24,7 +24,8 @@ function Home() {
           Shout out to the{" "}
           <a
             href={"https://ui.shadcn.com/"}
-            className="text-blue-500 underline"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             component library
           </a>
