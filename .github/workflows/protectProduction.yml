@@ -1,0 +1,17 @@
+name: Enforce Development Merges
+
+on:
+  pull_request:
+    branches:
+      - production
+
+jobs:
+  verify-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify source branch
+        run: |
+          if [[ "${{ github.event.pull_request.head.ref }}" != "development" ]]; then
+            echo "Only the Development branch can be merged into Production."
+            exit 1
+          fi
