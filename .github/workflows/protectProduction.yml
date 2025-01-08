@@ -3,7 +3,7 @@ name: Enforce Development Merges
 on:
   pull_request:
     branches:
-      - production
+      - Production
 
 jobs:
   verify-branch:
