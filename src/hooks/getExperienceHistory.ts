@@ -20,18 +20,19 @@ interface APIResponse {
 }
 
 export const getExperienceHistory = (username: string, skillId: number) => {
-    return useQuery<APIResponse, Error>({
-      queryKey: [`PlayerXpHistory`, username],
-      queryFn: async () => {
-        const response = await fetch(
-          `https://api.rs3pd.com/api/v1/experience-history?username=${username}&skillId=${skillId}`
-        );
-        if (!response.ok) {
-          throw new Error("Failed to fetch player exp history");
-        }
-        return response.json();
-      },
-      enabled: !!username,
-    });
-  };
-  
+  return useQuery<APIResponse, Error>({
+    queryKey: [`PlayerXpHistory`, username],
+    queryFn: async () => {
+      // Format the username by replacing spaces and %20 with "-"
+      const formattedUsername = username.replace(/ |%20/g, "-");
+      const response = await fetch(
+        `https://api.rs3pd.com/api/v1/experience-history?username=${formattedUsername}&skillId=${skillId}`
+      );
+      if (!response.ok) {
+        throw new Error("Failed to fetch player exp history");
+      }
+      return response.json();
+    },
+    enabled: !!username,
+  });
+};

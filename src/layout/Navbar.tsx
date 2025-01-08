@@ -6,7 +6,7 @@ import { Autocomplete } from "./components/Autocomplete";
 
 const NavButtons = {
   Player: { text: "Player", link: "/player" },
-  Quests: { text: "Quests", link: "/quests" },
+  // Quests: { text: "Quests", link: "/quests" },
 };
 
 const Navbar = () => {
@@ -37,7 +37,7 @@ const Navbar = () => {
           ))}
         </div>
         <div className="flex flex-row gap-2 items-center">
-          <Autocomplete />
+          <Autocomplete type="user" />
           <ModeToggle />
         </div>
       </div>

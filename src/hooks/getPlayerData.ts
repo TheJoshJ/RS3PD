@@ -23,6 +23,7 @@ export interface quest {
 }
 
 export interface PlayerData {
+  error?: string;
   magic: number;
   questsStarted: number;
   totalskill: number;
