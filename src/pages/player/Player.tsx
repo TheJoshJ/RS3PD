@@ -10,6 +10,7 @@ import { getPlayerData } from "@/hooks/getPlayerData";
 import { getSkillImage } from "@/utils/getSkillImage";
 import { getSkillName } from "@/utils/getSkillName";
 import { Skeleton } from "@/components/ui/skeleton";
+import { Autocomplete } from "@/layout/components/Autocomplete";
 
 const Player = () => {
   const { username } = useParams();
@@ -119,6 +120,9 @@ const Player = () => {
             Try searching for a player, <a href="player/GIMJoshJ">GIMJoshJ</a>{" "}
             will work!
           </div>
+          <div className="pt-5">
+            <Autocomplete type="user" />
+          </div>
         </div>
       )}
       {/* Profile doesn't exist */}
@@ -147,7 +151,14 @@ const Player = () => {
           </div>
           <div>
             If this is your account, you can enable them on{" "}
-            <a href="https://account.runescape.com" target="_blank" rel="noopener noreferrer">Runescape Account</a> page.
+            <a
+              href="https://account.runescape.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Runescape Account
+            </a>{" "}
+            page.
           </div>
         </div>
       )}
@@ -207,7 +218,11 @@ const Player = () => {
                         />
                       ))}
                     {playerData?.skillvalues.map((skill) => {
-                      if (skill.xp >= 13034431 && (skill.level >= 99 && skill.xp / 10 < 104273167)) {
+                      if (
+                        skill.xp >= 13034431 &&
+                        skill.level >= 99 &&
+                        skill.xp / 10 < 104273167
+                      ) {
                         return (
                           <img
                             key={skill.id}
