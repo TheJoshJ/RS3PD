@@ -1,7 +1,7 @@
 import { SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import { QuestTree } from "./QuestTree";
 import { PlayerData } from "@/hooks/getPlayerData";
-import { CheckIcon, ChevronLeft, InfoIcon, XIcon } from "lucide-react";
+import { CheckIcon, InfoIcon, XIcon } from "lucide-react";
 import { getSkillImage } from "@/utils/getSkillImage";
 import { getSkillId } from "@/utils/getSkillName";
 import { HoverCard, HoverCardContent } from "@/components/ui/hover-card";
@@ -9,7 +9,7 @@ import { HoverCardTrigger } from "@radix-ui/react-hover-card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { useNavigate } from "react-router-dom";
+import Breadcrumbs from "@/components/breadcrumbs";
 
 interface QuestSkillReq {
   skill: string;
@@ -148,23 +148,20 @@ export const QuestDetailsSlide = ({
   const { questPercentage, questCompleted, questNeeded } =
     calculateQuestProgress(treeData);
 
-  const navigate = useNavigate();
-  const handleBack = () => {
-    navigate(-1);
-  };
-
   return (
     <div>
       <SheetHeader>
         <SheetTitle>
+          <div>
+            <Breadcrumbs
+              path={[
+                {
+                  name: questData.name,
+                },
+              ]}
+            />
+          </div>
           <div className="flex flex-row items-center gap-2 border-b border-y-muted-foreground pb-2">
-            <Button
-              style={{ border: "none", outline: "none" }}
-              variant={"ghost"}
-              onClick={handleBack}
-            >
-              <ChevronLeft />
-            </Button>
             {questData.name}
           </div>
         </SheetTitle>
