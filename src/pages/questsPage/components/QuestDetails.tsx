@@ -8,7 +8,7 @@ import { HoverCardTrigger } from "@radix-ui/react-hover-card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import QuestCrumbs from "./questCrumbs";
+import QuestCrumbs from "./QuestCrumbs";
 import { Autocomplete } from "./Autocomplete";
 
 interface QuestSkillReq {
@@ -164,11 +164,6 @@ export const QuestDetails = ({ questData, playerData }: QuestCardProps) => {
           </div>
           <div className="flex flex-row justify-between items-center border-b border-y-muted-foreground pb-2">
             <div className={"text-2xl p-4 w-[35%]"}>{questData.name}</div>
-            <div className={"w-[60%]"}>
-              <div className={"w-[25%]"}>
-                <Autocomplete type="user" />
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -178,7 +173,8 @@ export const QuestDetails = ({ questData, playerData }: QuestCardProps) => {
             "flex flex-row items-center justify-between pl-4 pt-6 pb-6 border-b border-muted-foreground"
           }
         >
-          <div className="flex flex-row w-[35%]">
+          <div className="flex flex-row items-center gap-4 w-[35%]">
+            <Autocomplete type="user" />
             <Button
               onClick={() => {
                 window.open(
