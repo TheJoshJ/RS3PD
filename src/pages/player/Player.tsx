@@ -249,7 +249,7 @@ const Player = () => {
           </div>
 
           <ScrollArea className="col-start-8 col-end-11 row-start-1 row-end-2 max-h-[1755px] border-secondary border rounded-md">
-            <QuestTable playerData={playerData} />
+            <QuestTable playerData={playerData} filter />
           </ScrollArea>
         </div>
       )}

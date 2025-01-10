@@ -1,7 +1,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router";
 import Player from "./pages/player/Player";
-import QuestList from "./pages/questList/QuestList";
-import Quest from "./pages/quest/Quest";
+import QuestsPage from "./pages/questsPage/QuestsPage";
 import Home from "./pages/home/Home";
 import NotFound from "./pages/notFound/NotFound";
 import PageLayout from "./layout/PageLayout";
@@ -12,9 +11,8 @@ const publicRoutes = [
   { path: "/", element: <Home /> },
   { path: "/player", element: <Player /> },
   { path: "/player/:username", element: <Player /> },
-  { path: "/quests", element: <QuestList /> },
-  { path: "/quests/:username", element: <QuestList /> },
-  { path: "/quest/:quest", element: <Quest /> },
+  { path: "/quests", element: <QuestsPage /> },
+  { path: "/quests/:quest", element: <QuestsPage /> },
   { path: "/404", element: <NotFound /> },
 ];
 

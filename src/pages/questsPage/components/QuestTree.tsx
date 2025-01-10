@@ -1,13 +1,19 @@
-"use client";
-
 import React from "react";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
 import { cn } from "@/lib/utils";
-import { ChevronRight, type LucideIcon } from "lucide-react";
+import {
+  CheckIcon,
+  ChevronRight,
+  Loader,
+  XIcon,
+  type LucideIcon,
+} from "lucide-react";
+import { useLocation, useNavigate } from "react-router-dom";
 
 interface TreeDataItem {
   id: string;
   name: string;
+  status: string;
   icon?: LucideIcon;
   children?: TreeDataItem[];
 }
@@ -114,121 +120,79 @@ const TreeItem = React.forwardRef<HTMLDivElement, TreeItemProps>(
       data,
       selectedItemId,
       handleSelectChange,
-      expandedItemIds,
       FolderIcon,
       ItemIcon,
       ...props
     },
     ref
   ) => {
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const navWithParams = (dest: string) => {
+      const currentParams = location.search;
+      navigate(`${dest}${currentParams}`);
+    };
+
+    const handleQuestChange = (quest: string) => {
+      navWithParams(`/quests/${quest.toLowerCase()}`);
+    };
+
     return (
       <div ref={ref} role="tree" className={className} {...props}>
         <ul>
-          {data instanceof Array ? (
-            data.map((item) => (
-              <li key={item.id}>
-                {item.children ? (
-                  <AccordionPrimitive.Root
-                    type="multiple"
-                    defaultValue={expandedItemIds}
-                  >
-                    <AccordionPrimitive.Item value={item.id}>
-                      <AccordionTrigger
-                        className={cn(
-                          "px-2 hover:before:opacity-100 before:absolute before:left-0 before:w-full before:opacity-0 before:bg-muted/80 before:h-[1.75rem] before:-z-10",
-                          selectedItemId === item.id &&
-                            "before:opacity-100 before:bg-accent text-accent-foreground before:border-l-2 before:border-l-accent-foreground/50 dark:before:border-0"
-                        )}
-                        onClick={() => handleSelectChange(item)}
-                      >
-                        {item.icon && (
-                          <item.icon
-                            className="h-4 w-4 shrink-0 mr-2 text-accent-foreground/50"
-                            aria-hidden="true"
-                          />
-                        )}
-                        {!item.icon && FolderIcon && (
-                          <FolderIcon
-                            className="h-4 w-4 shrink-0 mr-2 text-accent-foreground/50"
-                            aria-hidden="true"
-                          />
-                        )}
-                        <span className="text-sm truncate">{item.name}</span>
-                      </AccordionTrigger>
-                      <AccordionContent className="pl-6">
-                        <TreeItem
-                          data={item.children ? item.children : item}
-                          selectedItemId={selectedItemId}
-                          handleSelectChange={handleSelectChange}
-                          expandedItemIds={expandedItemIds}
-                          FolderIcon={FolderIcon}
-                          ItemIcon={ItemIcon}
-                        />
-                      </AccordionContent>
-                    </AccordionPrimitive.Item>
-                  </AccordionPrimitive.Root>
-                ) : (
-                  <Leaf
-                    item={item}
-                    isSelected={selectedItemId === item.id}
-                    onClick={() => handleSelectChange(item)}
-                    Icon={ItemIcon}
+          {(data instanceof Array ? data : [data]).map((item) => (
+            <li key={item.id} className="pl-4">
+              <div
+                className={cn(
+                  "flex items-center py-2 px-2 cursor-pointer hover:bg-muted/80 rounded",
+                  selectedItemId === item.id &&
+                    "bg-accent text-accent-foreground"
+                )}
+                onClick={() => {
+                  handleSelectChange(item);
+                  handleQuestChange(item.name);
+                }}
+              >
+                {item.status === "COMPLETED" ? (
+                  <CheckIcon className="text-green-500 h-4 w-4 mr-2" />
+                ) : item.status === "STARTED" ? (
+                  <Loader className="text-yellow-500 h-4 w-4 mr-2" />
+                ) : item.status === "NOT_STARTED" ? (
+                  <XIcon className="text-red-500 h-4 w-4 mr-2" />
+                ) : null}
+                {item.icon && (
+                  <item.icon
+                    className="h-4 w-4 shrink-0 mr-2 text-accent-foreground/50"
+                    aria-hidden="true"
                   />
                 )}
-              </li>
-            ))
-          ) : (
-            <li>
-              <Leaf
-                item={data}
-                isSelected={selectedItemId === data.id}
-                onClick={() => handleSelectChange(data)}
-                Icon={ItemIcon}
-              />
+                {!item.icon && FolderIcon && (
+                  <FolderIcon
+                    className="h-4 w-4 shrink-0 mr-2 text-accent-foreground/50"
+                    aria-hidden="true"
+                  />
+                )}
+                <span className="text-sm truncate">{item.name}</span>
+              </div>
+
+              {item.children && (
+                <TreeItem
+                  data={item.children}
+                  selectedItemId={selectedItemId}
+                  handleSelectChange={handleSelectChange}
+                  FolderIcon={FolderIcon}
+                  ItemIcon={ItemIcon}
+                  expandedItemIds={[]}
+                />
+              )}
             </li>
-          )}
+          ))}
         </ul>
       </div>
     );
   }
 );
-
-const Leaf = React.forwardRef<
-  HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement> & {
-    item: TreeDataItem;
-    isSelected?: boolean;
-    Icon?: LucideIcon;
-  }
->(({ className, item, isSelected, Icon, ...props }, ref) => {
-  return (
-    <div
-      ref={ref}
-      className={cn(
-        "flex items-center py-2 px-2 cursor-pointer \
-        hover:before:opacity-100 before:absolute before:left-0 before:right-1 before:w-full before:opacity-0 before:bg-muted/80 before:h-[1.75rem] before:-z-10",
-        className,
-        isSelected &&
-          "before:opacity-100 before:bg-accent text-accent-foreground before:border-l-2 before:border-l-accent-foreground/50 dark:before:border-0"
-      )}
-      {...props}
-    >
-      {item.icon && (
-        <item.icon
-          className="h-4 w-4 shrink-0 mr-2 text-accent-foreground/50"
-          aria-hidden="true"
-        />
-      )}
-      {!item.icon && Icon && (
-        <Icon
-          className="h-4 w-4 shrink-0 mr-2 text-accent-foreground/50"
-          aria-hidden="true"
-        />
-      )}
-      <span className="flex-grow text-sm truncate">{item.name}</span>
-    </div>
-  );
-});
 
 const AccordionTrigger = React.forwardRef<
   React.ElementRef<typeof AccordionPrimitive.Trigger>,
