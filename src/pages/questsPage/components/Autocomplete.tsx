@@ -12,7 +12,7 @@ import {
 import { useEffect, useRef, useState } from "react";
 import Quests from "@/utils/quests.json";
 import Fuse from "fuse.js";
-import { useNavigate } from "react-router";
+import { useNavigate, useSearchParams } from "react-router";
 
 interface AutocompleteProps {
   type?: "quest" | "user";
@@ -22,16 +22,13 @@ export const Autocomplete = ({ type: searchType }: AutocompleteProps) => {
   const [selected, setSelected] = useState<boolean>(false);
   const [favorites, setFavorites] = useState<string[]>([]);
   const [search, setSearch] = useState("");
-
   const inputRef = useRef<HTMLInputElement | null>(null);
   const navigate = useNavigate();
-  const FAVORITES_STORAGE_KEY = "RS3PD_v1_favorite_users";
-  const CRUMBS_STORAGE_KEY = "RS3PD_v1_crumbs";
+  const [searchParams, setSearchParams] = useSearchParams();
+  const LOCAL_STORAGE_KEY = "RS3PD_v1_favorite_users";
 
-  // Safeguard for invalid quest data
   const questData = Quests ?? { Quests: [] };
 
-  // Fuse.js configuration
   const fuse = new Fuse(questData.Quests, {
     keys: ["name"],
     threshold: 0.3,
@@ -50,7 +47,6 @@ export const Autocomplete = ({ type: searchType }: AutocompleteProps) => {
         )
     : [];
 
-  // Handle keyboard shortcuts
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if ((event.key === "Escape" || event.key === "Enter") && selected) {
@@ -66,31 +62,29 @@ export const Autocomplete = ({ type: searchType }: AutocompleteProps) => {
     };
   }, []);
 
-  const handlePlayerSearch = (value: string) => {
+  const handlePlayerSearch = (name: string) => {
     if (selected) {
       inputRef.current?.blur();
       setSelected(false);
     }
-    if (value.trim()) {
-      navigate(`/player/${value.trim()}`);
+    if (name.trim()) {
+      // Add user name as a query parameter
+      setSearch(name);
+      searchParams.set("user", name);
+      setSearchParams(searchParams);
     }
   };
-
-const resetCrumbs = () => {
-  localStorage.setItem(CRUMBS_STORAGE_KEY, JSON.stringify([]));
-};
 
   const handleQuestSelect = (name: string) => {
     if (selected) {
       inputRef.current?.blur();
       setSelected(false);
     }
-    resetCrumbs()
     navigate(`/quests/${name}`);
   };
 
   useEffect(() => {
-    const data = localStorage.getItem(FAVORITES_STORAGE_KEY);
+    const data = localStorage.getItem(LOCAL_STORAGE_KEY);
     if (data) {
       setFavorites(JSON.parse(data));
     }
@@ -118,7 +112,7 @@ const resetCrumbs = () => {
             !searchType
               ? "Search for a user or quest..."
               : searchType === "user"
-              ? "Search for a user..."
+              ? "Load user data..."
               : searchType === "quest"
               ? "Search for a quest..."
               : "Search for a user or quest..."

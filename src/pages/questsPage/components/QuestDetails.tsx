@@ -1,4 +1,3 @@
-import { SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import { QuestTree } from "./QuestTree";
 import { PlayerData } from "@/hooks/getPlayerData";
 import { CheckIcon, InfoIcon, XIcon } from "lucide-react";
@@ -9,8 +8,8 @@ import { HoverCardTrigger } from "@radix-ui/react-hover-card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import Breadcrumbs from "@/components/breadcrumbs";
-import { useNavigate } from "react-router-dom";
+import QuestCrumbs from "./QuestCrumbs";
+import { Autocomplete } from "./Autocomplete";
 
 interface QuestSkillReq {
   skill: string;
@@ -35,12 +34,7 @@ interface QuestCardProps {
   questData: ResolvedQuestData;
 }
 
-export const QuestDetailsSlide = ({
-  questData,
-  playerData,
-}: QuestCardProps) => {
-  const navigate = useNavigate();
-
+export const QuestDetails = ({ questData, playerData }: QuestCardProps) => {
   const formatQuestTree = (quest: ResolvedQuestData): any => {
     // Find the quest status from playerData
     const questStatus = playerData?.quests?.find(
@@ -74,9 +68,14 @@ export const QuestDetailsSlide = ({
     return (
       <div className="flex flex-col py-1">
         <div key={skill} className="flex flex-row gap-2 items-center">
-          {(hasRequirement && <CheckIcon color="green" />) || (
-            <XIcon color="red" />
-          )}
+          {playerData &&
+            !playerData?.error &&
+            (hasRequirement ? (
+              <CheckIcon color="green" />
+            ) : (
+              <XIcon color="red" />
+            ))}
+
           <img src={getSkillImage(skill)} alt={skill} className="h-5 w-5" />
           <span>
             {skill}: {level}
@@ -92,17 +91,16 @@ export const QuestDetailsSlide = ({
     const skillMap: Record<string, number> = {};
 
     const traverse = (quest: ResolvedQuestData) => {
-      // Ensure requirements and skill exist before proceeding
       if (quest.requirements?.skill) {
         quest.requirements.skill.forEach(({ skill, level }) => {
           if (!skillMap[skill] || skillMap[skill] < level) {
-            // Keep the highest level for each skill
+            // Determine the highest level requirement for each skill
             skillMap[skill] = level;
           }
         });
       }
 
-      // Recursively process child quests if they exist
+      // Recursively process children
       if (quest.requirements?.quest) {
         quest.requirements.quest.forEach((childQuest) => {
           traverse(childQuest);
@@ -153,10 +151,10 @@ export const QuestDetailsSlide = ({
 
   return (
     <div>
-      <SheetHeader>
-        <SheetTitle>
-          <div>
-            <Breadcrumbs
+      <div>
+        <div className={"flex flex-col w-full"}>
+          <div className={"pt-2"}>
+            <QuestCrumbs
               path={[
                 {
                   name: questData.name,
@@ -164,18 +162,19 @@ export const QuestDetailsSlide = ({
               ]}
             />
           </div>
-          <div className="flex flex-row items-center gap-2 border-b border-y-muted-foreground pb-2">
-            {questData.name}
+          <div className="flex flex-row justify-between items-center border-b border-y-muted-foreground pb-2">
+            <div className={"text-2xl p-4 w-[35%]"}>{questData.name}</div>
           </div>
-        </SheetTitle>
-      </SheetHeader>
-      <ScrollArea className={"h-[100vh] pb-20"}>
+        </div>
+      </div>
+      <ScrollArea className={"h-[calc(100vh-110px)]"}>
         <div
           className={
             "flex flex-row items-center justify-between pl-4 pt-6 pb-6 border-b border-muted-foreground"
           }
         >
-          <div className="flex flex-row justify-evenly w-[35%]">
+          <div className="flex flex-row items-center gap-4 w-[35%]">
+            <Autocomplete type="user" />
             <Button
               onClick={() => {
                 window.open(
@@ -187,20 +186,6 @@ export const QuestDetailsSlide = ({
               className={"w-[45%]"}
             >
               View on Wiki
-            </Button>
-            <Button
-            // Add the users name as a param when pressed if available
-              onClick={() => {
-                navigate(
-                  `/quests/${questData.name}${
-                    playerData?.name ? `?user=${playerData.name}` : ""
-                  }`
-                );
-              }}
-              variant="outline"
-              className={"w-[45%]"}
-            >
-              View Quest Page
             </Button>
           </div>
           <div className={"flex flex-col w-[60%] items-center"}>

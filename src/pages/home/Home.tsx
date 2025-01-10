@@ -16,7 +16,7 @@ function Home() {
             boxShadow: "0 0 20px rgba(255, 255, 255, 0.4)",
           }}
         >
-          <Autocomplete type="user" />
+          <Autocomplete />
         </div>
       </div>
       <div className="flex items-end justify-center pb-4">

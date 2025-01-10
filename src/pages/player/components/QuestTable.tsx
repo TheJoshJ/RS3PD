@@ -78,10 +78,11 @@ const buildQuestTree = (
 };
 
 interface QuestTableProps {
-  playerData: PlayerData | undefined;
+  playerData?: PlayerData;
+  filter?: boolean;
 }
 
-const QuestTable = ({ playerData }: QuestTableProps) => {
+const QuestTable = ({ playerData, filter }: QuestTableProps) => {
   const [searchVal, setSearchVal] = useState<string>("");
   const [filterVal, setFilterVal] = useState<string>("all");
   const [searchParams, setSearchParams] = useSearchParams();
@@ -201,37 +202,39 @@ const QuestTable = ({ playerData }: QuestTableProps) => {
         </SheetContent>
       </Sheet>
 
-      <div className="flex flex-row justify-between items-center px-4 py-2 border-b">
-        <div className="h-[80%} ">
-          <Input
-            placeholder="Search by quest"
-            value={searchVal}
-            onChange={(e) => setSearchVal(e.currentTarget.value)}
-          />
+      {filter && (
+        <div className="flex flex-row justify-between items-center px-4 py-2 border-b">
+          <div className="h-[80%} ">
+            <Input
+              placeholder="Search by quest"
+              value={searchVal}
+              onChange={(e) => setSearchVal(e.currentTarget.value)}
+            />
+          </div>
+          <div className={"flex flex=row gap-2"}>
+            <Select
+              value={filterVal}
+              onValueChange={(value) => setFilterVal(value)}
+            >
+              <SelectTrigger className="w-[140px]">
+                <SelectValue placeholder="Filter by..." />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectGroup>
+                  <SelectLabel>Status</SelectLabel>
+                  <SelectItem value="all">All</SelectItem>
+                  <SelectItem value="completed">Completed</SelectItem>
+                  <SelectItem value="started">Started</SelectItem>
+                  <SelectItem value="not_started">Incomplete</SelectItem>
+                </SelectGroup>
+              </SelectContent>
+            </Select>
+            <Button variant={"ghost"} onClick={resetFilterValues}>
+              <RotateCcw />
+            </Button>
+          </div>
         </div>
-        <div className={"flex flex=row gap-2"}>
-          <Select
-            value={filterVal}
-            onValueChange={(value) => setFilterVal(value)}
-          >
-            <SelectTrigger className="w-[140px]">
-              <SelectValue placeholder="Filter by..." />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectGroup>
-                <SelectLabel>Status</SelectLabel>
-                <SelectItem value="all">All</SelectItem>
-                <SelectItem value="completed">Completed</SelectItem>
-                <SelectItem value="started">Started</SelectItem>
-                <SelectItem value="not_started">Incomplete</SelectItem>
-              </SelectGroup>
-            </SelectContent>
-          </Select>
-          <Button variant={"ghost"} onClick={resetFilterValues}>
-            <RotateCcw />
-          </Button>
-        </div>
-      </div>
+      )}
       <Table>
         <TableHeader>
           <TableRow>
