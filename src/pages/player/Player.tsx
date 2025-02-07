@@ -186,30 +186,28 @@ const Player = () => {
                   )}
                 </div>
                 <ProfileWidget title={"Skills left to 99"}>
-                  <div className="grid grid-cols-6 gap-4">
+                  <div className="grid grid-cols-[repeat(auto-fit,minmax(30px,1fr))] gap-2 justify-center">
                     {!playerData &&
                       Array.from({ length: 5 }).map((_, index) => (
-                        <Skeleton
-                          key={index}
-                          className="h-5 w-[100%] col-span-6"
-                        />
+                        <Skeleton key={index} className="h-6 w-6 col-span-1" />
                       ))}
-                    {playerData?.skillvalues.map((skill) => {
-                      if (skill.level < 99) {
-                        return (
+                    {playerData?.skillvalues
+                      .filter((skill) => skill.level < 99)
+                      .map((skill) => (
+                        <div className="flex justify-center m-0 p-0">
                           <img
                             key={skill.id}
                             src={getSkillImage(skill.id)}
                             alt={getSkillName(skill.id)}
-                            className="h-6 w-6"
+                            className="h-6 w-6 object-contain"
                           />
-                        );
-                      }
-                    })}
+                        </div>
+                      ))}
                   </div>
                 </ProfileWidget>
+
                 <ProfileWidget title={"Skills left to 120"}>
-                  <div className="grid grid-cols-6 gap-4">
+                  <div className="grid grid-cols-[repeat(auto-fit,minmax(30px,1fr))] gap-2 justify-center">
                     {!playerData &&
                       Array.from({ length: 5 }).map((_, index) => (
                         <Skeleton
@@ -224,12 +222,14 @@ const Player = () => {
                         skill.xp / 10 < 104273167
                       ) {
                         return (
-                          <img
-                            key={skill.id}
-                            src={getSkillImage(skill.id)}
-                            alt={getSkillName(skill.id)}
-                            className="h-6 w-6"
-                          />
+                          <div className="flex justify-center m-0 p-0">
+                            <img
+                              key={skill.id}
+                              src={getSkillImage(skill.id)}
+                              alt={getSkillName(skill.id)}
+                              className="h-6 w-6"
+                            />
+                          </div>
                         );
                       }
                     })}

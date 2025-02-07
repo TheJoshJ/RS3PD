@@ -256,7 +256,11 @@ const QuestTable = ({ playerData, filter }: QuestTableProps) => {
             );
 
             return (
-              <TableRow hidden={!isVisible} key={quest.name}>
+              <TableRow
+                hidden={!isVisible}
+                key={quest.name}
+                onClick={() => handleSheetOpen(quest.name)}
+              >
                 <TableCell>
                   <div className="flex flex-row ">
                     {questStatus === "COMPLETED" ? (
@@ -273,7 +277,7 @@ const QuestTable = ({ playerData, filter }: QuestTableProps) => {
                 </TableCell>
                 <TableCell>{quest.questPoints}</TableCell>
                 <TableCell>
-                  <EllipsisIcon onClick={() => handleSheetOpen(quest.name)} />
+                  <EllipsisIcon />
                 </TableCell>
               </TableRow>
             );

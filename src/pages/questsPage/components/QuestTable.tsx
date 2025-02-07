@@ -84,13 +84,17 @@ const QuestTable = ({ filter }: QuestTableProps) => {
             );
 
             return (
-              <TableRow hidden={!isVisible} key={quest.name}>
+              <TableRow
+                hidden={!isVisible}
+                key={quest.name}
+                onClick={() => handleDisplayData(quest.name)}
+              >
                 <TableCell>
                   <span>{quest.name}</span>
                 </TableCell>
                 <TableCell>{quest.questPoints}</TableCell>
                 <TableCell>
-                  <EllipsisIcon onClick={() => handleDisplayData(quest.name)} />
+                  <EllipsisIcon />
                 </TableCell>
               </TableRow>
             );

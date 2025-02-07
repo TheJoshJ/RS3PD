@@ -7,7 +7,7 @@ interface ProfileWidgetProps {
 
 const ProfileWidget = ({ children, title }: ProfileWidgetProps) => {
   return (
-    <div className="h-[250px] p-3 m-3 border-secondary border rounded-md">
+    <div className="h-auto p-3 m-3 border-secondary border rounded-md bg-background">
       {title && (
         <div
           className={

@@ -5,7 +5,6 @@ import logo from "@/assets/logo500x.png";
 import { Autocomplete } from "./components/Autocomplete";
 
 const NavButtons = {
-  Player: { text: "Player", link: "/player" },
   Quests: { text: "Quests", link: "/quests" },
 };
 

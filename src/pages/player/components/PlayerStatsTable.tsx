@@ -86,7 +86,12 @@ const QuestTable = ({ playerData, loading }: PlayerStatsTableProps) => {
         </TableRow>
       </TableHeader>
       <TableBody>
-        <TableRow key={"total"}>
+        <TableRow
+          key={"total"}
+          onClick={() => {
+            toggleRow(-1);
+          }}
+        >
           <TableCell>
             <div className="flex items-center space-x-2">
               <img
@@ -106,19 +111,9 @@ const QuestTable = ({ playerData, loading }: PlayerStatsTableProps) => {
           <TableCell>
             <div className={"flex flex-row"}>
               {!!expandedRows[-1] ? (
-                <ChevronDown
-                  className={"border rounded"}
-                  onClick={() => {
-                    toggleRow(-1);
-                  }}
-                />
+                <ChevronDown className={"border rounded"} />
               ) : (
-                <ChevronRight
-                  className={"border rounded"}
-                  onClick={() => {
-                    toggleRow(-1);
-                  }}
-                />
+                <ChevronRight className={"border rounded"} />
               )}
             </div>
           </TableCell>
@@ -140,7 +135,12 @@ const QuestTable = ({ playerData, loading }: PlayerStatsTableProps) => {
           const isExpanded = !!expandedRows[skill.id];
           return (
             <>
-              <TableRow key={skill.id}>
+              <TableRow
+                key={skill.id}
+                onClick={() => {
+                  toggleRow(skill.id);
+                }}
+              >
                 <TableCell>
                   <div className="flex items-center space-x-2">
                     <img
@@ -161,19 +161,9 @@ const QuestTable = ({ playerData, loading }: PlayerStatsTableProps) => {
                 <TableCell>
                   <div className={"flex flex-row"}>
                     {isExpanded ? (
-                      <ChevronDown
-                        className={"border rounded"}
-                        onClick={() => {
-                          toggleRow(skill.id);
-                        }}
-                      />
+                      <ChevronDown className={"border rounded"} />
                     ) : (
-                      <ChevronRight
-                        className={"border rounded"}
-                        onClick={() => {
-                          toggleRow(skill.id);
-                        }}
-                      />
+                      <ChevronRight className={"border rounded"} />
                     )}
                   </div>
                 </TableCell>
