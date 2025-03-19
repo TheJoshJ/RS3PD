@@ -1,4 +1,3 @@
-import ProfileWidget from "./components/ProfileWidget";
 import PlayerStatsTable from "./components/PlayerStatsTable";
 import QuestTable from "./components/QuestTable";
 import { useParams } from "react-router";
@@ -11,6 +10,7 @@ import { getSkillImage } from "@/utils/getSkillImage";
 import { getSkillName } from "@/utils/getSkillName";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Autocomplete } from "@/layout/components/Autocomplete";
+import PanelWidget from "@/components/PanelWidget";
 
 const Player = () => {
   const { username } = useParams();
@@ -185,7 +185,7 @@ const Player = () => {
                     <StarIcon onClick={handleFavoriteToggle} />
                   )}
                 </div>
-                <ProfileWidget title={"Skills left to 99"}>
+                <PanelWidget title={"Skills left to 99"}>
                   <div className="grid grid-cols-[repeat(auto-fit,minmax(30px,1fr))] gap-2 justify-center">
                     {!playerData &&
                       Array.from({ length: 5 }).map((_, index) => (
@@ -204,9 +204,9 @@ const Player = () => {
                         </div>
                       ))}
                   </div>
-                </ProfileWidget>
+                </PanelWidget>
 
-                <ProfileWidget title={"Skills left to 120"}>
+                <PanelWidget title={"Skills left to 120"}>
                   <div className="grid grid-cols-[repeat(auto-fit,minmax(30px,1fr))] gap-2 justify-center">
                     {!playerData &&
                       Array.from({ length: 5 }).map((_, index) => (
@@ -234,7 +234,7 @@ const Player = () => {
                       }
                     })}
                   </div>
-                </ProfileWidget>
+                </PanelWidget>
               </div>
             )}
           </div>

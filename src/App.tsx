@@ -6,6 +6,7 @@ import NotFound from "./pages/notFound/NotFound";
 import PageLayout from "./layout/PageLayout";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ThemeProvider } from "./components/theme-provider";
+import Dailies from "./pages/dailies/Dailies";
 
 const publicRoutes = [
   { path: "/", element: <Home /> },
@@ -13,6 +14,7 @@ const publicRoutes = [
   { path: "/player/:username", element: <Player /> },
   { path: "/quests", element: <QuestsPage /> },
   { path: "/quests/:quest", element: <QuestsPage /> },
+  { path: "/events", element: <Dailies /> },
   { path: "/404", element: <NotFound /> },
 ];
 
